@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*
+Theme Name:01
+*/
+@import url(./css/page-philosophy.css);
+@import url(./css/header.css);
+@import url(./css/footer.css);
+@import url(./css/bg.css);
+@import url(./css/bg.css);
+@import url(./css/title.css);
+@import url(./css/slide.css);
+@import url(./css/home.css);
+@import url(./css/home_works_slider.css);
+@import url(./css/home_01_slider.css);
+@import url(./css/smoothtext.css);
+@import url(./css/contact.css);
+@import url(./css/works.css);
+@import url(./css/bg_color_transition.css);
+@import url(./css/splash.css);
+@import url(./css/transition.css);
+@import url(./css/page-about.css);
+@import url(./css/page-business.css);
+@import url(./css/page-team01.css);
+@import url(./css/page-members.css);
+@import url(./css/page-information.css);
+@import url(./css/category-event-detail.css);
+@import url(./css/category-members.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap");
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Zen Kaku Gothic Antique", "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  position: relative;
+  background-color: rgb(255, 150, 21);
+  color: rgb(49, 49, 49);
+  padding-bottom: 770px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-left: 80px;
+  overflow-x: hidden;
+}
+
+a {
+  color: rgb(49, 49, 49);
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    padding-top: 80px;
+    padding-left: 0;
+    padding-bottom: 772px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 672px;
+  }
+}
+@media screen and (max-width: 560px) {
+  body {
+    padding-bottom: 586px;
+  }
+}

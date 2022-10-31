@@ -1,0 +1,75 @@
+#home #home_works * {
+  box-sizing: border-box;
+}
+#home #home_works .slider {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  overflow: hidden;
+}
+#home #home_works .slider .slider_slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#home #home_works .slider .slider_slide .slide_img {
+  width: 95%;
+  height: 85%;
+  background-color: rgb(39, 39, 39);
+  transition: transform 0.3s;
+}
+#home #home_works .slider .slider_slide .slide_img:hover {
+  transform: scale(0.95);
+}
+#home #home_works .slider .slider_slide .slide_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home #home_works .slider .slider_slide .slide_text {
+  background-color: #eee;
+  width: 100%;
+  height: 10%;
+}
+#home #home_works .slides {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+#home #home_works .slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+#home #home_works .slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+#home #home_works .slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+#home #home_works .slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

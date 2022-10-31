@@ -1,0 +1,710 @@
+// 事業紹介
+// 竜也
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+$base-color: #ff9615;
+$black: #313131;
+$complement-color: #157eff;
+
+// ブレイクポイントを指定
+$pc: 1024px;
+$tab: 768px;
+$sp: 480px;
+
+@mixin pc {
+  @media screen and (max-width: ($pc)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media screen and (max-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: ($sp)) {
+    @content;
+  }
+}
+
+#top_img {
+  .top_wrapper {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/naoki2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    .top_inner {
+      width: 50%;
+      margin-left: 12.5vw;
+
+      @include pc {
+        width: 75%;
+      }
+
+      @include tab {
+        width: 70%;
+      }
+
+      @include sp {
+        width: 80%;
+      }
+
+      h3 {
+        color: #fff;
+        font-size: 3vw;
+        padding-top: 100px;
+
+        @include pc {
+          font-size: 4vw;
+        }
+
+        @include tab {
+          padding-top: 60px;
+          font-size: 5vw;
+        }
+
+        @include sp {
+          font-size: 6vw;
+          padding-top: 120px;
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 1vw;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        margin-top: 50px;
+
+        @include pc {
+          font-size: 1.2vw;
+          margin-top: 30px;
+        }
+
+        @include tab {
+          font-size: 1.8vw;
+          line-height: 1.5;
+          margin-top: 15px;
+        }
+
+        @include sp {
+          font-size: 3vw;
+          line-height: 1.7;
+          margin-top: 30px;
+        }
+      }
+
+      .page-link {
+        a {
+          width: 20vw;
+          display: block;
+          padding: 15px 40px;
+          color: #fff;
+          font-size: 1vw;
+          border: 1px solid #fff;
+          text-align: center;
+          margin-top: 50px;
+
+          @include pc {
+            width: 25vw;
+            font-size: 1.2vw;
+          }
+
+          @include tab {
+            width: 35vw;
+            font-size: 1.5vw;
+            margin-top: 40px;
+          }
+
+          @include sp {
+            width: 60vw;
+            font-size: 3vw;
+            margin-top: 40px;
+          }
+
+          &:hover {
+            color: #000;
+            background: #fff;
+            transition: all .4s;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#mainContent {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  @include sp {
+    margin-bottom: 50px;
+  }
+
+  .mainInner {
+    position: relative;
+    width: 75vw;
+    margin: 0 auto;
+    max-width: 1350px;
+
+    @include pc {
+      width: 96vw;
+    }
+
+    .philosophy_area {
+      position: relative;
+
+      .imgArea {
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+
+        a {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 100%;
+          transition: all .7s ease;
+
+          &:hover {
+            scale: 1.2;
+          }
+
+          .black-effect {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            opacity: 0;
+            background: rgba($color: #000000, $alpha: .4);
+            transition: all .7s;
+
+            .more-text {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+
+              font-size: 130%;
+              text-align: center;
+              color: #fff;
+            }
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      .textArea {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+
+
+        @include tab {
+          display: block;
+          justify-content: unset;
+        }
+
+        .philosophy {
+          &-title {
+            width: 40vw;
+            display: flex;
+            position: relative;
+
+            @include tab {
+              width: 100%;
+            }
+
+
+            h3 {
+              display: flex;
+              align-items: center;
+              color: #313131;
+              font-size: #{"min(1.5vw, 20px)"};
+              margin-right: 20px;
+
+              @include pc {
+                font-size: 2vw;
+              }
+
+              @include tab {
+                font-size: 3vw;
+                margin-left: 10px;
+              }
+
+              @include sp {
+                font-size: 5vw;
+                margin-left: 5px;
+              }
+            }
+
+            .philosophy-tag {
+              display: flex;
+              align-items: center;
+              height: 2.5vw;
+              background: #313131;
+              margin-top: 9px;
+
+              @include tab {
+                height: 5vw;
+                margin-top: 1px;
+              }
+
+              @include sp {
+                height: 9vw;
+                margin-top: 0;
+              }
+
+              p {
+                text-align: center;
+                display: block;
+                font-size: #{"min(1.1vw, 20px)"};
+                color: #fff;
+                padding: 5px 10px;
+
+                @include pc {
+                  font-size: .4vw;
+                }
+              }
+            }
+          }
+
+          &-text {
+            width: 60vw;
+            display: block;
+            color: #313131;
+            font-size: #{"min(1vw, 18px)"};
+            font-weight: bold;
+            line-height: 2;
+
+            @include pc {
+              font-size: 1vw;
+            }
+
+            @include tab {
+              font-size: 2vw;
+              width: 90vw;
+              margin: 10px auto 0;
+
+            }
+
+            @include sp {
+              font-size: 3vw;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+#worksContent {
+  .worksInner {
+    width: 75vw;
+    margin: 150px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1350px;
+
+    @include pc {
+      width: 90vw;
+    }
+
+    @include tab {
+      margin: 100px auto 0;
+    }
+
+    @include sp {
+      margin: 100px auto 0;
+    }
+
+    .work-card {
+      width: 48%;
+      margin-bottom: 50px;
+
+      @include sp {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+      a {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 300px;
+        transition: all .7s ease;
+        overflow: hidden;
+
+        &:hover {
+          scale: 1.05;
+        }
+
+        .black-effect {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          opacity: 0;
+          background: rgba($color: #000000, $alpha: .4);
+          transition: all .7s;
+          .more-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            font-size: 130%;
+            text-align: center;
+            color: #fff;
+          }
+          &:hover {
+            opacity: 1;
+          }
+        }
+        .w-img_box {
+          width: 100%;
+          height: 100%;
+  
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      .w-img_box {
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 300px;
+        }
+      }
+
+      .w-textArea {
+        margin-top: 300px;
+        margin: 0 auto;
+        padding-top: 20px;
+
+        @include sp {
+          padding-top: 10px;
+        }
+
+        .works-title {
+          display: flex;
+
+          h4 {
+            color: #313131;
+            display: flex;
+            align-items: center;
+            font-size: #{"min(1.5vw, 20px)"};
+            margin-right: 20px;
+
+            @include pc {
+              font-size: 2vw;
+            }
+
+            @include tab {
+              font-size: 3vw;
+            }
+
+            @include sp {
+              font-size: 5vw;
+            }
+          }
+
+          .works-title-tag {
+            display: flex;
+            align-items: center;
+            background: #313131;
+            height: 2.5vw;
+
+            @include tab {
+              height: 5vw;
+            }
+
+            @include sp {
+              height: 7vw;
+            }
+
+            p {
+              text-align: center;
+              display: block;
+              font-size: #{"min(1.1vw, 20px)"};
+              color: #fff;
+              padding: 0px 10px;
+
+              @include pc {
+                font-size: .4vw;
+              }
+            }
+          }
+        }
+
+        .works-text {
+          margin-top: 10px;
+
+          p {
+            color: #313131;
+            font-size: #{"min(1vw, 18px)"};
+            font-weight: bold;
+            line-height: 1.5;
+
+            @include pc {
+              font-size: 1vw;
+            }
+
+            @include tab {
+              font-size: 2vw;
+              margin: 10px auto 0;
+            }
+
+            @include sp {
+              font-size: 3vw;
+            }
+          }
+        }
+      }
+
+      .link {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+      }
+    }
+
+    .work-card:nth-of-type(5) {
+      margin: 0 auto;
+    }
+  }
+}
+
+
+#strength {
+  margin-top: 100px;
+  position: relative;
+
+  .strength-wrapper {
+    width: 100vw;
+    height: 115vh;
+    max-height: 830px;
+
+    @include pc {
+      height: 95vh;
+    }
+
+    @include tab {
+      height: 92vh;
+    }
+
+    @include sp {
+      height: 110vh;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .strength-content {
+    z-index: 99;
+    position: absolute;
+    top: 10vh;
+    width: 75%;
+    margin-left: 12.5vw;
+    max-width: 1350px;
+
+    @include pc {
+      margin-left: 6vw;
+      width: 90%;
+    }
+
+    .st-title {
+      h4 {
+        color: #000;
+        font-size: .8rem;
+        letter-spacing: 0.08em;
+      }
+
+      h3 {
+        color: #000;
+        font-size: 1.2rem;
+        margin-top: 3px;
+        letter-spacing: 0.04em;
+      }
+    }
+
+    .st-row {
+      display: flex;
+      position: relative;
+      margin-top: 40px;
+
+      @include sp {
+        display: block;
+        margin-top: 30px;
+      }
+
+      .st-num {
+        p {
+          display: flex;
+          align-items: center;
+          font-size: 80px;
+          font-weight: bold;
+          color: #000;
+          margin-right: 60px;
+
+          @include pc {
+            font-size: 50px;
+            margin-right: 30px;
+          }
+
+          @include sp {
+            font-size: 30px;
+            margin-right: 0;
+          }
+        }
+      }
+
+      .st-main {
+        h2 {
+          margin-bottom: 13px;
+          letter-spacing: 0.05em;
+          line-height: 1.4;
+          color: #000;
+
+          @include pc {
+            font-size: 17px;
+          }
+        }
+
+        p {
+          font-size: 1.1rem;
+          line-height: 1.6;
+          letter-spacing: 0.04em;
+          color: #313131;
+
+          @include pc {
+            font-size: 1.3vw;
+          }
+
+          @include sp {
+            font-size: .8vw;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+#result {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+
+  .result-content {
+    width: 75vw;
+    margin: 0 auto;
+    max-width: 1350px;
+
+    @include pc {
+      width: 90vw;
+    }
+
+    .rs-title {
+      margin-bottom: 50px;
+
+      h4 {
+        color: #000;
+        font-size: .8rem;
+        letter-spacing: 0.08em;
+      }
+
+      h3 {
+        color: #000;
+        font-size: 1.2rem;
+        margin-top: 3px;
+        letter-spacing: 0.04em;
+
+        @include sp {
+          font-size: 5vw;
+        }
+      }
+    }
+
+    .rs-main {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      @include sp {
+        display: block;
+        justify-content: unset;
+        flex-wrap: unset;
+      }
+
+      .rs-card {
+        width: 24%;
+        background-color: #fff;
+        margin-top: 20px;
+        padding: 40px 15px;
+
+        @include pc {
+          width: 48%;
+        }
+
+        @include sp {
+          width: 90%;
+          margin: 0 auto 20px;
+        }
+
+
+        img {
+          width: 100%;
+          height: 100px;
+          background: #000;
+        }
+
+        h3 {
+          text-align: center;
+          margin-top: 10px;
+
+          @include pc {
+            font-size: 16px;
+          }
+        }
+
+        p {
+          text-align: left;
+          margin-top: 15px;
+
+          @include pc {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

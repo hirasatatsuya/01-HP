@@ -1,0 +1,53 @@
+.transition1 {
+  position: fixed;
+  width: 100%;
+  height: 50vh;
+  top: 0;
+  background: #333;
+  z-index: 9999999;
+  -webkit-animation: transition1 0.5s forwards 0.5s;
+          animation: transition1 0.5s forwards 0.5s;
+}
+@-webkit-keyframes transition1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes transition1 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50vh);
+  }
+}
+
+.transition2 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50vh;
+  background: #333;
+  z-index: 9999999;
+  -webkit-animation: transition2 0.5s forwards 0.5s;
+          animation: transition2 0.5s forwards 0.5s;
+}
+@-webkit-keyframes transition2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50vh);
+  }
+}
+@keyframes transition2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50vh);
+  }
+}

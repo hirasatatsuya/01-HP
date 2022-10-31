@@ -1,0 +1,216 @@
+.fadeTrigger{
+  opacity: 0;
+}
+.home_1_fadeTrigger{
+  opacity: 0;
+}
+.home_2_fadeTrigger{
+    opacity: 0;
+}
+.home_3_fadeTrigger{
+  opacity: 0;
+}
+.home_4_fadeTrigger{
+  opacity: 0;
+}
+.home_5_fadeTrigger{
+  opacity: 0;
+}
+.fade{
+  animation: fade 1.5s forwards;
+}
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.slideUpTrigger,
+.slideDownTrigger,
+.slideLeftTrigger,
+.slideRightTrigger {
+  opacity: 0;
+}
+.FadeSlideUpTrigger,
+.FadeSlideDownTrigger,
+.FadeSlideLeftTrigger,
+.FadeSlideRightTrigger {
+  opacity: 0;
+}
+
+
+
+/* 下から */
+
+.slideUp {
+  animation-name: slideUpAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes slideUpAnime {
+  from {
+    opacity: 1;
+    transform: translateY(1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 上から */
+
+.slideDown {
+  animation-name: slideDownAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes slideDownAnime {
+  from {
+    opacity: 1;
+    transform: translateY(-1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 左から */
+
+.slideLeft {
+  animation-name: slideLeftAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes slideLeftAnime {
+  from {
+    opacity: 1;
+    transform: translateX(-1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 右から */
+
+.slideRight {
+  animation-name: slideRightAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes slideRightAnime {
+  from {
+    opacity: 1;
+    transform: translateX(1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// ここからFade
+
+
+/* 下から */
+
+.FadeSlideUp {
+  animation-name: FadeSlideUp;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes FadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 上から */
+
+.FadeSlideDown {
+  animation-name: FadeSlideDownAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes FadeSlideDownAnime {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 左から */
+
+.FadeSlideLeft {
+  animation-name: FadeSlideLeftAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes FadeSlideLeftAnime {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 右から */
+
+.FadeSlideRight {
+  animation-name: FadeSlideRightAnime;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes FadeSlideRightAnime {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

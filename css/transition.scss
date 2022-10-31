@@ -1,0 +1,34 @@
+.transition1{
+  position: fixed;
+  width: 100%;
+  height: 50vh;
+  top: 0;
+  background: #333;
+	z-index: 9999999;
+  animation: transition1 .5s forwards .5s;
+  @keyframes transition1 {
+    0%{
+      transform: translateY(0);
+    }
+    100%{
+      transform: translateY(-50vh);
+    }
+  }
+}
+.transition2{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 50vh;
+  background: #333;
+	z-index: 9999999;
+  animation: transition2 .5s forwards .5s;
+  @keyframes transition2 {
+    0%{
+      transform: translateY(0);
+    }
+    100%{
+      transform: translateY(50vh);
+    }
+  }
+}
