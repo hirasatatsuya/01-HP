@@ -114,7 +114,7 @@ $complement-color: #157eff;
             justify-content: space-evenly;
 
             .vmv_title {
-              height: 40%;
+              height: auto;
               width: 100%;
               display: flex;
               align-items: center;
@@ -123,14 +123,13 @@ $complement-color: #157eff;
                 width: 200px;
                 text-align: center;
                 margin-left: 50px;
-                font-size: 3rem;
                 font-family: 'Raleway', sans-serif;
                 letter-spacing: .1em;
               }
             }
 
             .vmv_subtitle {
-              height: 15%;
+              height: auto;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -138,13 +137,12 @@ $complement-color: #157eff;
               p {
                 font-weight: bold;
                 text-align: center;
-                font-size: 1.5rem;
               }
             }
 
             .vmv_text {
               width: 80%;
-              height: 45%;
+              height: auto;
               margin: 0 auto;
               display: flex;
               justify-content: center;
@@ -300,16 +298,6 @@ $complement-color: #157eff;
             .vmv_content {
               .vmv_title {
                 height: 20%;
-
-                h3 {
-                  font-size: 2.4rem;
-                }
-              }
-
-              .vmv_subtitle {
-                p {
-                  font-size: 1.2rem;
-                }
               }
             }
           }
@@ -384,27 +372,20 @@ $complement-color: #157eff;
               margin: auto 0;
               .vmv_title {
                 justify-content: center;
-                height: 15%;
+                height: auto;
                 h3 {
                   margin: 0;
-                  font-size: 1.2rem;
                 }
               }
 
               .vmv_subtitle {
-                height: 10%;
+                height: auto;
                 margin-top: 10px;
-                p {
-                  font-size: 14px;
-                }
               }
 
               .vmv_text {
                 margin:10px auto;
                 height: auto;
-                p {
-                  font-size: 12px;
-                }
               }
             }
           }
