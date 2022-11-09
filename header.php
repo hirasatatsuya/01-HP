@@ -154,3 +154,6 @@
   <div class="transition1"></div>
   <div class="transition2"></div>
   <?php endif;?>
+  <?php if(is_page()): ?>
+  <div id="particles-js"></div>
+  <?php endif; ?>
