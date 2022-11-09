@@ -1,0 +1,52 @@
+.u_paragraph_min {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_paragraph_min {
+    font-size: 3.2vw;
+    line-height: 1.5;
+  }
+}
+
+.u_paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_paragraph {
+    font-size: 3.7vw;
+    line-height: 1.5;
+  }
+}
+
+.u_subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_subtitle {
+    font-size: 4.2vw;
+    line-height: 1.5;
+  }
+}
+
+.u_title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_title {
+    font-size: 5.3vw;
+  }
+}
+
+.u_title {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_title {
+    font-size: 6.4vw;
+  }
+}
