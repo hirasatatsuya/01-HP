@@ -22,7 +22,7 @@ get_header();
         <h3>熱狂的なブランドは<br>ビジョンから生まれる</h3>
         <p>デザインからのアプローチではなく経営理念を言語化し、ビジョンに立ち向かう会社組織を設計。<br>お客様、求職者、社員、3つのブランドターゲットが熱狂するオモシロイ企業づくりを実現します。</p>
         <div class="page-link">
-          <a href="">資料請求はこちらから</a>
+          <a href="<?php echo esc_url(home_url('/contact/')) ?>">資料請求はこちらから</a>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ get_header();
 
       <div class="philosophy_area">
         <div class="imgArea slideUpTrigger">
-          <a href="">
+          <a href="<?php echo esc_url(home_url('/philosophy/')) ?>">
             <div class="black-effect">
               <p class="more-text">
                 MORE
