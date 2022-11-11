@@ -89,6 +89,11 @@ $sp: 480px;
       padding-top: .9vw;
       text-align: center;
 
+      &:hover {
+        opacity: .4;
+        transition: .2s;
+      }
+
       @include sp {
         padding-top: 3vw;
       }
