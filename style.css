@@ -2,6 +2,7 @@
 /*
 Theme Name:01-HP
 */
+@import url(./css/utility.css);
 @import url(./css/page-philosophy.css);
 @import url(./css/header.css);
 @import url(./css/footer.css);
@@ -27,6 +28,7 @@ Theme Name:01-HP
 @import url(./css/page-zeroichi_events.css);
 @import url(./css/category-event-detail.css);
 @import url(./css/category-members.css);
+@import url(./css/particle.css);
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap");
 html {
@@ -34,6 +36,7 @@ html {
 }
 
 body {
+  height: 100%;
   font-size: 100%;
   font-family: "Zen Kaku Gothic Antique","ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   position: relative;
