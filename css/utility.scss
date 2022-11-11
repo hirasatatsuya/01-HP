@@ -1,0 +1,48 @@
+.u_paragraph_min{
+  // 14px
+  font-size: 14px;
+  line-height: 1.5;
+  @media screen and (max-width:768px) {
+    // 12px
+    font-size: min(3.2vw,13px);
+    line-height: 1.5;
+  }
+}
+.u_paragraph{
+  // 16px
+  font-size: 1rem;
+  line-height: 1.5;
+  @media screen and (max-width:768px) {
+    // 14px
+    font-size: min(3.7vw,15px);
+    line-height: 1.5;
+  }
+}
+.u_subtitle{
+  // 24px
+  font-size: 1.5rem;
+  line-height: 1.5;
+  @media screen and (max-width:768px) {
+    // 16px
+    font-size: min(4.2vw,20px);
+    line-height: 1.5;
+  }
+}
+.u_title{
+  // 32px
+  font-size: 2rem;
+  line-height: 1.5;
+  @media screen and (max-width:768px) {
+    // 20px
+    font-size: min(5.3vw,26px);
+  }
+}
+.u_title_large{
+  // 48px
+  font-size: 3rem;
+  line-height: 1.5;
+  @media screen and (max-width:768px) {
+    // 24px
+    font-size: min(6.4vw,36px);
+  }
+}

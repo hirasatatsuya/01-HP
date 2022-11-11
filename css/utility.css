@@ -1,0 +1,52 @@
+.u_paragraph_min {
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_paragraph_min {
+    font-size: min(3.2vw, 13px);
+    line-height: 1.5;
+  }
+}
+
+.u_paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_paragraph {
+    font-size: min(3.7vw, 15px);
+    line-height: 1.5;
+  }
+}
+
+.u_subtitle {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_subtitle {
+    font-size: min(4.2vw, 20px);
+    line-height: 1.5;
+  }
+}
+
+.u_title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_title {
+    font-size: min(5.3vw, 26px);
+  }
+}
+
+.u_title_large {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+  .u_title_large {
+    font-size: min(6.4vw, 36px);
+  }
+}

@@ -93,7 +93,7 @@
   justify-content: space-evenly;
 }
 #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_title {
-  height: 40%;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -102,12 +102,11 @@
   width: 200px;
   text-align: center;
   margin-left: 50px;
-  font-size: 3rem;
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.1em;
 }
 #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_subtitle {
-  height: 15%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,11 +114,10 @@
 #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_subtitle p {
   font-weight: bold;
   text-align: center;
-  font-size: 1.5rem;
 }
 #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_text {
   width: 80%;
-  height: 45%;
+  height: auto;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -234,12 +232,6 @@
   #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_title {
     height: 20%;
   }
-  #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_title h3 {
-    font-size: 2.4rem;
-  }
-  #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_subtitle p {
-    font-size: 1.2rem;
-  }
   #philosophy .concept_origin {
     max-width: 750px;
   }
@@ -298,25 +290,18 @@
   }
   #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_title {
     justify-content: center;
-    height: 15%;
+    height: auto;
   }
   #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_title h3 {
     margin: 0;
-    font-size: 1.2rem;
   }
   #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_subtitle {
-    height: 10%;
+    height: auto;
     margin-top: 10px;
-  }
-  #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_subtitle p {
-    font-size: 14px;
   }
   #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_text {
     margin: 10px auto;
     height: auto;
-  }
-  #philosophy #vmv .wrapper .flex .left .vmv_content .vmv_text p {
-    font-size: 12px;
   }
   #philosophy #concept {
     padding: 60px 3%;
