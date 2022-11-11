@@ -18,7 +18,7 @@ get_header();
 
   <section class="items">
     <div class="card">
-      <a href="" class="next-link">
+      <a href="<?php echo esc_url(home_url('/about/information/')) ?>" class="next-link">
         <div class="img-wrapper">
           <img src="<?php echo esc_url(get_theme_file_uri('/img/naoki1.jpg'))?>" alt="">
         </div>
@@ -29,9 +29,8 @@ get_header();
       </a>
     </div>
     <div class="card">
-      <a href="" class="next-link">
+      <a href="<?php echo esc_url(home_url('/about/members/')) ?>" class="next-link">
         <div class="img-wrapper">
-          <!-- <div class="pic-shadow"></div> -->
           <img src="<?php echo esc_url(get_theme_file_uri('/img/naoki1.jpg'))?>" alt="">
         </div>
         <div class="next-textarea">
@@ -41,7 +40,7 @@ get_header();
       </a>
     </div>
     <div class="card">
-      <a href="" class="next-link">
+      <a href="<?php echo esc_url(home_url('/about/members/')) ?>" class="next-link">
         <div class="img-wrapper">
           <img src="<?php echo esc_url(get_theme_file_uri('/img/naoki1.jpg'))?>" alt="">
         </div>
@@ -52,7 +51,7 @@ get_header();
       </a>
     </div>
     <div class="card">
-      <a href="" class="next-link">
+      <a href="<?php echo esc_url(home_url('/about/information/')) ?>" class="next-link">
         <div class="img-wrapper">
           <img src="<?php echo esc_url(get_theme_file_uri('/img/naoki1.jpg'))?>" alt="">
         </div>
@@ -63,7 +62,7 @@ get_header();
       </a>
     </div>
     <div class="card">
-      <a href="" class="next-link">
+      <a href="<?php echo esc_url(home_url('/about/information/')) ?>" class="next-link">
         <div class="img-wrapper">
           <img src="<?php echo esc_url(get_theme_file_uri('/img/naoki1.jpg'))?>" alt="">
         </div>
