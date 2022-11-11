@@ -1,2 +1,472 @@
 // 下層2 代表挨拶役員紹介
 // たける
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+$base-color: #ff9615;
+$black: #313131;
+$complement-color: #157eff;
+#page-members{
+  position: relative;
+  width: 100%;
+  .section-title{
+    padding: 0 10%;
+  }
+  .heading10 {
+    position: relative;
+    padding-top: 30px;
+    font-size: 32px;
+    // margin-left: 5%;
+    margin-top: 75px;
+    font-family: serif;
+    // border-bottom: 1px solid rgba(5,62,98,1);
+  }
+  
+  .heading10 span {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .heading10::before {
+    content: attr(data-en);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: rgba(5,62,98,0.2);
+    font-size: 40px;
+    text-transform: uppercase;
+    z-index: 1;
+    font-family: serif;
+  }
+  .wrapper{
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  #CEO{
+    width: 100%;
+    // margin: 150px auto;
+    // padding: 100px 0;
+    // background-color: #000;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, rgba(85, 85, 85, 1));
+    color: #fff;
+    height: 75vh;
+    .wrapper{
+      width: 100%;
+      padding: 0;
+      background-image: url(../img/haruto1.jpg);
+      background-size: contain;
+      height: 70vh;
+      img{
+        width: 100%;
+        height: 60vh;
+      }
+      .hello-CEO{
+        font-size: 2.2rem;
+      }
+      .hello-CEO-eng{
+        font-weight: bold;
+      }
+      .CEO-info{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        // background-color: #fff;
+        .CEO-introduce{
+          // width: 70%;
+          display: flex;
+          // .CEO-info-left{
+          //   width: 15%;
+          //   margin-left: 5%;
+          //   // padding: 0 10%;
+          //   color: #313131;
+          //   background-color: #000;
+          //   .CEO-title-upper{
+              
+          //   }
+          // }
+          .CEO-title-right{
+            width: 100%;
+            margin-left: 30%;
+            padding: 10% 0;
+          }
+          .CEO-title{
+            padding: 25px 0;
+            width: 80%;
+          }
+          .CEO-text{
+            padding: 25px 0;
+            width: 85%;
+          }
+          .company-name{
+            font-weight: bold;
+            padding: 5px 0;
+          }
+          .CEO-name{
+            font-weight: bold;
+
+          }
+        }
+      }
+    }
+  }
+
+  #executives{
+    padding: 0 0 150px 0;
+    .executives-title{
+      font-size: 2.2rem;
+    }
+    .executives-title-eng{
+      font-weight: bold;
+    }
+    .executives-introduce{
+      .executives-list{
+        // display: flex;
+        // justify-content: space-between;
+        width: 100%;
+        // padding-top: 50px;
+        .executives-item{
+          display: flex;
+          // width: 30%;
+          // flex-direction: row-reverse;
+          filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
+          // padding: 2%;
+          margin-bottom: 50px;
+          flex-direction: row-reverse;
+
+          .executives-img{
+            width: 40%;
+            img{
+              // height: 350px;
+              height: 100%;
+              width: 100%;
+              vertical-align: bottom;
+            }
+          }
+          .executives-info{
+            // background-color: #000;
+            background-image: linear-gradient(90deg, rgba(85, 85, 85, 1), rgba(0, 0, 0, 1) 67%);
+            width: 100%;
+            padding: 10%;
+            color: #fff;
+            .executives-position{
+              font-size: 1.6rem;
+            }
+            .executives-name{
+              font-size: 1.2rem;
+            }
+          }
+        }
+        .executives-item-2{
+          display: flex;
+          // width: 30%;
+          filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
+          // padding: 2%;
+          margin-bottom: 50px;
+          .executives-img{
+            width: 40%;
+            img{
+              // height: 350px;
+              height: 100%;
+              width: 100%;
+              vertical-align: bottom;
+            }
+          }
+          .executives-info{
+            // background-color: #000;
+            // background: -moz-linear-gradient(left, #000 50%, #FFF);
+            // background: -webkit-linear-gradient(left, #000 50%, #FFF);
+            // background: linear-gradient(to right, #000 50%, #FFF);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 25%, rgba(85, 85, 85, 1));
+            width: 100%;
+            padding: 10%;
+            color: #fff;
+            .executives-position{
+              font-size: 1.6rem;
+            }
+            .executives-name{
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  #page-members{
+    #CEO{
+      .wrapper{
+        .CEO-info{
+          // display: block!important;
+          text-align: center;
+          .CEO-introduce{
+            width: 100%;
+            text-align: center;
+            .CEO-title-right{
+              padding: 5% 0;
+            }
+            .CEO-title{
+              text-align: center;
+              width: 100%;
+            }
+            .CEO-text{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    #executives{
+      .wrapper{
+        .executives-introduce{
+          .executives-list{
+            width: 100%;
+            flex-wrap: wrap;
+            .executives-item{
+              // width: 100%;
+              // height: 500px;
+              // display: flex;
+              // margin-bottom: 50px;
+              // .executives-img{
+              //   height: 450px;
+              //   img{
+              //     height: 450px;
+              //   }
+              // }
+              padding: 0;
+              .executives-info{
+                // padding: 2%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  #page-members{
+    
+    #CEO{
+      // background-image: none;
+      .wrapper{
+        // background-image: none;
+        width: 100%;
+        height: 100%;
+        .CEO-info{
+          // display: block!important;
+          
+          .CEO-introduce{
+            .CEO-title-right{
+              margin: 0;
+              padding: 20% 5% 0 5%;
+              // background-image: url(../img/haruto1.jpg);
+              // background-size: contain;
+              .CEO-title{
+                // padding: 10px 0;
+              }
+              .CEO-text{
+                font-size: .8rem;
+                padding: 5px 0;
+              }
+            }
+          }
+
+        }
+      }
+    }
+    
+    #executives{
+      padding-bottom: 50px;
+      .wrapper{
+        width: 100%;
+        .executives-introduce{
+          .executives-list{
+            .executives-item{
+              padding: 0;
+              // display: block!important;
+              margin-bottom: 50px;
+              .executives-img{
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                img{
+                  height: auto;
+                  vertical-align: bottom;
+                }
+              }
+              .executives-info{
+                padding: 2%;
+                .exectives-comment{
+                  font-size: .8rem;
+                }
+              }
+            }
+            .executives-item-2{
+              // display: block!important;
+              padding: 0;
+              margin-bottom: 50px;
+              .executives-img{
+                width: 100%;
+                img{
+                  height: auto;
+                  vertical-align: bottom;
+                }
+              }
+              .executives-info{
+                padding: 2%;
+                .exectives-comment{
+                  font-size: .8rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 523px){
+  #page-members{
+
+    .section-title{
+      padding: 0 2%;
+    }
+    .heading10 {
+      position: relative;
+      padding-top: 20px;
+      font-size: 24px;
+    margin-left: 5%;
+    margin-top: 50px;
+    // border-bottom: 1px solid rgba(5,62,98,1);
+  }
+  .heading10::before {
+    content: attr(data-en);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: rgba(5,62,98,0.2);
+    font-size: 32px;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  }
+  #CEO{
+    background-image: none;
+    .section-title{
+      padding: 0 2%;
+    }
+    .wrapper{
+      .CEO-info{
+        
+      }
+    }
+  }
+}
+@media screen and (max-width: 415px){
+  #page-members{
+  .heading10 {
+    position: relative;
+    padding-top: 20px;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 50px;
+    // border-bottom: 1px solid rgba(5,62,98,1);
+  }
+  .heading10::before {
+    content: attr(data-en);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: rgba(5,62,98,0.2);
+    font-size: 32px;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+    #CEO{
+      margin-bottom: 50px;
+      background-image: url(../img/haruto1.jpg);
+      background-size: cover;
+      height: 85vh;
+      background-position: center;
+      // background-image: none;
+      .wrapper{
+        background-image: none;
+        width: 100%;
+        .CEO-info{
+          // display: block!important;
+          .CEO-introduce{
+            .CEO-title-right{
+              margin: 0 auto;
+              // padding-top: 45%;
+              padding: 35% 5% 0 5%;
+              .CEO-title{
+                padding: 10px 0;
+              }
+              .CEO-text{
+                font-size: .8rem;
+                line-height: 1.5rem;
+                padding: 0;
+              }
+            } 
+          }
+
+        }
+      }
+    }
+    #executives{
+      .wrapper{
+        padding: 0 5%;
+        .executives-introduce{
+          .executives-list{
+            .executives-item{
+              padding: 0;
+              display: block!important;
+              margin-bottom: 75px;
+              height: 550px;
+              .executives-img{
+                width: 100%;
+                height: 250px;
+                padding: 0;
+                margin: 0;
+                img{
+                  // height: auto;
+                  vertical-align: bottom;
+                }
+              }
+              .executives-info{
+                padding-top: 25%;
+                background-image: none;
+              }
+            }
+            .executives-item-2{
+              display: block!important;
+              padding: 0;
+              margin-bottom: 75px;
+              height: 550px;
+              .executives-img{
+                width: 100%;
+                height: 250px;
+                padding: 0;
+                margin: 0;
+                img{
+                  height: auto;
+                  vertical-align: bottom;
+                }
+              }
+              .executives-info{
+                padding-top: 25%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
