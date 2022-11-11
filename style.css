@@ -24,6 +24,8 @@ Theme Name:01-HP
 @import url(./css/page-team01.css);
 @import url(./css/page-members.css);
 @import url(./css/page-information.css);
+@import url(./css/page-zeroichi_members.css);
+@import url(./css/page-zeroichi_events.css);
 @import url(./css/category-event-detail.css);
 @import url(./css/category-members.css);
 @import url(./css/particle.css);
@@ -36,19 +38,20 @@ html {
 body {
   height: 100%;
   font-size: 100%;
-  font-family: "Zen Kaku Gothic Antique", "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Zen Kaku Gothic Antique","ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   position: relative;
-  background-color: rgb(255, 150, 21);
-  color: rgb(49, 49, 49);
+  background-color: #ff9615;
+  color: #313131;
   padding-bottom: 770px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   min-height: 100vh;
   padding-left: 80px;
   overflow-x: hidden;
 }
 
 a {
-  color: rgb(49, 49, 49);
+  color: #313131;
   text-decoration: none;
 }
 
@@ -63,13 +66,16 @@ li {
     padding-bottom: 772px;
   }
 }
+
 @media screen and (max-width: 768px) {
   body {
     padding-bottom: 672px;
   }
 }
+
 @media screen and (max-width: 560px) {
   body {
     padding-bottom: 586px;
   }
 }
+/*# sourceMappingURL=style.css.map */
