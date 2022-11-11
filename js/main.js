@@ -513,3 +513,95 @@ $(function(){
   });
   });
 
+  $(function() {
+
+    window.sr = ScrollReveal();
+
+    if ($(window).width() < 768) {
+
+        if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+            $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+        }
+
+        sr.reveal('.js--fadeInRight', {
+            origin: 'right',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+        });
+
+    } else {
+
+        sr.reveal('.js--fadeInLeft', {
+            origin: 'left',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+        });
+
+        sr.reveal('.js--fadeInRight', {
+            origin: 'right',
+            distance: '300px',
+            easing: 'ease-in-out',
+            duration: 800,
+        });
+
+    }
+
+    sr.reveal('.js--fadeInLeft', {
+        origin: 'left',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+    });
+
+    sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+    });
+
+
+});
+
+
+$(document).ready(function() {
+    var zindex = 10;
+
+    $("div.card").click(function(e) {
+        e.preventDefault();
+
+        var isShowing = false;
+
+        if ($(this).hasClass("show")) {
+            isShowing = true;
+        }
+
+        if ($("div.cards").hasClass("showing")) {
+            // a card is already in view
+            $("div.card.show").removeClass("show");
+
+            if (isShowing) {
+                // this card was showing - reset the grid
+                $("div.cards").removeClass("showing");
+            } else {
+                // this card isn't showing - get in with it
+                $(this).css({
+                    zIndex: zindex
+                }).addClass("show");
+            }
+
+            zindex++;
+        } else {
+            // no cards in view
+            $("div.cards").addClass("showing");
+            $(this).css({
+                zIndex: zindex
+            }).addClass("show");
+
+            zindex++;
+        }
+    });
+});
+
