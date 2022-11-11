@@ -4,13 +4,13 @@
 get_header();
 ?>
 <main id="philosophy">
-  <div class="bg">
+  <!-- <div class="bg">
     <div class="triangle1"></div>
     <div class="bar1"></div>
     <div class="bar2 fadeTrigger"></div>
     <div class="triangle2 fadeTrigger"></div>
     <div class="triangle3 fadeTrigger"></div>
-  </div>
+  </div> -->
   <section id="page_mv">
     <h2 class="title">IDENTITY</h2>
     <h2 class="title_ja">経営理念</h2>
@@ -24,13 +24,13 @@ get_header();
           <div class="vmv_content">
 
             <div class="vmv_title">
-              <h3>VISION</h3>
+              <h3 class="u_title_large">VISION</h3>
             </div>
             <div class="vmv_subtitle">
-              <p>誰もが予想しないような<br>「可笑しい」を提供する仕事を創る</p>
+              <p class="u_subtitle">誰もが予想しないような<br>「可笑しい」を提供する仕事を創る</p>
             </div>
             <div class="vmv_text">
-              <p>今までスポットが当たらなかったところにスポットを当てます。
+              <p class="u_paragraph">今までスポットが当たらなかったところにスポットを当てます。
                 目を逸らさず全力で立ち向かいます。
                 常に面白いことに挑戦し続けます。</p>
             </div>
@@ -48,13 +48,13 @@ get_header();
           <div class="vmv_content">
 
             <div class="vmv_title">
-              <h3>MISSION</h3>
+              <h3 class="u_title_large">MISSION</h3>
             </div>
             <div class="vmv_subtitle">
-              <p>伝えるを"より"自由に</p>
+              <p class="u_subtitle">伝えるを"より"自由に</p>
             </div>
             <div class="vmv_text">
-              <p>私たちはITという手段を通じて、対話という手段の幅を広げていきます。映像制作やWEB制作をコミュニケーションの架け橋としていきます。</p>
+              <p class="u_paragraph">私たちはITという手段を通じて、対話という手段の幅を広げていきます。映像制作やWEB制作をコミュニケーションの架け橋としていきます。</p>
             </div>
           </div>
         </div>
@@ -69,13 +69,13 @@ get_header();
           <div class="bg_text">Value</div>
           <div class="vmv_content">
             <div class="vmv_title">
-              <h3>VALUE</h3>
+              <h3 class="u_title_large">VALUE</h3>
             </div>
             <div class="vmv_subtitle">
-              <p>行動基準</p>
+              <p class="u_subtitle">行動基準</p>
             </div>
             <div class="vmv_text">
-              <p>①自分の思いに素直になる
+              <p class="u_paragraph">①自分の思いに素直になる
 ②全力の中に楽しさを創る<br>
 ③子供心を忘れない
 ④優れず、異なる行動をする<br>

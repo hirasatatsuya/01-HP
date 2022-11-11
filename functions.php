@@ -20,6 +20,14 @@ function st_enqueue_scripts()
     get_template_directory_uri() . '/js/main.js',array('jquery') ,'',true
   );
   wp_enqueue_script(
+    'cdn_particle_script',
+    "http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js",array('jquery') ,'',true
+  );
+  wp_enqueue_script(
+    'particle_script',
+    get_template_directory_uri() . '/js/particles.js',array('jquery') ,'',true
+  );
+  wp_enqueue_script(
     'splash_script',
     "https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js",array('jquery') ,'',true
   );
