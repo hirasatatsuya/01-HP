@@ -60,12 +60,6 @@ $complement-color: #157eff;
         width: 100%;
         height: 60vh;
       }
-      .hello-CEO{
-        font-size: 2.2rem;
-      }
-      .hello-CEO-eng{
-        font-weight: bold;
-      }
       .CEO-info{
         display: flex;
         flex-direction: row-reverse;
@@ -77,20 +71,11 @@ $complement-color: #157eff;
         .CEO-introduce{
           // width: 70%;
           display: flex;
-          // .CEO-info-left{
-          //   width: 15%;
-          //   margin-left: 5%;
-          //   // padding: 0 10%;
-          //   color: #313131;
-          //   background-color: #000;
-          //   .CEO-title-upper{
-              
-          //   }
-          // }
+
           .CEO-title-right{
             width: 100%;
             margin-left: 30%;
-            padding: 10% 0;
+            padding: 5% 0;
           }
           .CEO-title{
             padding: 25px 0;
@@ -152,10 +137,10 @@ $complement-color: #157eff;
             padding: 10%;
             color: #fff;
             .executives-position{
-              font-size: 1.6rem;
+              // font-size: 1.6rem;
             }
             .executives-name{
-              font-size: 1.2rem;
+              // font-size: 1.2rem;
             }
           }
         }
@@ -184,10 +169,10 @@ $complement-color: #157eff;
             padding: 10%;
             color: #fff;
             .executives-position{
-              font-size: 1.6rem;
+              // font-size: 1.6rem;
             }
             .executives-name{
-              font-size: 1.2rem;
+              // font-size: 1.2rem;
             }
           }
         }
@@ -206,7 +191,7 @@ $complement-color: #157eff;
             width: 100%;
             text-align: center;
             .CEO-title-right{
-              padding: 5% 0;
+              padding: 5% 2%;
             }
             .CEO-title{
               text-align: center;
@@ -251,9 +236,20 @@ $complement-color: #157eff;
 
 @media screen and (max-width:768px) {
   #page-members{
-    
+    .section-title{
+      .heading10 {
+        position: relative;
+        padding-top: 30px;
+        font-size: 22px;
+      }
+      .heading10::before {
+        top: 7px;
+        font-size: 26px;
+      }
+    }
     #CEO{
       // background-image: none;
+      height: 80vh;
       .wrapper{
         // background-image: none;
         width: 100%;
@@ -271,7 +267,7 @@ $complement-color: #157eff;
                 // padding: 10px 0;
               }
               .CEO-text{
-                font-size: .8rem;
+                // font-size: .8rem;
                 padding: 5px 0;
               }
             }
@@ -285,6 +281,15 @@ $complement-color: #157eff;
       padding-bottom: 50px;
       .wrapper{
         width: 100%;
+        .heading10 {
+          position: relative;
+          padding-top: 30px;
+          font-size: 22px;
+        }
+        .heading10::before {
+          top: 7px;
+          font-size: 26px;
+        }
         .executives-introduce{
           .executives-list{
             .executives-item{
@@ -303,7 +308,7 @@ $complement-color: #157eff;
               .executives-info{
                 padding: 2%;
                 .exectives-comment{
-                  font-size: .8rem;
+                  // font-size: .8rem;
                 }
               }
             }
@@ -321,7 +326,7 @@ $complement-color: #157eff;
               .executives-info{
                 padding: 2%;
                 .exectives-comment{
-                  font-size: .8rem;
+                  // font-size: .8rem;
                 }
               }
             }
@@ -336,31 +341,13 @@ $complement-color: #157eff;
   #page-members{
 
     .section-title{
-      padding: 0 2%;
+      // padding: 0 2%;
     }
-    .heading10 {
-      position: relative;
-      padding-top: 20px;
-      font-size: 24px;
-    margin-left: 5%;
-    margin-top: 50px;
-    // border-bottom: 1px solid rgba(5,62,98,1);
-  }
-  .heading10::before {
-    content: attr(data-en);
-    position: absolute;
-    top: 0px;
-    left: 0;
-    color: rgba(5,62,98,0.2);
-    font-size: 32px;
-    text-transform: uppercase;
-    z-index: 1;
-  }
-  }
+
   #CEO{
-    background-image: none;
+    // background-image: none;
     .section-title{
-      padding: 0 2%;
+      // padding: 0 2%;
     }
     .wrapper{
       .CEO-info{
@@ -369,13 +356,14 @@ $complement-color: #157eff;
     }
   }
 }
+}
 @media screen and (max-width: 415px){
   #page-members{
   .heading10 {
     position: relative;
     padding-top: 20px;
     font-size: 24px;
-    margin-left: 5%;
+    // margin-left: 5%;
     margin-top: 50px;
     // border-bottom: 1px solid rgba(5,62,98,1);
   }
@@ -393,7 +381,7 @@ $complement-color: #157eff;
       margin-bottom: 50px;
       background-image: url(../img/haruto1.jpg);
       background-size: cover;
-      height: 85vh;
+      height: 95vh;
       background-position: center;
       // background-image: none;
       .wrapper{
@@ -405,13 +393,13 @@ $complement-color: #157eff;
             .CEO-title-right{
               margin: 0 auto;
               // padding-top: 45%;
-              padding: 35% 5% 0 5%;
+              padding: 64% 5% 0 5%;
               .CEO-title{
                 padding: 10px 0;
               }
               .CEO-text{
-                font-size: .8rem;
-                line-height: 1.5rem;
+                // font-size: .8rem;
+                // line-height: 1.5rem;
                 padding: 0;
               }
             } 
@@ -422,14 +410,14 @@ $complement-color: #157eff;
     }
     #executives{
       .wrapper{
-        padding: 0 5%;
+        padding: 0 10%;
         .executives-introduce{
           .executives-list{
             .executives-item{
               padding: 0;
               display: block!important;
-              margin-bottom: 75px;
-              height: 550px;
+              margin-bottom: 25px;
+              height: 500px;
               .executives-img{
                 width: 100%;
                 height: 250px;
@@ -448,8 +436,8 @@ $complement-color: #157eff;
             .executives-item-2{
               display: block!important;
               padding: 0;
-              margin-bottom: 75px;
-              height: 550px;
+              margin-bottom: 25px;
+              height: 500px;
               .executives-img{
                 width: 100%;
                 height: 250px;
