@@ -72,10 +72,10 @@ get_header();
         <div class="home_philo_bg_bar home_philo_bg_bar1 home_appear_Trigger"></div>
         <div class="home_philo_bg_bar home_philo_bg_bar2 home_appear_Trigger"></div>
       </div>
-      <h3 class="FadeSlideLeftTrigger">「伝える」を "より" 自由に。</h3>
+      <h3 class="u_title_large FadeSlideLeftTrigger">「伝える」を "より" 自由に。</h3>
       <div class="home_philo_flex">
         <div class="left">
-          <p class="FadeSlideLeftTrigger">
+          <p class="u_paragragh FadeSlideLeftTrigger">
             2001年私たち創業メンバーは生まれました。<br><br>
             そこから十数年、目まぐるしく環境は変化してきました。<br>
             私たちが子供の頃はガラケー。高校生になる頃にはスマホが普及し、日常の会話にも大きな変化がありました。<br><br>
@@ -87,7 +87,7 @@ get_header();
           </p>
         </div>
         <div class="right home_1_fadeTrigger">
-          <h4 class="right_title">Identity</h4>
+          <h4 class="right_title u_title">Identity</h4>
           <h5 class="right_sub">経営理念</h5>
           <p class="right_text">Vision<br>Mission<br>Value</p>
           <a href="<?php echo esc_url(home_url("/philosophy/")) ?>" class="readmore home_1_fadeTrigger">
@@ -103,7 +103,7 @@ get_header();
     <div class="home_wrapper">
       <h3 class="home_busi_bg_title">business</h3>
       <div class="home_busi_content">
-        <h4 class="home_busi_title"><span class="smoothText"><span class="smoothTextTrigger">Business</span></span></h4>
+        <h4 class="home_busi_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Business</span></span></h4>
         <div class="home_busi_main home_2_fadeTrigger">
           <div class="grid">
             <div class="item">
@@ -114,7 +114,7 @@ get_header();
                 <p>コミュニティ運営 <br class="sp">イベント企画</p>
               </div>
               <div class="item_text">
-                <p>「01会」という2001年世代限定のコミュニティを運営。
+                <p class="u_paragraph">「01会」という2001年世代限定のコミュニティを運営。
                   企業や行政、団体とコラボしており、若者のマーケティング戦略に特化しています。
                 </p>
               </div>
@@ -127,7 +127,7 @@ get_header();
                 <p>コンサル事業</p>
               </div>
               <div class="item_text">
-                <p>若いからこそできる「バズる」ご提案。
+                <p class="u_paragraph">若いからこそできる「バズる」ご提案。
                   「今どき」「流行り」に敏感な私たちが、01会で培ったコミュニティ作りやイベント企画、運用で御社をサポートします。
                 </p>
               </div>
@@ -140,7 +140,7 @@ get_header();
                 <p>メディア事業</p>
               </div>
               <div class="item_text">
-                <p>地方特化型のメディア構築。地方の認知格差を是正し、よりディープな地方の情報発信を。</p>
+                <p class="u_paragraph">地方特化型のメディア構築。地方の認知格差を是正し、よりディープな地方の情報発信を。</p>
               </div>
             </div>
             <div class="item">
@@ -151,7 +151,7 @@ get_header();
                 <p>飲食事業</p>
               </div>
               <div class="item_text">
-                <p>京都を中心に天壇という焼肉店を運営している株式会社晃商様と共に、地域に根付いた飲食店を経営していきます。</p>
+                <p class="u_paragraph">京都を中心に天壇という焼肉店を運営している株式会社晃商様と共に、地域に根付いた飲食店を経営していきます。</p>
               </div>
             </div>
           </div>
@@ -191,17 +191,17 @@ get_header();
   <section id="home_works" class="sticky">
     <div class="section_bg_works"></div>
     <div class="home_wrapper">
-      <h3 class="home_works_title"><span class="smoothText"><span class="smoothTextTrigger">Works</span></span></h3>
+      <h3 class="home_works_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Works</span></span></h3>
       <div class="home_works_flex ">
         <div class="left slideLeftTrigger">
-          <h4 class="left_title">Movie</h4>
+          <h4 class="left_title u_title">Movie</h4>
           <div class="slider">
             <div class="slides">
               <div id="left_slide_1" class="slider_slide">
                 <a href="" class="slide_img">
                   <img src="<?php echo $movie_thumbnail[0] ?>" alt="">
                 </a>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $movie_content[0]; ?>
                 </div>
               </div>
@@ -209,7 +209,7 @@ get_header();
                 <a href="" class="slide_img">
                   <img src="<?php echo $movie_thumbnail[1] ?>" alt="">
                 </a>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $movie_content[1]; ?>
                 </div>
               </div>
@@ -217,7 +217,7 @@ get_header();
                 <a href="" class="slide_img">
                   <img src="<?php echo $movie_thumbnail[2] ?>" alt="">
                 </a>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $movie_content[2]; ?>
                 </div>
               </div>
@@ -225,7 +225,7 @@ get_header();
                 <a href="" class="slide_img">
                   <img src="<?php echo $movie_thumbnail[3] ?>" alt="">
                 </a>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $movie_content[3]; ?>
                 </div>
               </div>
@@ -233,7 +233,7 @@ get_header();
                 <a href="" class="slide_img">
                   <img src="<?php echo $movie_thumbnail[4] ?>" alt="">
                 </a>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $movie_content[4]; ?>
                 </div>
               </div>
@@ -272,14 +272,14 @@ get_header();
         <?php wp_reset_postdata(); ?>
 
         <div class="right slideRightTrigger">
-          <h4 class="right_title">System</h4>
+          <h4 class="right_title u_title">System</h4>
           <div class="slider ">
             <div class="slides">
               <div id="right_slide_1" class="slider_slide">
                 <div class="slide_img">
                   <img src="<?php echo $system_thumbnail[0] ?>" alt="">
                 </div>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $system_content[0]; ?>
                 </div>
               </div>
@@ -287,7 +287,7 @@ get_header();
                 <div class="slide_img">
                   <img src="<?php echo $system_thumbnail[1] ?>" alt="">
                 </div>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $system_content[1]; ?>
                 </div>
               </div>
@@ -295,7 +295,7 @@ get_header();
                 <div class="slide_img">
                   <img src="<?php echo $system_thumbnail[2] ?>" alt="">
                 </div>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $system_content[2]; ?>
                 </div>
               </div>
@@ -303,7 +303,7 @@ get_header();
                 <div class="slide_img">
                   <img src="<?php echo $system_thumbnail[3] ?>" alt="">
                 </div>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $system_content[3]; ?>
                 </div>
               </div>
@@ -311,7 +311,7 @@ get_header();
                 <div class="slide_img">
                   <img src="<?php echo $system_thumbnail[4] ?>" alt="">
                 </div>
-                <div class="slide_text">
+                <div class="slide_text u_paragraph">
                   <?php echo $system_content[4]; ?>
                 </div>
               </div>
@@ -335,7 +335,7 @@ get_header();
       <div class="img  home_4_fadeTrigger"><img src="<?php echo esc_url(get_theme_file_uri("/img/group.jpg")) ?>" alt=""></div>
       <h3 class="home_about_title"><span class="smoothText"><span class="smoothTextTrigger">About</span></span></h3>
       <div class="home_about_content">
-        <p class="home_about_text FadeSlideLeftTrigger">若さを活かし革新的なアイディアでこの世界を底上げする会社です。<br>
+        <p class="home_about_text FadeSlideLeftTrigger u_paragraph">若さを活かし革新的なアイディアでこの世界を底上げする会社です。<br>
 
           個性豊かなメンバーで。
           個性溢れた提案を。
@@ -354,7 +354,7 @@ get_header();
   <section id="home_01" class="sticky">
     <div class="section_bg_01"></div>
     <div class="home_wrapper">
-      <h3 class="home_01_title"><span class="smoothText"><span class="smoothTextTrigger">Team01</span></span></h3>
+      <h3 class="home_01_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Team01</span></span></h3>
 
       <div class="slider_01  home_5_fadeTrigger">
         <ul>
@@ -376,7 +376,7 @@ get_header();
       </div>
       <div class="home_01_content">
         <div class="left">
-          <p class="home_01_text FadeSlideLeftTrigger">2021年10月より立ち上がった「01会」。<br>2001年生まれ世代限定のコミュニティです。これがなければ株式会社ゼロイチはありませんでした。最高の仲間と出会える場所、それが「01会」です。これからは株式会社ゼロイチの一つの事業として「01会」を全国に展開し、より発展させていきます。ここに集まってくれた仲間のために最高に『可笑しい』コミュニティを運営します。</p>
+          <p class="home_01_text FadeSlideLeftTrigger u_paragraph">2021年10月より立ち上がった「01会」。<br>2001年生まれ世代限定のコミュニティです。これがなければ株式会社ゼロイチはありませんでした。最高の仲間と出会える場所、それが「01会」です。これからは株式会社ゼロイチの一つの事業として「01会」を全国に展開し、より発展させていきます。ここに集まってくれた仲間のために最高に『可笑しい』コミュニティを運営します。</p>
         </div>
         <div class="right  home_5_fadeTrigger">
           <a class="readmore" href="<?php echo esc_url(home_url("/team01/")) ?>">
@@ -389,10 +389,10 @@ get_header();
   </section>
   <section id="home_contact" class="sticky">
     <div class="home_wrapper">
-      <h3 class="home_contact_title"><span class="smoothText"><span class="smoothTextTrigger">Contact</span></span></h3>
+      <h3 class="home_contact_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Contact</span></span></h3>
       <div class="home_contact_box">
         <div class="left">
-          <dl>
+          <dl class="u_paragraph">
             <div class="home_contact_table_items">
               <dt>会社名</dt>
               <dd>株式会社ゼロイチ</dd>

@@ -374,7 +374,6 @@
   align-items: center;
   width: 100%;
   height: 10%;
-  font-size: 3rem;
 }
 #home #home_philosophy .home_wrapper .home_philo_flex {
   position: relative;
@@ -392,8 +391,6 @@
 }
 #home #home_philosophy .home_wrapper .home_philo_flex .left p {
   width: 90%;
-  font-size: 1rem;
-  line-height: 1.8;
 }
 #home #home_philosophy .home_wrapper .home_philo_flex .right {
   width: 45%;
@@ -405,18 +402,13 @@
   transform: translateY(10%);
 }
 #home #home_philosophy .home_wrapper .home_philo_flex .right .right_title {
-  font-size: 2rem;
   height: 15%;
   font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#home #home_philosophy .home_wrapper .home_philo_flex .right .right_sub {
-  font-size: 1rem;
-}
 #home #home_philosophy .home_wrapper .home_philo_flex .right .right_text {
-  font-size: 16px;
   text-align: center;
   font-family: "Pinyon Script", cursive;
   margin: auto 0;
@@ -449,7 +441,6 @@
   color: rgb(49, 49, 49);
   width: 100%;
   height: 10%;
-  font-size: 3rem;
   text-align: center;
   font-family: "Oswald", sans-serif;
 }
@@ -519,9 +510,6 @@
 #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_title .sp {
   display: none;
 }
-#home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_text {
-  font-size: 1rem;
-}
 #home #home_works {
   background: linear-gradient(to right, rgb(255, 150, 21) 50%, #fff 50%);
 }
@@ -535,7 +523,6 @@
 }
 #home #home_works .home_wrapper .home_works_title {
   color: rgb(49, 49, 49);
-  font-size: 3rem;
   text-align: center;
   height: 10%;
   font-family: "Oswald", sans-serif;
@@ -555,7 +542,6 @@
 }
 #home #home_works .home_wrapper .home_works_flex .left .left_title {
   text-align: center;
-  font-size: 2rem;
   font-family: "Oswald", sans-serif;
 }
 #home #home_works .home_wrapper .home_works_flex .left .readmore {
@@ -580,7 +566,6 @@
 }
 #home #home_works .home_wrapper .home_works_flex .right .right_title {
   text-align: center;
-  font-size: 2rem;
   font-family: "Oswald", sans-serif;
 }
 #home #home_works .home_wrapper .home_works_flex .right .readmore {
@@ -619,7 +604,7 @@
 }
 #home #home_about .home_wrapper .img {
   width: 80%;
-  height: 70%;
+  height: 65%;
   margin: 0 auto;
 }
 #home #home_about .home_wrapper .img img {
@@ -636,10 +621,9 @@
   text-align: left;
   font-size: 3rem;
   font-family: "Oswald", sans-serif;
-  margin-top: 20px;
 }
 #home #home_about .home_wrapper .home_about_content {
-  margin: auto auto 50px auto;
+  margin: auto;
   width: 80%;
   display: flex;
   justify-content: space-evenly;
@@ -674,7 +658,6 @@
 }
 #home #home_01 .home_wrapper .home_01_title {
   color: rgb(49, 49, 49);
-  font-size: 3rem;
   text-align: center;
   height: 10%;
   font-family: "Oswald", sans-serif;
@@ -713,7 +696,6 @@
   padding: 4% 25px;
 }
 #home #home_contact .home_wrapper .home_contact_title {
-  font-size: 3rem;
   text-align: center;
   font-family: "Oswald", sans-serif;
   height: 10%;
@@ -758,11 +740,7 @@
   padding: 3% 0;
 }
 #home #home_contact .home_wrapper .home_contact_box .left dl .home_contact_table_items dt {
-  font-size: 0.9rem;
   font-weight: bold;
-}
-#home #home_contact .home_wrapper .home_contact_box .left dl .home_contact_table_items dl {
-  font-size: 1.2rem;
 }
 #home #home_contact .home_wrapper .home_contact_box .right {
   height: 100%;
@@ -787,13 +765,14 @@
 @media screen and (max-width: 1024px) {
   #home .sticky {
     top: 80px;
-    height: 150vh;
+    height: 100vh;
   }
   #home .home_wrapper {
     height: calc(100vh - 80px);
   }
   #home #mv {
     top: 80px;
+    height: 100vh;
   }
   #home #mv .home_header {
     display: none;
@@ -813,12 +792,6 @@
   #home #home_philosophy .home_wrapper .home_philo_flex .left p {
     line-height: 1.2;
   }
-  #home #home_philosophy .home_wrapper h3 {
-    font-size: 2.4rem;
-  }
-  #home #home_business .home_wrapper .home_busi_main .grid .item .item_text p {
-    font-size: 14px;
-  }
   #home #home_about .home_wrapper .img {
     height: 60%;
   }
@@ -837,9 +810,12 @@
     background-color: transparent;
   }
   #home .sticky {
-    height: 120vh;
+    height: auto;
     position: static;
     padding-bottom: 0;
+  }
+  #home .sticky:not(:nth-of-type(1)) {
+    margin-bottom: 20vw;
   }
   #home .readmore {
     height: 60px;
@@ -881,6 +857,7 @@
     justify-content: center;
     font-size: 6.5vw;
     height: 6%;
+    margin-bottom: 10vw;
   }
   #home #home_philosophy .home_wrapper .home_philo_flex {
     flex-direction: column;
@@ -889,6 +866,7 @@
   }
   #home #home_philosophy .home_wrapper .home_philo_flex .left {
     width: 100%;
+    margin-bottom: 10vw;
   }
   #home #home_philosophy .home_wrapper .home_philo_flex .left p {
     line-height: 1.2;
@@ -897,7 +875,6 @@
 @media screen and (max-width: 768px) and (max-width: 500px) {
   #home #home_philosophy .home_wrapper .home_philo_flex .left p {
     text-align: left;
-    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -906,13 +883,6 @@
     background-color: #fff;
     padding: 2% 0;
   }
-}
-@media screen and (max-width: 768px) and (max-width: 500px) {
-  #home #home_philosophy .home_wrapper .home_philo_flex .right .right_title {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 768px) {
   #home #home_philosophy .home_wrapper .home_philo_flex .right .readmore {
     margin-bottom: 0;
   }
@@ -926,33 +896,21 @@
     height: 100%;
   }
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid {
-    grid-template: 24% 24% 24% 24%/100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
   }
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item {
     background-color: #7cb7ff;
-    max-width: 400px;
+    max-width: 340px;
+    aspect-ratio: 2/1;
     margin: 0 auto;
     display: grid;
     grid-template: 50% 30%/50% 50%;
     justify-content: space-evenly;
     align-content: space-evenly;
     transform: translateX(0) !important;
-  }
-  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item:nth-child(1) {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item:nth-child(2) {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item:nth-child(3) {
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item:nth-child(4) {
-    grid-column: 1/2;
-    grid-row: 4/5;
   }
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_icon {
     grid-column: 1/2;
@@ -962,42 +920,24 @@
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_title {
     grid-column: 1/2;
     grid-row: 2/3;
-    font-size: 1rem;
   }
-}
-@media screen and (max-width: 768px) and (max-width: 500px) {
-  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_title {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 768px) {
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_title .sp {
     display: inherit;
   }
-}
-@media screen and (max-width: 768px) {
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_text {
     grid-column: 2/3;
     grid-row: 1/3;
-    font-size: 13px;
+  }
+  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_text .u_paragraph {
+    line-height: 1.2;
   }
   #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_text .pc {
     display: none;
   }
 }
-@media screen and (max-width: 768px) and (max-width: 500px) {
-  #home #home_business .home_wrapper .home_busi_content .home_busi_main .grid .item .item_text {
-    font-size: 12px;
-    line-height: 1.2;
-  }
-}
 @media screen and (max-width: 768px) {
   #home #home_works {
-    height: 200vh;
     background: none;
-  }
-  #home #home_works .home_wrapper {
-    height: calc(200vh - 80px);
   }
   #home #home_works .home_wrapper .home_works_title {
     display: flex;
@@ -1029,9 +969,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #home #home_about {
-    height: 100vh;
-  }
   #home #home_about .home_wrapper {
     height: 100%;
   }
@@ -1050,7 +987,6 @@
   }
   #home #home_about .home_wrapper .home_about_content .home_about_text {
     width: 100%;
-    font-size: 14px;
   }
   #home #home_about .home_wrapper .home_about_content .readmore {
     margin: 0 auto;
@@ -1061,7 +997,6 @@
 }
 @media screen and (max-width: 768px) {
   #home #home_01 {
-    height: 100vh;
     background-color: transparent;
   }
   #home #home_01 .home_wrapper .home_01_content {
@@ -1070,9 +1005,6 @@
   #home #home_01 .home_wrapper .home_01_content .left {
     width: 100%;
     margin: 20px auto;
-  }
-  #home #home_01 .home_wrapper .home_01_content .left .home_01_text {
-    font-size: 14px;
   }
   #home #home_01 .home_wrapper .home_01_content .right {
     width: 100%;
@@ -1083,9 +1015,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #home #home_contact {
-    height: 120vh;
-  }
   #home #home_contact .home_wrapper {
     height: 100%;
   }
@@ -1104,11 +1033,7 @@
   #home #home_contact .home_wrapper .home_contact_box .left dl .home_contact_table_items {
     width: 100%;
   }
-  #home #home_contact .home_wrapper .home_contact_box .left dl .home_contact_table_items dt {
-    font-size: 14px;
-  }
   #home #home_contact .home_wrapper .home_contact_box .left dl .home_contact_table_items dd {
-    font-size: 12px;
     text-align: center;
   }
   #home #home_contact .home_wrapper .home_contact_box .left dl .home_contact_table_items .pc {

@@ -141,6 +141,7 @@ header {
       a {
         display: flex;
         align-items: center;
+        transition: all .4s;
         &:hover {
           opacity: .5;
         }
