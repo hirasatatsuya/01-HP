@@ -131,6 +131,7 @@ header .header_wrapper .header_nav ul li a .header_ja {
 .left_header .left_header_wrapper .logo a {
   display: flex;
   align-items: center;
+  transition: all 0.4s;
 }
 .left_header .left_header_wrapper .logo a:hover {
   opacity: 0.5;

@@ -62,6 +62,7 @@ get_header();
       <figcaption>
         <h3 class="u_title">LOCATION</h3>
         <p class="u_paragraph_min">福岡県中央区大名2-6-11</p>
+
       </figcaption>
       <a href="#"></a>
     </figure>

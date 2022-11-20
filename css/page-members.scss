@@ -71,7 +71,6 @@ $complement-color: #157eff;
         .CEO-introduce{
           // width: 70%;
           display: flex;
-
           .CEO-title-right{
             width: 100%;
             margin-left: 30%;
@@ -267,7 +266,6 @@ $complement-color: #157eff;
                 // padding: 10px 0;
               }
               .CEO-text{
-                // font-size: .8rem;
                 padding: 5px 0;
               }
             }
@@ -308,7 +306,7 @@ $complement-color: #157eff;
               .executives-info{
                 padding: 2%;
                 .exectives-comment{
-                  // font-size: .8rem;
+
                 }
               }
             }
@@ -326,7 +324,7 @@ $complement-color: #157eff;
               .executives-info{
                 padding: 2%;
                 .exectives-comment{
-                  // font-size: .8rem;
+
                 }
               }
             }
@@ -340,7 +338,6 @@ $complement-color: #157eff;
 @media screen and (max-width: 523px){
   #page-members{
 
-    .section-title{
       // padding: 0 2%;
     }
 
@@ -381,6 +378,7 @@ $complement-color: #157eff;
       margin-bottom: 50px;
       background-image: url(../img/haruto1.jpg);
       background-size: cover;
+
       height: 95vh;
       background-position: center;
       // background-image: none;

@@ -460,6 +460,7 @@
   margin-top: 75px;
   height: 80vh;
   position: relative;
+
   /*=============
   a.btn_04
   =============*/
@@ -1203,6 +1204,7 @@
   }
   #page-01 #event .event-title {
     margin-bottom: 10px;
+
   }
   #page-01 #event .event-title .heading10 {
     position: relative;

@@ -45,7 +45,6 @@ get_header();
         </div>
       </div>
     </section>
-
     <section id="event">
       <div class="event-title">
         <h2 class="heading10 slideLeftTrigger" data-en="Event"><span>01会のイベント実績</span></h2>
