@@ -518,17 +518,34 @@ $complement-color: #157eff;
           .home_busi_content_item_title{
             width: 100%;
             text-align: center;
+            margin-bottom: 30px;
           }
           .home_busi_content_item_img_wrap{
-            width: 60%;
+            height: 20vw;
+            width: 100%;
+            max-height: 300px;
             margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
             .home_busi_content_item_img{
-              width: 100%;
+              height: 100%;
+              width: auto;
+            }
+          }
+          .home_busi_content_item_img_01{
+            justify-content: space-evenly;
+            .home_busi_content_item_img{
+              height: 100%;
+              aspect-ratio: 1/1;
+              object-fit: contain;
             }
           }
           .home_busi_content_item_subtitle{
             width: 100%;
             text-align: center;
+            margin-bottom: 20px;
           }
           .home_busi_content_item_text{
             width: 100%;

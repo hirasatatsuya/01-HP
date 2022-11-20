@@ -105,36 +105,38 @@ get_header();
       <div class="home_busi_content">
         <h4 class="home_busi_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Business</span></span></h4>
         <div class="ITsolution home_busi_content_item">
-          <h5 class="home_busi_content_item_title">ITソリューション事業</h5>
+          <h5 class="home_busi_content_item_title u_title">ITソリューション事業</h5>
           <div class="home_busi_content_item_img_wrap">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/ITsolution.png")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle">皆様が抱える課題をITを用いてコスト削減</h6>
-          <p class="home_busi_content_item_text">説明動画や工程動画などの作成、Lステップ運用を用いてコスト削減</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">皆様が抱える課題をITを用いてコスト削減</h6>
+          <p class="home_busi_content_item_text u_paragraph">説明動画や工程動画などの作成、Lステップ運用を用いてコスト削減</p>
         </div>
         <div class="Branding home_busi_content_item">
-          <h5 class="home_busi_content_item_title">ブランディング事業</h5>
+          <h5 class="home_busi_content_item_title u_title">ブランディング事業</h5>
           <div class="home_busi_content_item_img_wrap">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/branding.png")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle">個性と若さだからできる「ブランディング」</h6>
-          <p class="home_busi_content_item_text">ホームページやLPなどのWEB制作で御社への導線を促進<br>プロモーション映像で御社の魅力を世の中へ発信</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">個性と若さだからできる「ブランディング」</h6>
+          <p class="home_busi_content_item_text u_paragraph">ホームページやLPなどのWEB制作で御社への導線を促進<br>プロモーション映像で御社の魅力を世の中へ発信</p>
         </div>
         <div class="LocalMedia home_busi_content_item">
-          <h5 class="home_busi_content_item_title">地域メディア事業</h5>
+          <h5 class="home_busi_content_item_title u_title">地域メディア事業</h5>
           <div class="home_busi_content_item_img_wrap">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/local-media.png")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle">若さならではの視点から地方の魅力を発信</h6>
-          <p class="home_busi_content_item_text">世の中に広まっていない〇〇を紹介するメディアを運営<br>秘境、人の温かさなど、ディープな情報を発信</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">若さならではの視点から地方の魅力を発信</h6>
+          <p class="home_busi_content_item_text u_paragraph">世の中に広まっていない〇〇を紹介するメディアを運営<br>秘境、人の温かさなど、ディープな情報を発信</p>
         </div>
         <div class="Community home_busi_content_item">
-          <h5 class="home_busi_content_item_title">コミュニティ運営 イベント事業</h5>
-          <div class="home_busi_content_item_img_wrap">
+          <h5 class="home_busi_content_item_title u_title">コミュニティ運営 イベント事業</h5>
+          <div class="home_busi_content_item_img_wrap home_busi_content_item_img_01">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("img/event11.jpg")) ?>" alt="">
+            <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("img/event_logo.jpg")) ?>" alt="">
+            <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("img/event10.jpg")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle">日本最大の同世代コミュニティ「01会」</h6>
-          <p class="home_busi_content_item_text">企業や行政、団体とコラボしており若者のマーケティング戦略に特化しています。</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">日本最大の同世代コミュニティ「01会」</h6>
+          <p class="home_busi_content_item_text u_paragraph">企業や行政、団体とコラボしており若者のマーケティング戦略に特化しています。</p>
         </div>
       </div>
     </div>
