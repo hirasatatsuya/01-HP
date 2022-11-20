@@ -50,12 +50,7 @@
   width: 100%;
   height: 60vh;
 }
-#page-members #CEO .wrapper .hello-CEO {
-  font-size: 2.2rem;
-}
-#page-members #CEO .wrapper .hello-CEO-eng {
-  font-weight: bold;
-}
+
 #page-members #CEO .wrapper .CEO-info {
   display: flex;
   flex-direction: row-reverse;
@@ -70,7 +65,8 @@
 #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right {
   width: 100%;
   margin-left: 30%;
-  padding: 10% 0;
+  padding: 5% 0;
+
 }
 #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title {
   padding: 25px 0;
@@ -119,12 +115,7 @@
   padding: 10%;
   color: #fff;
 }
-#page-members #executives .executives-introduce .executives-list .executives-item .executives-info .executives-position {
-  font-size: 1.6rem;
-}
-#page-members #executives .executives-introduce .executives-list .executives-item .executives-info .executives-name {
-  font-size: 1.2rem;
-}
+
 #page-members #executives .executives-introduce .executives-list .executives-item-2 {
   display: flex;
   filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
@@ -144,13 +135,6 @@
   padding: 10%;
   color: #fff;
 }
-#page-members #executives .executives-introduce .executives-list .executives-item-2 .executives-info .executives-position {
-  font-size: 1.6rem;
-}
-#page-members #executives .executives-introduce .executives-list .executives-item-2 .executives-info .executives-name {
-  font-size: 1.2rem;
-}
-
 @media screen and (max-width: 1024px) {
   #page-members #CEO .wrapper .CEO-info {
     text-align: center;
@@ -160,7 +144,7 @@
     text-align: center;
   }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right {
-    padding: 5% 0;
+    padding: 5% 2%;
   }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title {
     text-align: center;
@@ -178,6 +162,18 @@
   }
 }
 @media screen and (max-width: 768px) {
+  #page-members .section-title .heading10 {
+    position: relative;
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  #page-members .section-title .heading10::before {
+    top: 7px;
+    font-size: 26px;
+  }
+  #page-members #CEO {
+    height: 80vh;
+  }
   #page-members #CEO .wrapper {
     width: 100%;
     height: 100%;
@@ -187,7 +183,6 @@
     padding: 20% 5% 0 5%;
   }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right .CEO-text {
-    font-size: 0.8rem;
     padding: 5px 0;
   }
   #page-members #executives {
@@ -195,6 +190,15 @@
   }
   #page-members #executives .wrapper {
     width: 100%;
+  }
+  #page-members #executives .wrapper .heading10 {
+    position: relative;
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  #page-members #executives .wrapper .heading10::before {
+    top: 7px;
+    font-size: 26px;
   }
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item {
     padding: 0;
@@ -212,9 +216,7 @@
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item .executives-info {
     padding: 2%;
   }
-  #page-members #executives .wrapper .executives-introduce .executives-list .executives-item .executives-info .exectives-comment {
-    font-size: 0.8rem;
-  }
+
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 {
     padding: 0;
     margin-bottom: 50px;
@@ -229,44 +231,13 @@
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 .executives-info {
     padding: 2%;
   }
-  #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 .executives-info .exectives-comment {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 523px) {
-  #page-members .section-title {
-    padding: 0 2%;
-  }
-  #page-members .heading10 {
-    position: relative;
-    padding-top: 20px;
-    font-size: 24px;
-    margin-left: 5%;
-    margin-top: 50px;
-  }
-  #page-members .heading10::before {
-    content: attr(data-en);
-    position: absolute;
-    top: 0px;
-    left: 0;
-    color: rgba(5, 62, 98, 0.2);
-    font-size: 32px;
-    text-transform: uppercase;
-    z-index: 1;
-  }
-  #CEO {
-    background-image: none;
-  }
-  #CEO .section-title {
-    padding: 0 2%;
-  }
+
 }
 @media screen and (max-width: 415px) {
   #page-members .heading10 {
     position: relative;
     padding-top: 20px;
     font-size: 24px;
-    margin-left: 5%;
     margin-top: 50px;
   }
   #page-members .heading10::before {
@@ -283,7 +254,7 @@
     margin-bottom: 50px;
     background-image: url(../img/haruto1.jpg);
     background-size: cover;
-    height: 85vh;
+    height: 95vh;
     background-position: center;
   }
   #page-members #CEO .wrapper {
@@ -292,24 +263,22 @@
   }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right {
     margin: 0 auto;
-    padding: 35% 5% 0 5%;
+    padding: 64% 5% 0 5%;
   }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right .CEO-title {
     padding: 10px 0;
   }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right .CEO-text {
-    font-size: 0.8rem;
-    line-height: 1.5rem;
     padding: 0;
   }
   #page-members #executives .wrapper {
-    padding: 0 5%;
+    padding: 0 10%;
   }
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item {
     padding: 0;
     display: block !important;
-    margin-bottom: 75px;
-    height: 550px;
+    margin-bottom: 25px;
+    height: 500px;
   }
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item .executives-img {
     width: 100%;
@@ -327,8 +296,8 @@
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 {
     display: block !important;
     padding: 0;
-    margin-bottom: 75px;
-    height: 550px;
+    margin-bottom: 25px;
+    height: 500px;
   }
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 .executives-img {
     width: 100%;
