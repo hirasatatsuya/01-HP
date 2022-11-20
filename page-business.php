@@ -19,10 +19,10 @@ get_header();
   <section id="top_img">
     <div class="top_wrapper">
       <div class="top_inner">
-        <h3>熱狂的なブランドは<br>ビジョンから生まれる</h3>
-        <p>デザインからのアプローチではなく経営理念を言語化し、ビジョンに立ち向かう会社組織を設計。<br>お客様、求職者、社員、3つのブランドターゲットが熱狂するオモシロイ企業づくりを実現します。</p>
+        <h3 class="u_subtitle">熱狂的なブランドは<br>ビジョンから生まれる</h3>
+        <p class="u_paragraph_min">デザインからのアプローチではなく経営理念を言語化し、ビジョンに立ち向かう会社組織を設計。<br>お客様、求職者、社員、3つのブランドターゲットが熱狂するオモシロイ企業づくりを実現します。</p>
         <div class="page-link">
-          <a href="">資料請求はこちらから</a>
+          <a href="<?php echo esc_url(home_url('/contact/')) ?>">資料請求はこちらから</a>
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ get_header();
 
       <div class="philosophy_area">
         <div class="imgArea slideUpTrigger">
-          <a href="">
+          <a href="<?php echo esc_url(home_url('/philosophy/')) ?>">
             <div class="black-effect">
               <p class="more-text">
                 MORE
@@ -44,12 +44,12 @@ get_header();
         </div>
         <div class="textArea slideUpTrigger">
           <div class="philosophy-title">
-            <h3>経営理念策定</h3>
-            <div class="philosophy-tag">
+            <h3 class="u_paragraph">経営理念策定</h3>
+            <div class="philosophy-tag u_paragraph">
               <p>ミッション、ビジョン、バリュー</p>
             </div>
           </div>
-          <p class="philosophy-text">
+          <p class="philosophy-text u_paragraph_min">
             経営理念を言語化し、ビジョンに期限とゴールを設定。<br>
             会社として在りたい像とやるべき行動（ビジョンマップ）をつくり、全社員への浸透を図ります。
           </p>
@@ -74,12 +74,12 @@ get_header();
         </a>
         <div class="w-textArea">
           <div class="works-title">
-            <h4>ITソリューション事業</h4>
+            <h4 class="u_paragraph">ITソリューション事業</h4>
             <div class="works-title-tag">
               <p>映像、システム</p>
             </div>
           </div>
-          <div class="works-text">
+          <div class="works-text u_paragraph_min">
             <p>クライアント様のコストをITを用いて削減。
               説明動画や工程動画などの作成、Lステップなどを用いた運用でコストを削減します。</p>
           </div>
@@ -100,12 +100,12 @@ get_header();
         </a>
         <div class="w-textArea">
           <div class="works-title">
-            <h4>ブランディング事業</h4>
+            <h4 class="u_paragraph">ブランディング事業</h4>
             <div class="works-title-tag">
               <p>映像、システム</p>
             </div>
           </div>
-          <div class="works-text">
+          <div class="works-text u_paragraph_min">
             <p>クライアント様をWEB制作や映像にてブランディング。
               ホームページやLPなどのWEB制作で、御社への導線を促進。
               プロモーションビデオなどの映像で、御社の魅力を世の中へ。
@@ -128,12 +128,12 @@ get_header();
         </a>
         <div class="w-textArea">
           <div class="works-title">
-            <h4>地方メディア事業</h4>
+            <h4 class="u_paragraph">地方メディア事業</h4>
             <div class="works-title-tag">
               <p>映像、システム</p>
             </div>
           </div>
-          <div class="works-text">
+          <div class="works-text u_paragraph_min">
             <p>地方に特化し、世の中に広まっていない○○を紹介するメディアを運営。秘境、人の温かさなど、ディープな情報を発信。
               そこに若いならではの視点で用いて、地方の魅力を世界に発信。</p>
           </div>
@@ -154,12 +154,12 @@ get_header();
         </a>
         <div class="w-textArea">
           <div class="works-title">
-            <h4>コミュニティ運営、イベント事業</h4>
+            <h4 class="u_paragraph">コミュニティ運営、イベント事業</h4>
             <div class="works-title-tag">
               <!-- <p>映像、システム</p> -->
             </div>
           </div>
-          <div class="works-text">
+          <div class="works-text u_paragraph_min">
             <p>日本最大の同世代コミュニティ「01会」やスポーツコミュニティを運営。
               企業や行政、団体とコラボしており、若者のマーケティング戦略に特化しています。</p>
           </div>
@@ -180,12 +180,12 @@ get_header();
         </a>
         <div class="w-textArea">
           <div class="works-title">
-            <h4>コンサル事業</h4>
+            <h4 class="u_paragraph">コンサル事業</h4>
             <div class="works-title-tag">
               <p>映像、システム</p>
             </div>
           </div>
-          <div class="works-text">
+          <div class="works-text u_paragraph_min">
             <p>若いからこそできる「バズる」ご提案。
               「今どき」「流行り」に敏感な私たちが、01会で培ったコミュニティ作りやイベント企画、運用で御社をサポートします。</p>
           </div>
