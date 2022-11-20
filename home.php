@@ -175,13 +175,13 @@ get_header();
     if (!empty($post)) :
       $movie_content[$count] = get_the_title();
       if (!has_post_thumbnail()) :
-        $movie_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon.jpg"));
+        $movie_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon-3.jpg"));
       else :
         $movie_thumbnail[$count] = get_the_post_thumbnail_url();
       endif;
     else :
       $movie_content[$count] = "coming soon...";
-      $movie_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon.jpg"));
+      $movie_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon-3.jpg"));
     endif;
     $count++;
   endforeach; ?>
@@ -258,13 +258,13 @@ get_header();
           if (!empty($post)) :
             $system_content[$count] = get_the_title();
             if (!has_post_thumbnail()) :
-              $system_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon.jpg"));
+              $system_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon-3.jpg"));
             else :
               $system_thumbnail[$count] = get_the_post_thumbnail();
             endif;
           else :
             $system_content[$count] = "coming soon...";
-            $system_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon.jpg"));
+            $system_thumbnail[$count] = esc_url(get_theme_file_uri("/img/coming-soon-3.jpg"));
           endif;
           $count++;
         endforeach;
