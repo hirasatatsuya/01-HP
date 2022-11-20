@@ -101,60 +101,40 @@ get_header();
   <section id="home_business" class="sticky">
     <div class="section_bg_busi"></div>
     <div class="home_wrapper">
-      <h3 class="home_busi_bg_title">business</h3>
+      <!-- <h3 class="home_busi_bg_title">business</h3> -->
       <div class="home_busi_content">
         <h4 class="home_busi_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Business</span></span></h4>
-        <div class="home_busi_main home_2_fadeTrigger">
-          <div class="grid">
-            <div class="item">
-              <div class="item_icon">
-                <img src="<?php echo esc_url(get_theme_file_uri("/img/busi_1.svg")) ?>" alt="">
-              </div>
-              <div class="item_title">
-                <p>コミュニティ運営 <br class="sp">イベント企画</p>
-              </div>
-              <div class="item_text">
-                <p class="u_paragraph">「01会」という2001年世代限定のコミュニティを運営。
-                  企業や行政、団体とコラボしており、若者のマーケティング戦略に特化しています。
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="item_icon">
-                <img src="<?php echo esc_url(get_theme_file_uri("/img/busi_2.svg")) ?>" alt="">
-              </div>
-              <div class="item_title">
-                <p>コンサル事業</p>
-              </div>
-              <div class="item_text">
-                <p class="u_paragraph">若いからこそできる「バズる」ご提案。
-                  「今どき」「流行り」に敏感な私たちが、01会で培ったコミュニティ作りやイベント企画、運用で御社をサポートします。
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="item_icon">
-                <img src="<?php echo esc_url(get_theme_file_uri("/img/busi_3.svg")) ?>" alt="">
-              </div>
-              <div class="item_title">
-                <p>メディア事業</p>
-              </div>
-              <div class="item_text">
-                <p class="u_paragraph">地方特化型のメディア構築。地方の認知格差を是正し、よりディープな地方の情報発信を。</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="item_icon">
-                <img src="<?php echo esc_url(get_theme_file_uri("/img/busi_4.svg")) ?>" alt="">
-              </div>
-              <div class="item_title">
-                <p>飲食事業</p>
-              </div>
-              <div class="item_text">
-                <p class="u_paragraph">京都を中心に天壇という焼肉店を運営している株式会社晃商様と共に、地域に根付いた飲食店を経営していきます。</p>
-              </div>
-            </div>
+        <div class="ITsolution home_busi_content_item">
+          <h5 class="home_busi_content_item_title">ITソリューション事業</h5>
+          <div class="home_busi_content_item_img_wrap">
+            <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/ITsolution.png")) ?>" alt="">
           </div>
+          <h6 class="home_busi_content_item_subtitle">皆様が抱える課題をITを用いてコスト削減</h6>
+          <p class="home_busi_content_item_text">説明動画や工程動画などの作成、Lステップ運用を用いてコスト削減</p>
+        </div>
+        <div class="Branding home_busi_content_item">
+          <h5 class="home_busi_content_item_title">ブランディング事業</h5>
+          <div class="home_busi_content_item_img_wrap">
+            <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/branding.png")) ?>" alt="">
+          </div>
+          <h6 class="home_busi_content_item_subtitle">個性と若さだからできる「ブランディング」</h6>
+          <p class="home_busi_content_item_text">ホームページやLPなどのWEB制作で御社への導線を促進<br>プロモーション映像で御社の魅力を世の中へ発信</p>
+        </div>
+        <div class="LocalMedia home_busi_content_item">
+          <h5 class="home_busi_content_item_title">地域メディア事業</h5>
+          <div class="home_busi_content_item_img_wrap">
+            <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/local-media.png")) ?>" alt="">
+          </div>
+          <h6 class="home_busi_content_item_subtitle">若さならではの視点から地方の魅力を発信</h6>
+          <p class="home_busi_content_item_text">世の中に広まっていない〇〇を紹介するメディアを運営<br>秘境、人の温かさなど、ディープな情報を発信</p>
+        </div>
+        <div class="Community home_busi_content_item">
+          <h5 class="home_busi_content_item_title">コミュニティ運営 イベント事業</h5>
+          <div class="home_busi_content_item_img_wrap">
+            <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("img/event11.jpg")) ?>" alt="">
+          </div>
+          <h6 class="home_busi_content_item_subtitle">日本最大の同世代コミュニティ「01会」</h6>
+          <p class="home_busi_content_item_text">企業や行政、団体とコラボしており若者のマーケティング戦略に特化しています。</p>
         </div>
       </div>
     </div>
@@ -423,42 +403,6 @@ get_header();
           </div>
         </div>
       </div>
-
-
-
-      <!-- <div class="home_contact_flex"> -->
-      <!-- <div class="left">
-          <div class="home_contact_box_table">
-            <dl>
-              <div class="home_contact_table_items">
-                <dt>会社名</dt>
-                <dd>株式会社ゼロイチ</dd>
-              </div>
-              <div class="home_contact_table_items">
-                <dt>電話番号</dt>
-                <dd><a href="tel:000-1234-5678">000-1234-5678</a></dd>
-              </div>
-              <div class="home_contact_table_items">
-                <dt>メールアドレス</dt>
-                <dd>XXXX@XXXX.XXX</dd>
-              </div>
-            </dl>
-          </div>
-          <div class="home_contact_box_map">
-            <p class="adress">〒000-0000<br>福岡県XX市X丁目XXX-XXX</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6685282088165!2d139.79266191556226!3d35.66053753871347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889a07930e2f9%3A0x62e41ee20b961991!2z6Iqd5rWm5bel5qWt5aSn5a2mIOixiua0suOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1664193238541!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div> -->
-      <!-- <div class="right">
-          <h4 class="home_contact_message">
-            お問合せフォームは<br>こちらから！
-          </h4>
-          <a class="readmore" href="">
-            <i class="fa-regular fa-square fa-5x"></i>
-            <p class="readmore_p">Read More</p>
-          </a>
-        </div> -->
-      <!-- </div> -->
     </div>
   </section>
 </main>

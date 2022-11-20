@@ -38,20 +38,19 @@ html {
 body {
   height: 100%;
   font-size: 100%;
-  font-family: "Zen Kaku Gothic Antique","ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-family: "Zen Kaku Gothic Antique", "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   position: relative;
-  background-color: #ff9615;
-  color: #313131;
+  background-color: rgb(255, 150, 21);
+  color: rgb(49, 49, 49);
   padding-bottom: 770px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-height: 100vh;
   padding-left: 80px;
   overflow-x: hidden;
 }
 
 a {
-  color: #313131;
+  color: rgb(49, 49, 49);
   text-decoration: none;
 }
 
@@ -66,16 +65,13 @@ li {
     padding-bottom: 772px;
   }
 }
-
 @media screen and (max-width: 768px) {
   body {
     padding-bottom: 672px;
   }
 }
-
 @media screen and (max-width: 560px) {
   body {
     padding-bottom: 586px;
   }
 }
-/*# sourceMappingURL=style.css.map */
