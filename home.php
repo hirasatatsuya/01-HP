@@ -88,8 +88,14 @@ get_header();
         </div>
         <div class="right home_1_fadeTrigger">
           <h4 class="right_title u_title">Identity</h4>
-          <h5 class="right_sub">経営理念</h5>
-          <p class="right_text">Vision<br>Mission<br>Value</p>
+          <h5 class="right_sub u_paragraph">経営理念</h5>
+          <div class="right_content">
+            <div class="right_content_img_wrap">
+              <img class="right_content_img" src="<?php echo esc_url(get_theme_file_uri("/img/funny.png")) ?>" alt="">
+            </div>
+            <p class="right_content_title u_subtitle">面白いを超えて「可笑しい」人へ</p>
+            <p class="right_content_text u_paragraph">誰もが想像しないような「可笑しい」を提供<br>全力で可笑しいことに挑戦し続けます。</p>
+          </div>
           <a href="<?php echo esc_url(home_url("/philosophy/")) ?>" class="readmore home_1_fadeTrigger">
             <i class="fa-regular fa-square fa-5x"></i>
             <p class="readmore_p home_1_fadeTrigger">Read More</p>

@@ -402,17 +402,42 @@
   transform: translateY(10%);
 }
 #home #home_philosophy .home_wrapper .home_philo_flex .right .right_title {
-  height: 15%;
+  height: auto;
   font-family: "Oswald", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#home #home_philosophy .home_wrapper .home_philo_flex .right .right_text {
-  text-align: center;
-  font-family: "Pinyon Script", cursive;
-  margin: auto 0;
+#home #home_philosophy .home_wrapper .home_philo_flex .right .right_sub {
+  margin-bottom: 20px;
+}
+#home #home_philosophy .home_wrapper .home_philo_flex .right .right_content {
   width: 100%;
+  height: 60%;
+  background-color: rgba(255, 150, 21, 0.7);
+  border-radius: 20px;
+  padding: 10px 0;
+}
+#home #home_philosophy .home_wrapper .home_philo_flex .right .right_content .right_content_img_wrap {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#home #home_philosophy .home_wrapper .home_philo_flex .right .right_content .right_content_img_wrap .right_content_img {
+  width: auto;
+  height: 100%;
+}
+#home #home_philosophy .home_wrapper .home_philo_flex .right .right_content .right_content_title {
+  margin-bottom: 10px;
+}
+#home #home_philosophy .home_wrapper .home_philo_flex .right .right_content p {
+  text-align: center;
+}
+#home #home_philosophy .home_wrapper .home_philo_flex .right .readmore {
+  margin: auto 0 0 0;
 }
 #home #home_business {
   background-color: #fff;
