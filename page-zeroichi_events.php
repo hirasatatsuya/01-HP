@@ -630,7 +630,6 @@
 
 
 <script>
-    
 
 $(function(){
   $(window).scroll(function (){
