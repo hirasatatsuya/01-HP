@@ -125,14 +125,12 @@ $complement-color: #157eff;
 
 .snip1543 h3 {
   font-family: 'Teko', sans-serif;
-  font-size: 24px;
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;
 }
 
 .snip1543 p {
-  font-size: 0.9em;
 }
 
 .snip1543 a {
@@ -245,21 +243,6 @@ $complement-color: #157eff;
         border-bottom: 1px solid #ccc;
         }
       }
-      // .company-list{
-      //   padding: 150px 0 50px 0;
-      //   font-size: 1.6rem;
-      //   font-weight: bold;
-      //   width: 100%;
-      //   display: flex;
-      //   flex-wrap: wrap;
-      //   .company-title{
-      //     width: 50%;
-      //     padding: 15px 0;
-      //   }
-      //   .conpany-info{
-      //     width: 50%;
-      //   }
-      // }
     }
   }
 
@@ -315,13 +298,18 @@ $complement-color: #157eff;
 
 
   @media screen and (max-width: 768px) {
-
-    .section-title{
-      font-size: 32px;
-    }
     #company{
       .wrapper{
-        padding: 0 4%;
+        padding: 0 10%;
+        .heading10 {
+          position: relative;
+          padding-top: 30px;
+          font-size: 22px;
+        }
+        .heading10::before {
+          top: 7px;
+          font-size: 26px;
+        }
         .company-list{
           flex-flow: column;
           .company-title{
@@ -351,8 +339,18 @@ $complement-color: #157eff;
 
 
     #company-location{
+      // height: 35vh;
       .wrapper{
-        padding: 0 4%;
+        padding: 0 10%;
+        .heading10 {
+          position: relative;
+          padding-top: 30px;
+          font-size: 22px;
+        }
+        .heading10::before {
+          top: 7px;
+          font-size: 26px;
+        }
         .company-location-flex{
           flex-flow: column;
           .company-location-text{
@@ -374,6 +372,7 @@ $complement-color: #157eff;
       position: relative;
       padding-top: 30px;
       font-size: 22px;
+      margin-top: 50px;
     }
     .heading10::before {
       top: 7px;

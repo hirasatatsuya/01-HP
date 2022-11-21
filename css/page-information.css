@@ -95,14 +95,12 @@
 }
 #page-company .snip1543 h3 {
   font-family: "Teko", sans-serif;
-  font-size: 24px;
+
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;
 }
-#page-company .snip1543 p {
-  font-size: 0.9em;
-}
+
 #page-company .snip1543 a {
   position: absolute;
   top: 0;
@@ -234,11 +232,17 @@
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  #page-company .section-title {
-    font-size: 32px;
-  }
   #page-company #company .wrapper {
-    padding: 0 4%;
+    padding: 0 10%;
+  }
+  #page-company #company .wrapper .heading10 {
+    position: relative;
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  #page-company #company .wrapper .heading10::before {
+    top: 7px;
+    font-size: 26px;
   }
   #page-company #company .wrapper .company-list {
     flex-flow: column;
@@ -256,7 +260,16 @@
     height: 250px;
   }
   #page-company #company-location .wrapper {
-    padding: 0 4%;
+    padding: 0 10%;
+  }
+  #page-company #company-location .wrapper .heading10 {
+    position: relative;
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  #page-company #company-location .wrapper .heading10::before {
+    top: 7px;
+    font-size: 26px;
   }
   #page-company #company-location .wrapper .company-location-flex {
     flex-flow: column;
@@ -276,6 +289,7 @@
     position: relative;
     padding-top: 30px;
     font-size: 22px;
+    margin-top: 50px;
   }
   #page-company .heading10::before {
     top: 7px;
