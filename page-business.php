@@ -6,10 +6,6 @@ get_header();
 <main id="business">
   <div class="bg">
     <div class="triangle1"></div>
-    <div class="bar1"></div>
-    <div class="bar2 fadeTrigger"></div>
-    <div class="triangle2 fadeTrigger"></div>
-    <div class="triangle3 fadeTrigger"></div>
   </div>
   <section id="page_mv">
     <h2 class="title">BUSINESS</h2>

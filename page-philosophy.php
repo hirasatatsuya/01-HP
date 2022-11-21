@@ -4,13 +4,9 @@
 get_header();
 ?>
 <main id="philosophy">
-  <!-- <div class="bg">
+  <div class="bg">
     <div class="triangle1"></div>
-    <div class="bar1"></div>
-    <div class="bar2 fadeTrigger"></div>
-    <div class="triangle2 fadeTrigger"></div>
-    <div class="triangle3 fadeTrigger"></div>
-  </div> -->
+  </div>
   <section id="page_mv">
     <h2 class="title">IDENTITY</h2>
     <h2 class="title_ja">経営理念</h2>
@@ -75,11 +71,11 @@ get_header();
               <p class="u_subtitle">行動基準</p>
             </div>
             <div class="vmv_text">
-              <p class="u_paragraph">①自分の思いに素直になる
+              <p class="u_paragraph">①自分の思いに素直になる<br>
 ②全力の中に楽しさを創る<br>
-③子供心を忘れない
+③子供心を忘れない<br>
 ④優れず、異なる行動をする<br>
-⑤続けることを続ける
+⑤続けることを続ける<br>
 ⑥常に感謝の気持ちを忘れない</p>
             </div>
           </div>

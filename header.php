@@ -71,9 +71,9 @@
       </li>
       <ul class="header_sns">
         <!-- <li><a href="https://twitter.com/" class="flowbtn17 fl_tw2"><i class="fab fa-twitter fa-2x"></i></a></li> -->
-        <li><a href="https://www.instagram.com/kenshiro7110/" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li><a href="<?php echo esc_url("https://www.instagram.com/kenshiro7110/")?>" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-2x"></i></a></li>
         <!-- <li><a href="https://www.youtube.com/user/" class="flowbtn17 fl_yu2"><i class="fab fa-youtube fa-2x"></i></a></li> -->
-        <li><a href="https://lin.ee/" class="flowbtn17 fl_li2"><i class="fab fa-line fa-2x"></i></a></li>
+        <li><a href="<?php echo esc_url("https://lin.ee/")?>" class="flowbtn17 fl_li2"><i class="fab fa-line fa-2x"></i></a></li>
       </ul>
     </ul>
   </div>
@@ -91,9 +91,6 @@
             <a class="younger" href="<?php echo esc_url(home_url('/philosophy/#vmv')); ?>">
               <p>Vision<br>Mission<br>Value</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/philosophy/concept')); ?>">
-              <p>01の由来</p>
-            </a>
           </div>
           <div class="item">
             <a class="older" href="<?php echo esc_url(home_url('/business')); ?>">  
@@ -104,10 +101,10 @@
             <a class="older" href="<?php echo esc_url(home_url('/works')); ?>">
               <p>Works</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/business/#movie')); ?>">
+            <a class="younger" href="<?php echo esc_url(home_url('/business/movie')); ?>">
               <p>映像</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/business/#system')); ?>">
+            <a class="younger" href="<?php echo esc_url(home_url('/business/system')); ?>">
               <p>システム開発</p>
             </a>
           </div>
@@ -117,27 +114,24 @@
             <a class="older" href="<?php echo esc_url(home_url('/about')); ?>">
               <p>About</p>
             </a>
-            <a class="younger" href="">
+            <a class="younger" href="<?php echo esc_url(home_url('/about/members')); ?>">
               <p>代表挨拶<br>役員紹介</p>
             </a>
-            <a class="younger" href="">
+            <a class="younger" href="<?php echo esc_url(home_url('/about/information')); ?>">
               <p>会社情報</p>
             </a>
           </div>
           <div class="item">
-            <a class="older" href="<?php echo esc_url(home_url('/team01')); ?>">
+            <a class="older" href="<?php echo esc_url(home_url('/team01/')); ?>">
               <p>Team01</p>
             </a>
-            <a class="younger" href="">
-              <p>01の思い</p>
-            </a>
-            <a class="younger" href="">
+            <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_events')); ?>">
               <p>イベント実績</p>
             </a>
-            <a class="younger" href="">
+            <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_memberss')); ?>">
               <p>メンバー実績</p>
             </a>
-            <a class="younger" href="">
+            <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_contact')); ?>">
               <p>01会のお問い合わせ</p>
             </a>
           </div>

@@ -187,77 +187,69 @@ function SmoothTextAnime() {
 }
 
 function BgColorTransition() {
+  var section_height_sum = 0;
   $('.section_bg_mv').each(function () {
+    section_height_sum = $(this).height();
+    var elemPos = section_height_sum - 500;
     var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= windowHeight) {
+    if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
     } else {
       $(this).removeClass('BgColorTransition');
     }
   });
-  $('.section_bg_philo').each(function () {
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    var windowTop = windowHeight * 1.5;
 
-    if (scroll >= windowTop + windowHeight) {
+  $('.section_bg_philo').each(function () {
+    section_height_sum= section_height_sum + $(this).height();
+    var elemPos = section_height_sum - 500;
+    var scroll = $(window).scrollTop();
+    if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
     } else {
       $(this).removeClass('BgColorTransition');
     }
   });
   $('.section_bg_busi').each(function () {
+    section_height_sum= section_height_sum + $(this).height();
+    var elemPos = section_height_sum - 500;
     var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-
-    var windowTop = windowHeight * 1.5 * 2;
-    if (scroll >= windowTop + windowHeight) {
+    if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
     } else {
       $(this).removeClass('BgColorTransition');
     }
   });
   $('.section_bg_works').each(function () {
+    section_height_sum= section_height_sum + $(this).height();
+    var elemPos = section_height_sum - 500;
     var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-
-    var windowTop = windowHeight * 1.5 * 3;
-
-    if (scroll >= windowTop + windowHeight) {
+    if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
     } else {
       $(this).removeClass('BgColorTransition');
     }
   });
   $('.section_bg_about').each(function () {
+    section_height_sum= section_height_sum + $(this).height();
+    var elemPos = section_height_sum - 500;
     var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-
-    var windowTop = windowHeight * 1.5 * 4;
-
-    if (scroll >= windowTop + windowHeight) {
+    if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
     } else {
       $(this).removeClass('BgColorTransition');
     }
   });
   $('.section_bg_01').each(function () {
+    section_height_sum= section_height_sum + $(this).height();
+    var elemPos = section_height_sum - 500;
     var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-
-    var windowTop = windowHeight * 1.5 * 5;
-
-    if (scroll >= windowTop + windowHeight) {
+    if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
     } else {
       $(this).removeClass('BgColorTransition');
     }
   });
 }
-
-
-
 
 // 画面が読み込まれたらすぐに動かしたい場合の記述
 $(window).on('load', function () {
