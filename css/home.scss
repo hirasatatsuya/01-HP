@@ -472,20 +472,18 @@ $complement-color: #157eff;
           }
 
           .right_content{
-            width: 90%;
+            width: 100%;
             height: 60%;
-            background-color: rgba($complement-color ,.5);
+            background-color: rgba($complement-color .7);
             border-radius: 20px;
-            padding: 10px 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
+            padding: 10px 0;
             .right_content_img_wrap{
               width: 100%;
               height: 50%;
               display: flex;
               align-items: center;
               justify-content: center;
+              margin-bottom: 20px;
               .right_content_img{
                 width: auto;
                 height: 100%;

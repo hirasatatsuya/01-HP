@@ -13,9 +13,6 @@
   flex-wrap: wrap;
   width: 100%;
 }
-#zeroichi_members #members .member-flex-parent .member:last-child {
-  margin-right: 0%;
-}
 #zeroichi_members #members .member-flex-parent .effect-fade {
   opacity: 0;
   transform: translate(0, 45px);
@@ -113,7 +110,7 @@
   background: linear-gradient(135deg, #3a9278 0%, #00c300 100%);
   color: #fff;
 }
-#zeroichi_members #members .member-flex-parent .member:last-child {
+#zeroichi_members div.member:nth-of-type(5n) {
   margin-right: 0%;
 }
 
@@ -124,14 +121,12 @@
 }
 @media screen and (max-width: 1024px) {
   #zeroichi_members #members .wrapper .member-flex-parent .member {
-    flex-basis: 18%;
+    -ms-flex-preferred-size: 19%;
+        flex-basis: 19%;
     width: 20%;
   }
 }
 @media screen and (max-width: 768px) {
-  #zeroichi_members #members .wrapper .member-flex-parent {
-    justify-content: space-between;
-  }
   #zeroichi_members #members .wrapper .member-flex-parent .member {
     flex-basis: 32%;
   }

@@ -21,9 +21,7 @@ $complement-color: #157eff;
             flex-wrap: wrap;
             width: 100%;
 
-            .member:last-child {
-                margin-right: 0%;
-            }
+            
 
             .effect-fade {
                 opacity: 0;
@@ -154,14 +152,17 @@ $complement-color: #157eff;
                 }
             }
 
-            .member:last-child {
-                margin-right: 0%;
-            }
+            
         }
     }
 
 
 
+}
+#zeroichi_members {
+    div.member:nth-of-type(5n){
+        margin-right: 0%;
+    }
 }
 
 @media screen and (max-width:1340px) and (min-width:1025px) {
@@ -186,7 +187,7 @@ $complement-color: #157eff;
             .wrapper {
                 .member-flex-parent {
                     .member {
-                        flex-basis: 18%;
+                        flex-basis: 19%;
                         width: 20%;
                     }
 
@@ -202,7 +203,6 @@ $complement-color: #157eff;
         #members {
             .wrapper {
                 .member-flex-parent {
-                    justify-content: space-between;
 
                     .member {
                         flex-basis: 32%;
