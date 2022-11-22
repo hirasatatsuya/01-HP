@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 #page-zeroichi_events #event-detail {
   /*　背景画像設定　*/
   /*矢印の設定*/
@@ -8,23 +9,28 @@
   /*ドットナビゲーションの設定*/
   /*========= レイアウトのためのCSS ===============*/
 }
+
 #page-zeroichi_events #event-detail .top-content {
   position: relative;
 }
+
 #page-zeroichi_events #event-detail .top-content .background-img {
   width: 100%;
 }
+
 #page-zeroichi_events #event-detail .top-content .background-img img {
   height: 600px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 #page-zeroichi_events #event-detail .top-content .top-content-text {
   position: absolute;
   top: 100px;
   left: 10vw;
 }
+
 #page-zeroichi_events #event-detail .slider {
   position: relative;
   z-index: 1;
@@ -32,15 +38,19 @@
   height: 100vh;
   /*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
 }
+
 #page-zeroichi_events #event-detail .slider-item01 {
   background: url(../img/zeroichi_events/brink.jpg);
 }
+
 #page-zeroichi_events #event-detail .slider-item02 {
   background: url(../img/zeroichi_events/shoueikan.jpg);
 }
+
 #page-zeroichi_events #event-detail .slider-item03 {
   background: url(../img/zeroichi_events/meet-and-greet-top.jpg);
 }
+
 #page-zeroichi_events #event-detail .slider-item {
   width: 100%;
   /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
@@ -53,6 +63,7 @@
   background-size: cover;
   /*背景画像が.slider-item全体を覆い表示*/
 }
+
 #page-zeroichi_events #event-detail .slick-prev,
 #page-zeroichi_events #event-detail .slick-next {
   position: absolute;
@@ -70,26 +81,33 @@
   height: 25px;
   width: 25px;
 }
+
 #page-zeroichi_events #event-detail .slick-prev {
   /*戻る矢印の位置と形状*/
   left: 2.5%;
-  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
+
 #page-zeroichi_events #event-detail .slick-next {
   /*次へ矢印の位置と形状*/
   right: 2.5%;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
+
 #page-zeroichi_events #event-detail .slick-dots {
   position: relative;
   z-index: 3;
   text-align: center;
   margin: -50px 0 0 0;
 }
+
 #page-zeroichi_events #event-detail .slick-dots li {
   display: inline-block;
   margin: 0 5px;
 }
+
 #page-zeroichi_events #event-detail .slick-dots button {
   color: transparent;
   outline: none;
@@ -102,107 +120,133 @@
   background: #ccc;
   /*ドットボタンの色*/
 }
+
 #page-zeroichi_events #event-detail .slick-dots .slick-active button {
   background: #333;
   /*ドットボタンの現在地表示の色*/
 }
+
 #page-zeroichi_events #event-detail ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 #page-zeroichi_events #event-detail a {
   color: #111;
 }
+
 #page-zeroichi_events #event-detail a:hover,
 #page-zeroichi_events #event-detail a:active {
   text-decoration: none;
 }
+
 #page-zeroichi_events #event-detail h1 {
   position: absolute;
   z-index: 2;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
   font-size: 5vw;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
 #page-zeroichi_events #event-detail .wrapper {
   position: relative;
 }
+
 #page-zeroichi_events #event-detail .container {
   background: #555;
 }
+
 #page-zeroichi_events #event-detail .container p {
   padding: 300px 0;
   text-align: center;
 }
 
-#page-zeroichi_events {
-  margin-bottom: 200px;
+#page-zeroichi_events .p-padding {
+  padding: 10px 5px 5px 5px;
 }
+
 #page-zeroichi_events html,
 #page-zeroichi_events body {
   overflow-x: hidden;
   color: #111;
 }
+
 #page-zeroichi_events body {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 17px;
   font-weight: 400;
   background-color: #eee;
 }
+
 #page-zeroichi_events h1 {
   font-size: 200%;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
 }
+
 #page-zeroichi_events header {
   background: #3F51B5;
   color: #FFFFFF;
   padding: 150px 0;
 }
+
 #page-zeroichi_events header p {
-  font-family: "Allura";
+  font-family: 'Allura';
   color: rgba(255, 255, 255, 0.2);
   margin-bottom: 0;
   font-size: 60px;
   margin-top: -30px;
 }
+
 #page-zeroichi_events .timeline {
   position: relative;
 }
+
 #page-zeroichi_events .timeline::before {
-  content: "";
+  content: '';
   background: #C5CAE9;
   width: 5px;
   height: 99%;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   top: 39px;
 }
+
 #page-zeroichi_events .timeline-item {
   width: 100%;
   margin-bottom: 70px;
   padding: 0 5%;
 }
+
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content {
   float: right;
   padding: 40px 30px 10px 30px;
 }
+
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .date {
   right: auto;
   left: 0;
 }
+
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top {
   margin-top: 10px;
 }
+
+#page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top .p_padding {
+  padding: 10px;
+}
+
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content::after {
-  content: "";
+  content: '';
   position: absolute;
   border-style: solid;
   width: 0;
@@ -212,27 +256,34 @@
   border-width: 10px 15px 10px 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
+
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top {
   margin-top: 10px;
 }
+
 #page-zeroichi_events .timeline-item:nth-of-type(2) {
-  transform: translateY(-30px);
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
 }
+
 #page-zeroichi_events .timeline-item::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
+
 #page-zeroichi_events .timeline-content {
   position: relative;
   width: 45%;
-  padding: 10px 30px;
+  padding: 40px 30px 10px 30px;
   border-radius: 4px;
   background: #f5f5f5;
-  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
+
 #page-zeroichi_events .timeline-content::after {
-  content: "";
+  content: '';
   position: absolute;
   border-style: solid;
   width: 0;
@@ -242,6 +293,7 @@
   border-width: 10px 0 10px 15px;
   border-color: transparent transparent transparent #f5f5f5;
 }
+
 #page-zeroichi_events .timeline-img {
   width: 30px;
   height: 30px;
@@ -252,10 +304,13 @@
   margin-top: 25px;
   margin-left: -15px;
 }
+
 #page-zeroichi_events .timeline-img:last-child {
-  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
   background-color: #C5CAE9;
 }
+
 #page-zeroichi_events a {
   background: #3F51B5;
   padding: 8px 20px;
@@ -266,60 +321,80 @@
   display: inline-block;
   border-radius: 2px;
 }
+
 #page-zeroichi_events a:hover, #page-zeroichi_events a:active, #page-zeroichi_events a:focus {
   background: #32408f;
   text-decoration: none;
 }
+
 #page-zeroichi_events .timeline-card {
   padding: 0 !important;
 }
+
 #page-zeroichi_events .timeline-card p {
   padding: 0 20px 20px;
 }
+
 #page-zeroichi_events .timeline-card a {
   margin-left: 20px;
 }
+
 #page-zeroichi_events .timeline-item .shoeikan-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("../img/zeroichi_events/shoueikan.jpg") center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../img/zeroichi_events/shoueikan.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #page-zeroichi_events .timeline-item .brink-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("../img/zeroichi_events/brink.jpg") center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../img/zeroichi_events/brink.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #page-zeroichi_events .timeline-item .sports-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("../img/zeroichi_events/sports.jpg") center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../img/zeroichi_events/sports.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #page-zeroichi_events .timeline-item .meet-and-greet-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("../img/zeroichi_events/meet-and-greet.jpg") center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../img/zeroichi_events/meet-and-greet.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #page-zeroichi_events .timeline-item .sky-tower-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("../img/zeroichi_events/skytower.jpg") center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../img/zeroichi_events/skytower.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #page-zeroichi_events .timeline-item .FM-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), url("../img/zeroichi_events/FM.jpg") center center no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../img/zeroichi_events/FM.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #page-zeroichi_events .timeline-img-header {
   height: 200px;
   position: relative;
   margin-bottom: 20px;
 }
+
 #page-zeroichi_events .timeline-img-header h2 {
   color: #FFFFFF;
   position: absolute;
   bottom: 5px;
   left: 20px;
 }
+
 #page-zeroichi_events blockquote {
   margin-top: 30px;
   color: #757575;
   border-left-color: #3F51B5;
   padding: 0 20px;
 }
+
 #page-zeroichi_events .date {
   background: #157eff;
   display: inline-block;
@@ -329,6 +404,7 @@
   top: 0;
   right: 0;
 }
+
 @media screen and (max-width: 768px) {
   #page-zeroichi_events .timeline::before {
     left: 50px;
@@ -345,7 +421,7 @@
     float: none;
   }
   #page-zeroichi_events .timeline .timeline-item:nth-child(odd) .timeline-content::after {
-    content: "";
+    content: '';
     position: absolute;
     border-style: solid;
     width: 0;
@@ -356,76 +432,100 @@
     border-color: transparent #f5f5f5 transparent transparent;
   }
 }
+
 #page-zeroichi_events #grid-events {
-  @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 }
+
 #page-zeroichi_events #grid-events body {
   background: #dce1df;
   color: #4f585e;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-rendering: optimizeLegibility;
 }
+
 #page-zeroichi_events #grid-events a.btn {
   background: #157eff;
   border-radius: 4px;
-  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
   color: #ffffff;
   display: inline-block;
   padding: 6px 30px 8px;
   position: relative;
   text-decoration: none;
+  -webkit-transition: all 0.1s 0s ease-out;
   transition: all 0.1s 0s ease-out;
 }
+
 #page-zeroichi_events #grid-events .no-touch a.btn:hover {
   background: #157eff;
-  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
-  transform: translateY(-2px);
+  -webkit-box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+          box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transition: all 0.25s 0s ease-out;
   transition: all 0.25s 0s ease-out;
 }
+
 #page-zeroichi_events #grid-events .no-touch a.btn:active {
   background: #008a93;
-  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
-  transform: translate3d(0, 1px, 0);
+  -webkit-box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+          box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+  -webkit-transform: translate3d(0, 1px, 0);
+          transform: translate3d(0, 1px, 0);
+  -webkit-transition: all 0.025s 0s ease-out;
   transition: all 0.025s 0s ease-out;
 }
+
 #page-zeroichi_events #grid-events a.btn:active {
   background: #008a93;
-  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
-  transform: translate3d(0, 1px, 0);
+  -webkit-box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+          box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+  -webkit-transform: translate3d(0, 1px, 0);
+          transform: translate3d(0, 1px, 0);
+  -webkit-transition: all 0.025s 0s ease-out;
   transition: all 0.025s 0s ease-out;
 }
+
 #page-zeroichi_events #grid-events div.cards {
   margin: 80px auto;
   max-width: 960px;
   text-align: center;
 }
+
 #page-zeroichi_events #grid-events div.card {
   background: #ffffff;
   display: inline-block;
   margin: 8px;
   max-width: 300px;
-  perspective: 1000;
+  -webkit-perspective: 1000;
+          perspective: 1000;
   position: relative;
   text-align: left;
+  -webkit-transition: all 0.3s 0s ease-in;
   transition: all 0.3s 0s ease-in;
   width: 300px;
   z-index: 1;
   height: 300px;
 }
+
 #page-zeroichi_events #grid-events div.card img {
   max-width: 300px;
 }
+
 #page-zeroichi_events #grid-events div.card .card__image-holder {
   background: rgba(0, 0, 0, 0.1);
   height: 0;
   padding-bottom: 75%;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title {
   background: #ffffff;
   padding: 6px 15px 10px;
   position: relative;
   z-index: 0;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title a.toggle-info {
   border-radius: 32px;
   height: 32px;
@@ -435,23 +535,30 @@
   top: 10px;
   width: 32px;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title a.toggle-info span {
   background: #ffffff;
   display: block;
   height: 2px;
   position: absolute;
   top: 16px;
+  -webkit-transition: all 0.15s 0s ease-out;
   transition: all 0.15s 0s ease-out;
   width: 12px;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title a.toggle-info span.left {
   right: 14px;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title a.toggle-info span.right {
   left: 14px;
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title h2 {
   font-size: 24px;
   font-weight: 700;
@@ -459,118 +566,165 @@
   margin: 0;
   padding: 0;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-title h2 small {
   display: block;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.025em;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-description {
   padding: 0 15px 10px;
   position: relative;
   font-size: 14px;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-actions {
-  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+          box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
   padding: 10px 15px 20px;
   text-align: center;
 }
+
 #page-zeroichi_events #grid-events div.card div.card-flap {
   background: #d9d9d9;
   position: absolute;
   width: 100%;
-  transform-origin: top;
-  transform: rotateX(-90deg);
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-transform: rotateX(-90deg);
+          transform: rotateX(-90deg);
 }
+
 #page-zeroichi_events #grid-events div.card div.flap1 {
+  -webkit-transition: all 0.3s 0.3s ease-out;
   transition: all 0.3s 0.3s ease-out;
   z-index: -1;
 }
+
 #page-zeroichi_events #grid-events div.card div.flap2 {
+  -webkit-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
   z-index: -2;
 }
+
 #page-zeroichi_events #grid-events div.cards.showing div.card {
   cursor: pointer;
   opacity: 0.6;
-  transform: scale(0.88);
+  -webkit-transform: scale(0.88);
+          transform: scale(0.88);
 }
+
 #page-zeroichi_events #grid-events .no-touch div.cards.showing div.card:hover {
   opacity: 0.94;
-  transform: scale(0.92);
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
 }
+
 #page-zeroichi_events #grid-events div.card.show {
   opacity: 1 !important;
-  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
 }
+
 #page-zeroichi_events #grid-events div.card.show div.card-title a.toggle-info {
   background: #ff6666 !important;
 }
+
 #page-zeroichi_events #grid-events div.card.show div.card-title a.toggle-info span {
   top: 15px;
 }
+
 #page-zeroichi_events #grid-events div.card.show div.card-title a.toggle-info span.left {
   right: 10px;
 }
+
 #page-zeroichi_events #grid-events div.card.show div.card-title a.toggle-info span.right {
   left: 10px;
 }
+
 #page-zeroichi_events #grid-events div.card.show div.card-flap {
   background: #ffffff;
-  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
 }
+
 #page-zeroichi_events #grid-events div.card.show div.flap1 {
+  -webkit-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
 }
+
 #page-zeroichi_events #grid-events div.card.show div.flap2 {
+  -webkit-transition: all 0.3s 0.2s ease-out;
   transition: all 0.3s 0.2s ease-out;
 }
+
 #page-zeroichi_events #vmv {
   width: 100%;
 }
+
 #page-zeroichi_events #vmv .wrapper {
   width: 100%;
   padding: 0 2%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 500px;
   margin-top: 100px;
   padding: 30px 0;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex:nth-child(even) {
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex:nth-child(even) .right .img_wrapper img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .right {
   position: relative;
   z-index: -1;
   width: 44%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .right .img_wrapper {
   width: 100%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .right .img_wrapper img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left {
   position: relative;
   width: 52%;
   height: 100%;
   z-index: 0;
   background-color: #fff;
-  filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
+  -webkit-filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
+          filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left::before {
   content: "";
   width: 100%;
@@ -582,6 +736,7 @@
   border-left: solid 30px transparent;
   bottom: 100%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left::after {
   content: "";
   width: 100%;
@@ -593,6 +748,7 @@
   border-right: solid 30px transparent;
   top: 100%;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .bg_text_lunch {
   z-index: 0;
   position: absolute;
@@ -601,8 +757,9 @@
   font-size: 7rem;
   text-align: center;
   color: rgba(21, 126, 255, 0.5);
-  font-family: "Pinyon Script", cursive;
+  font-family: 'Pinyon Script', cursive;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .bg_text_BrickPark {
   z-index: 0;
   position: absolute;
@@ -611,8 +768,9 @@
   font-size: 7rem;
   text-align: center;
   color: rgba(21, 126, 255, 0.5);
-  font-family: "Pinyon Script", cursive;
+  font-family: 'Pinyon Script', cursive;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .bg_text_sports {
   z-index: 0;
   position: absolute;
@@ -621,118 +779,172 @@
   font-size: 7rem;
   text-align: center;
   color: rgba(21, 126, 255, 0.5);
-  font-family: "Pinyon Script", cursive;
+  font-family: 'Pinyon Script', cursive;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content {
   position: relative;
   z-index: 1;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_title {
   height: 40%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_title h3 {
   width: 350px;
   text-align: center;
   margin-left: 50px;
   font-size: 3rem;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.1em;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: .1em;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_subtitle {
   height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_subtitle p {
   font-weight: bold;
   text-align: center;
   font-size: 1.5rem;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_text {
   width: 80%;
   height: 45%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_text p {
   text-align: left;
 }
+
 #page-zeroichi_events #concept {
   margin: 100px auto;
   padding: 60px 0;
 }
+
 #page-zeroichi_events #origin {
   margin: 50px auto 0 auto;
   padding: 60px 0 160px 0;
 }
+
 #page-zeroichi_events .concept_origin {
   width: 100%;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper {
   position: relative;
   background-color: #fff;
   height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
-  filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
+  -webkit-filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
+          filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper .content-img {
   width: 50%;
   position: absolute;
   top: 0px;
   right: 50px;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper .content-img img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 200px;
   width: 100%;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_title {
   position: relative;
   text-align: center;
   width: 55%;
   font-size: 2.2rem;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_title::after {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #313131;
   width: 30px;
   height: 2px;
   bottom: -15px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_subtitle {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   width: 55%;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   width: 80%;
   height: 30%;
   text-align: center;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper::before {
   content: "";
   width: 100%;
@@ -744,6 +956,7 @@
   border-right: solid 60px transparent;
   bottom: 100%;
 }
+
 #page-zeroichi_events .concept_origin .concept_origin_wrapper::after {
   content: "";
   width: 100%;
@@ -761,17 +974,18 @@
     font-size: 8.8rem;
   }
 }
+
 @media screen and (max-width: 1024px) {
-  #page-zeroichi_events #event-detail .warpper .slider .slider-item {
-    height: 500px;
-  }
   #page-zeroichi_events #vmv .wrapper {
     padding: 0 calc((100vw - 750px) / 2);
   }
   #page-zeroichi_events #vmv .wrapper .flex {
     height: 800px;
     width: 750px;
-    flex-direction: column !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
   #page-zeroichi_events #vmv .wrapper .flex .right {
     height: 50%;
@@ -822,93 +1036,18 @@
     border-left: solid 40px transparent;
   }
 }
+
 @media screen and (max-width: 768px) {
-  #page-zeroichi_events #vmv .wrapper {
-    padding: 0 2%;
+  #page-zeroichi_events #event-detail .slider-item {
+    height: 400px;
   }
-  #page-zeroichi_events #vmv .wrapper .flex {
-    height: 500px;
-    width: 100%;
-    max-width: 500px;
-    padding: 20px 0;
-    margin: 50px auto 0 auto;
+  #page-zeroichi_events #event-detail .slick-next {
+    top: 42%;
   }
-  #page-zeroichi_events #vmv .wrapper .flex .right {
-    width: 100%;
-    height: 40%;
+  #page-zeroichi_events #event-detail .slick-prev {
+    top: 42%;
   }
-  #page-zeroichi_events #vmv .wrapper .flex .left {
-    height: 50%;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left::before {
-    border-bottom: solid 20px #fff;
-    border-left: solid 20px transparent;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left::after {
-    border-top: solid 20px #fff;
-    border-right: solid 20px transparent;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .bg_text {
-    font-size: 5rem;
-    top: -25px;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content {
-    justify-content: center;
-    height: 230px;
-    margin: auto 0;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_title {
-    justify-content: center;
-    height: 15%;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_title h3 {
-    margin: 0;
-    font-size: 1.2rem;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_subtitle {
-    height: 10%;
-    margin-top: 10px;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_subtitle p {
-    font-size: 14px;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_text {
-    margin: 10px auto;
-    height: auto;
-  }
-  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_text p {
-    font-size: 12px;
-  }
-  #page-zeroichi_events #concept {
-    padding: 60px 3%;
-    margin: 30px auto;
-  }
-  #page-zeroichi_events #origin {
-    margin: 30px auto 0 auto;
-    padding: 60px 3% 160px 3%;
-  }
-  #page-zeroichi_events .concept_origin {
-    max-width: 600px;
-  }
-  #page-zeroichi_events .concept_origin .concept_origin_wrapper {
-    width: 100%;
-    height: 300px;
-  }
-  #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_title {
-    font-size: 1rem;
-  }
-  #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_subtitle {
-    font-size: 14px;
-  }
-  #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_text {
-    font-size: 12px;
-  }
-  #page-zeroichi_events .concept_origin .concept_origin_wrapper::before {
-    border-bottom: solid 20px #fff;
-    border-right: solid 20px transparent;
-  }
-  #page-zeroichi_events .concept_origin .concept_origin_wrapper::after {
-    border-top: solid 20px #fff;
-    border-left: solid 20px transparent;
+  #page-zeroichi_events #event-detail .slider {
+    height: 70vh;
   }
 }
