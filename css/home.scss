@@ -353,7 +353,7 @@ $complement-color: #157eff;
       display: flex;
       flex-direction: column;
       width: 100%;
-      padding: 4% 4%;
+      padding: 4% 2%;
       justify-content: space-evenly;
 
       .home_philo_bg {
@@ -388,8 +388,8 @@ $complement-color: #157eff;
         }
 
         .home_philo_bg_bar1 {
-          top: 0;
-          left: -100%;
+          top: 150%;
+          left: 0;
         }
 
         .home_philo_bg_bar2 {
@@ -431,6 +431,7 @@ $complement-color: #157eff;
         z-index: 1;
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
         height: 85%;
 
         .left {
@@ -442,17 +443,22 @@ $complement-color: #157eff;
 
           p {
             width: 90%;
+            @media screen and (min-width:1024px) {
+              line-height: 1.5;
+              font-size: 18px;
+            }
           }
         }
 
         .right {
-          width: 45%;
-          height: 73%;
+          background-color: #fff;
+          width: 50%;
+          height: 80%;
+          padding: 30px 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: flex-start;
-          transform: translateY(10%);
 
           .right_title {
             height: auto;
@@ -482,9 +488,20 @@ $complement-color: #157eff;
                 width: auto;
                 height: 100%;
               }
+              @media screen and (max-width:1024px){
+                width: 40%;
+                height: auto;
+                margin: 0 auto;
+                .right_content_img{
+                  width: 100%;
+                  height: auto;
+                }
+              }
             }
             .right_content_title{
-              margin-bottom: 10px;
+              @media screen and (max-width:1024px) and (min-width:768px){
+                font-size: 1.3rem;
+              }
             }
             p{
               text-align: center;
@@ -763,12 +780,13 @@ $complement-color: #157eff;
       padding: 2% 25px;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
 
       .img {
         width: 80%;
-        height: 65%;
+        height: 60%;
         margin: 0 auto;
+        max-width: 1100px;
 
         img {
           width: 100%;
@@ -787,7 +805,7 @@ $complement-color: #157eff;
       }
 
       .home_about_content {
-        margin: 0 auto;
+        margin: 30px auto 0 auto;
         width: 80%;
         // height: 20%;
         display: flex;
@@ -852,6 +870,11 @@ $complement-color: #157eff;
           display: flex;
           justify-content: center;
           align-items: center;
+          @media screen and (min-width:1024px) {
+            p{
+              line-height: 2;
+            }
+          }
         }
 
         .right {
@@ -992,6 +1015,7 @@ $complement-color: #157eff;
 
     #home_philosophy {
       .home_wrapper {
+        padding: 4% 0;
         .home_philo_bg {
           .home_philo_bg_bar1 {
             left: -10vw;
@@ -1052,9 +1076,8 @@ $complement-color: #157eff;
       height: auto;
       position:static;
       padding-bottom: 0;
-      &:not(:nth-of-type(1)){
-        margin-bottom: 20vw;
-      }
+      top: 0;
+      
     }
     .readmore{
       height: 60px;
@@ -1109,7 +1132,7 @@ $complement-color: #157eff;
           height: 80%;
           .left{
             width: 100%;
-            margin-bottom: 10vw;
+            margin-bottom: 50px;
             p{
               line-height: 1.2;
               @media screen and (max-width:500px) {
@@ -1118,9 +1141,9 @@ $complement-color: #157eff;
             }
           }
           .right{
-            width: 100%;
+            width: 80%;
             background-color: #fff;
-            padding: 2% 0;
+            padding: 4% 0;
             .right_title{
               @media screen and (max-width:500px) {
               }
@@ -1128,8 +1151,23 @@ $complement-color: #157eff;
             .right_sub{
 
             }
-            .right_text{
-
+            .right_content{
+              margin-bottom: 30px;
+              .right_content_img_wrap{
+                width: 40%;
+                height: auto;
+                margin: 10px auto;
+                .right_content_img{
+                  width: 100%;
+                  height: auto;
+                }
+              }
+              .right_content_title{
+                margin: 10px auto;
+              }
+              .right_content_text{
+                margin: 5px auto;
+              }
             }
             .readmore{
               margin-bottom: 0;
@@ -1144,50 +1182,10 @@ $complement-color: #157eff;
         padding: 4% 2% 0 2%;
         height: 100%;
         .home_busi_content{
-          .home_busi_main{
-            .grid{
-              display: flex;
-              flex-wrap: wrap;
-              width: 100%;
-              gap: 10px;
-              .item{
-                background-color: #7cb7ff;
-                max-width: 340px;
-                aspect-ratio: 2/1;
-                margin: 0 auto;
-                display: grid;
-                grid-template:50% 30% / 50% 50%;
-                justify-content: space-evenly;
-                align-content:space-evenly;
-                transform: translateX(0) !important;
-                .item_icon{
-                  grid-column: 1/2;
-                  grid-row: 1/2;
-                  height: 100%;
-                }
-                .item_title{
-                  grid-column: 1/2;
-                  grid-row: 2/3;
-                  @media screen and (max-width:500px) {
-                  }
-                  .sp{
-                    display: inherit;
-                  }
-                }
-                .item_text{
-                  grid-column: 2/3;
-                  grid-row:  1/3;
-                  .u_paragraph{
-                    line-height: 1.2;
-                  }
-                  .pc{
-                    display: none;
-                  }
-                  @media screen and (max-width:500px) {
-                  }
-                }
-              }
-            }
+          .home_busi_content_item{
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
           }
         }
       }

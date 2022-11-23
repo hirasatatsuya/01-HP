@@ -68,14 +68,14 @@ get_header();
     <div class="section_bg_philo"></div>
     <div class="home_wrapper">
       <div class="home_philo_bg">
-        <div class="home_philo_bg_box  home_1_fadeTrigger"></div>
+        <!-- <div class="home_philo_bg_box  home_1_fadeTrigger"></div> -->
         <div class="home_philo_bg_bar home_philo_bg_bar1 home_appear_Trigger"></div>
         <div class="home_philo_bg_bar home_philo_bg_bar2 home_appear_Trigger"></div>
       </div>
       <h3 class="u_title_large FadeSlideLeftTrigger">「伝える」を "より" 自由に。</h3>
       <div class="home_philo_flex">
         <div class="left">
-          <p class="u_paragragh FadeSlideLeftTrigger">
+          <p class="u_paragraph FadeSlideLeftTrigger">
             2001年私たち創業メンバーは生まれました。<br><br>
             そこから十数年、目まぐるしく環境は変化してきました。<br>
             私たちが子供の頃はガラケー。高校生になる頃にはスマホが普及し、日常の会話にも大きな変化がありました。<br><br>
