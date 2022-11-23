@@ -456,11 +456,10 @@
 }
 
 #event {
-  margin-bottom: 175px;
   margin-top: 75px;
-  height: 80vh;
+  height: auto;
   position: relative;
-
+  width: 100%;
   /*=============
   a.btn_04
   =============*/
@@ -468,12 +467,6 @@
 #event .btn-01 {
   max-width: 300px;
   margin: 60px auto;
-  position: absolute;
-  top: 115%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 #event a.btn_04 {
   display: flex;
@@ -536,6 +529,14 @@
   font-family: serif;
 }
 
+.unactive {
+  opacity: 0;
+}
+
+span {
+  transition: all 0.5s;
+}
+
 .fa {
   font-size: 3em;
   color: white;
@@ -559,10 +560,9 @@
 }
 
 #abc {
-  margin-top: 11vh;
   height: 80vh;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -573,6 +573,7 @@
   width: 50%;
   height: 100%;
   position: absolute;
+  top: 0;
 }
 
 .pictures {
@@ -595,10 +596,10 @@
   transform: translateY(0);
 }
 .picture-container.picture-1 {
-  background-image: url("../img/event1.jpg ");
+  background-image: url("../img/event8.jpg ");
 }
 .picture-container.picture-2 {
-  background-image: url("../img/event3.jpg ");
+  background-image: url("../img/event1.jpg ");
 }
 .picture-container.picture-3 {
   background-image: url("../img/event4.jpg ");
@@ -667,7 +668,6 @@
 }
 
 #member {
-  margin-top: 150px;
   /* スライドレールの枠 */
   /* content4つをまとめたスライドブロック */
   /* ホバー時に動きを止める（パターン2・3）*/
@@ -893,13 +893,6 @@
   transition: all 0.2s;
   margin-right: 20px;
 }
-#member .content-hover:hover {
-  transform: translateY(-20px);
-  border-radius: 0 10%;
-  box-shadow: 0 3px 10px 0 #333;
-  opacity: 0.8;
-  cursor: pointer;
-}
 #member .view-port .polling-message {
   font-size: 2rem;
   padding-right: 15%;
@@ -952,7 +945,6 @@
   ----------------------------------------*/
 }
 #member-achivement .wrapper .member-achivement-text {
-  background-color: #fff;
   align-items: center;
   text-align: center;
   padding: 3% 0;
@@ -1060,6 +1052,19 @@
   #event #abc .heading06::before {
     top: 0px;
     font-size: 48px;
+  }
+  #event #abc .pictures {
+    left: 0;
+    width: 100%;
+    height: 50%;
+  }
+  #event #abc .descriptions {
+    width: 100%;
+    left: 0;
+    background-color: #17318d;
+    transition: all 0.8s ease;
+    height: 50%;
+    top: 50%;
   }
   #member {
     /* スライドレールの枠 */
@@ -1199,12 +1204,10 @@
     line-height: 2rem;
   }
   #page-01 #event {
-    height: 65vh;
     margin-top: 50px;
   }
   #page-01 #event .event-title {
     margin-bottom: 10px;
-
   }
   #page-01 #event .event-title .heading10 {
     position: relative;
@@ -1218,13 +1221,15 @@
   #page-01 #event .fa {
     top: 75%;
   }
+  #page-01 #event .btn-01 {
+    margin: 30px auto;
+  }
   #page-01 #event #abc {
-    display: flex;
-    flex-direction: column;
-    margin-top: 9vh;
     height: 65vh;
   }
   #page-01 #event #abc .half {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 50%;
   }
