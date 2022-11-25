@@ -341,6 +341,9 @@ get_header();
   </section>
   <section id="home_01" class="sticky">
     <div class="section_bg_01"></div>
+    <div class="section_bg_01_logo">
+      <img class="section_bg_01_logo_img" src="<?php echo esc_url(get_theme_file_uri("/img/event_logo.jpg"))?>" alt="">
+    </div>
     <div class="home_wrapper">
       <h3 class="home_01_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Team01</span></span></h3>
 
