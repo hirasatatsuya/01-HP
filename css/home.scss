@@ -353,7 +353,7 @@ $complement-color: #157eff;
       display: flex;
       flex-direction: column;
       width: 100%;
-      padding: 4% 2%;
+      padding: 4% 2% 2% 2%;
       justify-content: space-evenly;
 
       .home_philo_bg {
@@ -432,7 +432,7 @@ $complement-color: #157eff;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        height: 85%;
+        height: 90%;
 
         .left {
           width: 45%;
@@ -453,8 +453,8 @@ $complement-color: #157eff;
         .right {
           background-color: #fff;
           width: 50%;
-          height: 80%;
-          padding: 30px 0;
+          height: 90%;
+          padding: 15px 0;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -472,9 +472,9 @@ $complement-color: #157eff;
           }
 
           .right_content{
-            width: 100%;
-            height: 60%;
-            background-color: rgba($complement-color .7);
+            width: 90%;
+            height: 55%;
+            background-color: rgba($complement-color ,.5);
             border-radius: 20px;
             padding: 10px 0;
             .right_content_img_wrap{
@@ -493,7 +493,7 @@ $complement-color: #157eff;
                 height: auto;
                 margin: 0 auto;
                 .right_content_img{
-                  width: 100%;
+                  width: 80%;
                   height: auto;
                 }
               }
@@ -768,7 +768,7 @@ $complement-color: #157eff;
         z-index: -1;
         width: 40%;
         aspect-ratio: 1/1;
-        bottom: 50vh;
+        bottom: 0;
         right: 0;
         background-color: $middle-color;
       }
