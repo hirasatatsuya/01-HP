@@ -44,16 +44,13 @@ $complement-color: #157eff;
 
   #CEO{
     width: 100%;
-    // margin: 150px auto;
-    // padding: 100px 0;
-    // background-color: #000;
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, rgba(85, 85, 85, 1));
     color: #fff;
-    height: 75vh;
+    // height: 75vh;
     .wrapper{
       width: 100%;
       padding: 0;
-      background-image: url(../img/haruto1.jpg);
+      // background-image: url(../img/haruto1.jpg);
       background-size: contain;
       height: 70vh;
       img{
@@ -71,10 +68,21 @@ $complement-color: #157eff;
         .CEO-introduce{
           // width: 70%;
           display: flex;
+          .CEO-img{
+            width: 30%;
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
           .CEO-title-right{
             width: 100%;
-            margin-left: 30%;
+            // margin-left: 30%;
             padding: 5% 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
           }
           .CEO-title{
             padding: 25px 0;
@@ -107,14 +115,10 @@ $complement-color: #157eff;
     }
     .executives-introduce{
       .executives-list{
-        // display: flex;
-        // justify-content: space-between;
         width: 100%;
         // padding-top: 50px;
         .executives-item{
           display: flex;
-          // width: 30%;
-          // flex-direction: row-reverse;
           filter: drop-shadow(15px 10px 4px rgba(0, 0, 0, 0.6));
           // padding: 2%;
           margin-bottom: 50px;
@@ -133,13 +137,17 @@ $complement-color: #157eff;
             // background-color: #000;
             background-image: linear-gradient(90deg, rgba(85, 85, 85, 1), rgba(0, 0, 0, 1) 67%);
             width: 100%;
-            padding: 10%;
+            padding: 5%;
             color: #fff;
             .executives-position{
               // font-size: 1.6rem;
+              margin-bottom: 2%;
             }
             .executives-name{
               // font-size: 1.2rem;
+            }
+            .executives-comment{
+              padding: 10% 0;
             }
           }
         }
@@ -159,20 +167,20 @@ $complement-color: #157eff;
             }
           }
           .executives-info{
-            // background-color: #000;
-            // background: -moz-linear-gradient(left, #000 50%, #FFF);
-            // background: -webkit-linear-gradient(left, #000 50%, #FFF);
-            // background: linear-gradient(to right, #000 50%, #FFF);
             background-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 25%, rgba(85, 85, 85, 1));
             width: 100%;
-            padding: 10%;
+            padding: 5%;
             color: #fff;
             .executives-position{
               // font-size: 1.6rem;
+              margin-bottom: 2%;
             }
             .executives-name{
               // font-size: 1.2rem;
             }
+              .executives-comment{
+                padding: 10% 0;
+              }
           }
         }
       }
@@ -211,16 +219,6 @@ $complement-color: #157eff;
             width: 100%;
             flex-wrap: wrap;
             .executives-item{
-              // width: 100%;
-              // height: 500px;
-              // display: flex;
-              // margin-bottom: 50px;
-              // .executives-img{
-              //   height: 450px;
-              //   img{
-              //     height: 450px;
-              //   }
-              // }
               padding: 0;
               .executives-info{
                 // padding: 2%;
@@ -247,21 +245,33 @@ $complement-color: #157eff;
       }
     }
     #CEO{
-      // background-image: none;
-      height: 80vh;
+      background-image: none;
+      // background-color: #000;
+      height: auto;
+      // height: 80vh;
       .wrapper{
         // background-image: none;
-        width: 100%;
-        height: 100%;
+        height: auto;
         .CEO-info{
-          // display: block!important;
-          
           .CEO-introduce{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            .CEO-img{
+              width: 100%;
+              img{
+                height: auto;
+                vertical-align: bottom;
+                aspect-ratio: 5 / 3;
+                object-fit: cover;
+                object-position: 100% 10%;
+              }
+            }
             .CEO-title-right{
+              background-color: #000;
               margin: 0;
-              padding: 20% 5% 0 5%;
-              // background-image: url(../img/haruto1.jpg);
-              // background-size: contain;
               .CEO-title{
                 // padding: 10px 0;
               }
@@ -294,19 +304,24 @@ $complement-color: #157eff;
               padding: 0;
               // display: block!important;
               margin-bottom: 50px;
+              display: flex;
+              flex-direction: column;
               .executives-img{
                 width: 100%;
-                padding: 0;
-                margin: 0;
                 img{
                   height: auto;
                   vertical-align: bottom;
+                  aspect-ratio: 3 / 2;
+                  object-fit: cover;
+                  object-position: 100% 20%;
                 }
               }
               .executives-info{
-                padding: 2%;
-                .exectives-comment{
-
+                padding: 5%;
+                background-color: #000;
+                background-image: none;
+                .executives-comment{
+                  padding: 10% 0;
                 }
               }
             }
@@ -314,15 +329,23 @@ $complement-color: #157eff;
               // display: block!important;
               padding: 0;
               margin-bottom: 50px;
+              display: flex;
+              flex-direction: column;
               .executives-img{
                 width: 100%;
                 img{
                   height: auto;
                   vertical-align: bottom;
+                  aspect-ratio: 3 / 2;
+                  object-fit: cover;
+                  object-position: 100% 5%;
+                  
                 }
               }
               .executives-info{
-                padding: 2%;
+                padding: 5%;
+                background-image: none;
+                background-color: #000;
                 .exectives-comment{
 
                 }
@@ -338,7 +361,6 @@ $complement-color: #157eff;
 @media screen and (max-width: 523px){
   #page-members{
 
-      // padding: 0 2%;
     }
 
   #CEO{
@@ -353,7 +375,7 @@ $complement-color: #157eff;
     }
   }
 }
-}
+
 @media screen and (max-width: 415px){
   #page-members{
   .heading10 {
@@ -376,22 +398,19 @@ $complement-color: #157eff;
   }
     #CEO{
       margin-bottom: 50px;
-      background-image: url(../img/haruto1.jpg);
-      background-size: cover;
-
-      height: 95vh;
-      background-position: center;
-      // background-image: none;
       .wrapper{
         background-image: none;
         width: 100%;
         .CEO-info{
           // display: block!important;
           .CEO-introduce{
+            background-image: url(../img/haruto1.jpg);
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
             .CEO-title-right{
               margin: 0 auto;
-              // padding-top: 45%;
-              padding: 64% 5% 0 5%;
+              padding-top: 10%;
               .CEO-title{
                 padding: 10px 0;
               }
@@ -411,45 +430,6 @@ $complement-color: #157eff;
         padding: 0 10%;
         .executives-introduce{
           .executives-list{
-            .executives-item{
-              padding: 0;
-              display: block!important;
-              margin-bottom: 25px;
-              height: 500px;
-              .executives-img{
-                width: 100%;
-                height: 250px;
-                padding: 0;
-                margin: 0;
-                img{
-                  // height: auto;
-                  vertical-align: bottom;
-                }
-              }
-              .executives-info{
-                padding-top: 25%;
-                background-image: none;
-              }
-            }
-            .executives-item-2{
-              display: block!important;
-              padding: 0;
-              margin-bottom: 25px;
-              height: 500px;
-              .executives-img{
-                width: 100%;
-                height: 250px;
-                padding: 0;
-                margin: 0;
-                img{
-                  height: auto;
-                  vertical-align: bottom;
-                }
-              }
-              .executives-info{
-                padding-top: 25%;
-              }
-            }
           }
         }
       }
