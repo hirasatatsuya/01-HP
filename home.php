@@ -144,6 +144,10 @@ get_header();
           <h6 class="home_busi_content_item_subtitle u_subtitle">日本最大の同世代コミュニティ「01会」</h6>
           <p class="home_busi_content_item_text u_paragraph">企業や行政、団体とコラボしており若者のマーケティング戦略に特化しています。</p>
         </div>
+        <a href="" class="readmore  home_4_fadeTrigger">
+          <i class="fa-regular fa-square fa-5x"></i>
+          <p class="readmore_p">Read More</p>
+        </a>
       </div>
     </div>
   </section>
@@ -386,7 +390,7 @@ get_header();
           <dl class="u_paragraph">
             <div class="home_contact_table_items">
               <dt>会社名</dt>
-              <dd>株式会社ゼロイチ</dd>
+              <dd>株式会社01</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
@@ -401,7 +405,7 @@ get_header();
             <hr>
             <div class="home_contact_table_items">
               <dt>所在地</dt>
-              <dd>〒000-0000<br>福岡県XX市X丁目<br class="pc">XXX-XXX</dd>
+              <dd>〒810-0041<br>福岡県福岡市大名<br class="pc">2-6-11</dd>
             </div>
           </dl>
         </div>

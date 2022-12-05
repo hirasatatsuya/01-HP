@@ -140,8 +140,8 @@
   text-align: center;
 }
 
-#page-zeroichi_events .p-padding {
-  padding: 10px 5px 5px 5px;
+#page-zeroichi_events {
+  margin-bottom: 200px;
 }
 #page-zeroichi_events html,
 #page-zeroichi_events body {
@@ -201,9 +201,6 @@
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top {
   margin-top: 10px;
 }
-#page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top .p_padding {
-  padding: 10px;
-}
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content::after {
   content: "";
   position: absolute;
@@ -229,7 +226,7 @@
 #page-zeroichi_events .timeline-content {
   position: relative;
   width: 45%;
-  padding: 40px 30px 10px 30px;
+  padding: 10px 30px;
   border-radius: 4px;
   background: #f5f5f5;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
@@ -765,6 +762,9 @@
   }
 }
 @media screen and (max-width: 1024px) {
+  #page-zeroichi_events #event-detail .warpper .slider .slider-item {
+    height: 500px;
+  }
   #page-zeroichi_events #vmv .wrapper {
     padding: 0 calc((100vw - 750px) / 2);
   }
@@ -823,16 +823,92 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #page-zeroichi_events #event-detail .slider-item {
-    height: 400px;
+  #page-zeroichi_events #vmv .wrapper {
+    padding: 0 2%;
   }
-  #page-zeroichi_events #event-detail .slick-next {
-    top: 42%;
+  #page-zeroichi_events #vmv .wrapper .flex {
+    height: 500px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 0;
+    margin: 50px auto 0 auto;
   }
-  #page-zeroichi_events #event-detail .slick-prev {
-    top: 42%;
+  #page-zeroichi_events #vmv .wrapper .flex .right {
+    width: 100%;
+    height: 40%;
   }
-  #page-zeroichi_events #event-detail .slider {
-    height: 70vh;
+  #page-zeroichi_events #vmv .wrapper .flex .left {
+    height: 50%;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left::before {
+    border-bottom: solid 20px #fff;
+    border-left: solid 20px transparent;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left::after {
+    border-top: solid 20px #fff;
+    border-right: solid 20px transparent;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .bg_text {
+    font-size: 5rem;
+    top: -25px;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content {
+    justify-content: center;
+    height: 230px;
+    margin: auto 0;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_title {
+    justify-content: center;
+    height: 15%;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_title h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_subtitle {
+    height: 10%;
+    margin-top: 10px;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_subtitle p {
+    font-size: 14px;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_text {
+    margin: 10px auto;
+    height: auto;
+  }
+  #page-zeroichi_events #vmv .wrapper .flex .left .vmv_content .vmv_text p {
+    font-size: 12px;
+  }
+  #page-zeroichi_events #concept {
+    padding: 60px 3%;
+    margin: 30px auto;
+  }
+  #page-zeroichi_events #origin {
+    margin: 30px auto 0 auto;
+    padding: 60px 3% 160px 3%;
+  }
+  #page-zeroichi_events .concept_origin {
+    max-width: 600px;
+  }
+  #page-zeroichi_events .concept_origin .concept_origin_wrapper {
+    width: 100%;
+    height: 300px;
+  }
+  #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_title {
+    font-size: 1rem;
+  }
+  #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_subtitle {
+    font-size: 14px;
+  }
+  #page-zeroichi_events .concept_origin .concept_origin_wrapper .concept_origin_text {
+    font-size: 12px;
+  }
+  #page-zeroichi_events .concept_origin .concept_origin_wrapper::before {
+    border-bottom: solid 20px #fff;
+    border-right: solid 20px transparent;
+  }
+  #page-zeroichi_events .concept_origin .concept_origin_wrapper::after {
+    border-top: solid 20px #fff;
+    border-left: solid 20px transparent;
   }
 }
