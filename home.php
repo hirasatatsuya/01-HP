@@ -231,7 +231,7 @@ get_header();
               </div>
             </div>
           </div>
-          <a href="" class="readmore">
+          <a href="<?php echo esc_url(home_url("/works/")) ?>" class="readmore">
             <i class="fa-regular fa-square fa-5x"></i>
             <p class="readmore_p">Read More</p>
           </a>
@@ -309,7 +309,7 @@ get_header();
               </div>
             </div>
           </div>
-          <a href="" class="readmore">
+          <a href="<?php echo esc_url(home_url("/works/system")) ?>" class="readmore">
             <i class="fa-regular fa-square fa-5x"></i>
             <p class="readmore_p">Read More</p>
           </a>
@@ -405,7 +405,7 @@ get_header();
             <hr>
             <div class="home_contact_table_items">
               <dt>所在地</dt>
-              <dd>〒810-0041<br>福岡県福岡市大名<br class="pc">2-6-11</dd>
+              <dd>〒810-0041<br>福岡県福岡市中央区大名<br class="pc">2-6-11</dd>
             </div>
           </dl>
         </div>
@@ -414,7 +414,7 @@ get_header();
             <p>〒000-0000<br>福岡県XX市X丁目XXX-XXX</p>
           </div> -->
           <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6685282088165!2d139.79266191556226!3d35.66053753871347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889a07930e2f9%3A0x62e41ee20b961991!2z6Iqd5rWm5bel5qWt5aSn5a2mIOixiua0suOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1664193238541!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.6218598124574!2d130.39311841552393!3d33.5891660494374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191860efba4d3%3A0xd33287b5f6832abf!2z44CSODEwLTAwNDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yS5LiB55uu77yW4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1670746087095!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
