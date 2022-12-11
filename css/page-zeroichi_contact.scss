@@ -1,0 +1,19 @@
+#zeroichi_contact{
+  #page_mv{
+    .title{
+      width: 100%;
+    }
+  }
+  #zeroichi_contact_main{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    .zeroichi_contact_message{
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}

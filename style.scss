@@ -25,6 +25,7 @@ Theme Name:01-HP
 @import url(./css/page-information.css);
 @import url(./css/page-zeroichi_members.css);
 @import url(./css/page-zeroichi_events.css);
+@import url(./css/page-zeroichi_contact.css);
 @import url(./css/particle.css);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500&display=swap');
@@ -40,7 +41,7 @@ body{
   position: relative;
   background-color:$base-color;
   color:$black;
-  padding-bottom: 770px;
+  padding-bottom: 702px;
   box-sizing: border-box;
   min-height: 100vh;
   padding-left: 80px;
@@ -58,16 +59,16 @@ li{
   body{
     padding-top: 80px;
     padding-left: 0;
-    padding-bottom: 772px;
+    padding-bottom: 702px;
   }
 }
 @media screen and (max-width:768px) {
   body{
-    padding-bottom: 672px;
+    padding-bottom: 595px;
   }
 }
 @media screen and (max-width:560px) {
   body{
-    padding-bottom: 586px;
+    padding-bottom: 535px;
   }
 }

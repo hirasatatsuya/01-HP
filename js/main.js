@@ -190,7 +190,10 @@ function BgColorTransition() {
   var section_height_sum = 0;
   $('.section_bg_mv').each(function () {
     section_height_sum = $(this).height();
-    var elemPos = section_height_sum - 500;
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      section_height_sum = section_height_sum + 80;
+    }
+    var elemPos = section_height_sum - 400;
     var scroll = $(window).scrollTop();
     if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
@@ -201,7 +204,10 @@ function BgColorTransition() {
 
   $('.section_bg_philo').each(function () {
     section_height_sum= section_height_sum + $(this).height();
-    var elemPos = section_height_sum - 500;
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      section_height_sum = section_height_sum + 80;
+    }
+    var elemPos = section_height_sum - 400;
     var scroll = $(window).scrollTop();
     if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
@@ -211,7 +217,10 @@ function BgColorTransition() {
   });
   $('.section_bg_busi').each(function () {
     section_height_sum= section_height_sum + $(this).height();
-    var elemPos = section_height_sum - 500;
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      section_height_sum = section_height_sum + 80;
+    }
+    var elemPos = section_height_sum - 400;
     var scroll = $(window).scrollTop();
     if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
@@ -221,7 +230,10 @@ function BgColorTransition() {
   });
   $('.section_bg_works').each(function () {
     section_height_sum= section_height_sum + $(this).height();
-    var elemPos = section_height_sum - 500;
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      section_height_sum = section_height_sum + 80;
+    }
+    var elemPos = section_height_sum - 400;
     var scroll = $(window).scrollTop();
     if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
@@ -231,7 +243,10 @@ function BgColorTransition() {
   });
   $('.section_bg_about').each(function () {
     section_height_sum= section_height_sum + $(this).height();
-    var elemPos = section_height_sum - 500;
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      section_height_sum = section_height_sum + 80;
+    }
+    var elemPos = section_height_sum - 400;
     var scroll = $(window).scrollTop();
     if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
@@ -241,7 +256,10 @@ function BgColorTransition() {
   });
   $('.section_bg_01').each(function () {
     section_height_sum= section_height_sum + $(this).height();
-    var elemPos = section_height_sum - 500;
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      section_height_sum = section_height_sum + 80;
+    }
+    var elemPos = section_height_sum - 400;
     var scroll = $(window).scrollTop();
     if (scroll >= elemPos) {
       $(this).addClass('BgColorTransition');
@@ -297,13 +315,13 @@ $(window).on('load', function () {
 $(window).scroll(function () {
   fadeAnime();/* アニメーション用の関数を呼ぶ*/
   SmoothTextAnime();/* アニメーション用の関数を呼ぶ*/
-  if (!window.matchMedia("(max-width: 768px)").matches) {
-    BgColorTransition();
-  } else {
-    $('.BgColorTransition').each(function () {
-      $(this).removeClass('BgColorTransition');
-    });
-  }
+  BgColorTransition();
+  // if (!window.matchMedia("(max-width: 768px)").matches) {
+  // } else {
+  //   $('.BgColorTransition').each(function () {
+  //     $(this).removeClass('BgColorTransition');
+  //   });
+  // }
 });// ここまで画面をスクロールをしたら動かしたい場合の記述
 
 $(".humburger").click(function () {

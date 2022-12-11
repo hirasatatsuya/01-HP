@@ -39,8 +39,8 @@
           </li>
           <li>
             <a href="<?php echo esc_url(home_url('/about/')) ?>">
-              <p class="header_en">about</p>
-              <p class="header_ja">会社概要</p>
+              <p class="header_en">company</p>
+              <p class="header_ja">会社情報</p>
             </a>
           </li>
           <li>
@@ -112,13 +112,13 @@
         <div class="row">
           <div class="item">
             <a class="older" href="<?php echo esc_url(home_url('/about')); ?>">
-              <p>About</p>
+              <p>company</p>
             </a>
             <a class="younger" href="<?php echo esc_url(home_url('/about/members')); ?>">
               <p>代表挨拶<br>役員紹介</p>
             </a>
             <a class="younger" href="<?php echo esc_url(home_url('/about/information')); ?>">
-              <p>会社情報</p>
+              <p>会社概要</p>
             </a>
           </div>
           <div class="item">
@@ -128,7 +128,7 @@
             <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_events')); ?>">
               <p>イベント実績</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_memberss')); ?>">
+            <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_members')); ?>">
               <p>メンバー実績</p>
             </a>
             <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_contact')); ?>">

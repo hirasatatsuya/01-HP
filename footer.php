@@ -56,7 +56,7 @@
     </div>
   </section>
   <section id="footer_copy">
-    <p>&copy;2022 株式会社ゼロイチ</p>
+    <p>&copy;2022 zeroichi Co., Ltd. All Rights Reserved</p>
   </section>
 </footer>
 </body>
