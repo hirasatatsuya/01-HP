@@ -35,43 +35,42 @@ $sp: 480px;
     position: relative;
     width: 100%;
     height: 70vh;
-    background-image: url("../img/naoki2.jpg");
+    max-height: 520px;
+    background-image: url("../img/group.jpg");
     background-size: cover;
     background-position: center;
 
+    .black-shadow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba($color: #000000, $alpha: .5);
+    }
     .top_inner {
-      width: 50%;
+      position: relative;
       margin-left: 12.5vw;
 
-      @include pc {
-        width: 75%;
-      }
-
-      @include tab {
-        width: 70%;
-      }
-
-      @include sp {
-        width: 80%;
-      }
 
       h3 {
         color: #fff;
         font-size: 3vw;
-        padding-top: 100px;
+        // パターン1
+        padding-top: 150px;
+        //パターン2
+        // padding-top: 100px;
 
         @include pc {
           font-size: 4vw;
         }
 
         @include tab {
-          padding-top: 60px;
+          padding-top: 140px;
           font-size: 5vw;
         }
 
         @include sp {
           font-size: 6vw;
-          padding-top: 120px;
+          padding-top: 100px;
         }
       }
 
@@ -80,7 +79,10 @@ $sp: 480px;
         font-size: 1vw;
         line-height: 2;
         letter-spacing: 0.04em;
-        margin-top: 50px;
+        // パターン1
+        margin-top: 40px;
+        // パターン2
+        // margin-top: 0;
 
         @include pc {
           font-size: 1.2vw;
@@ -88,7 +90,7 @@ $sp: 480px;
         }
 
         @include tab {
-          font-size: 1.8vw;
+          font-size: 2vw;
           line-height: 1.5;
           margin-top: 15px;
         }
@@ -165,8 +167,19 @@ $sp: 480px;
 
       .imgArea {
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         overflow: hidden;
+
+        @include pc {
+          height: 50vh;
+        }
+        @include tab {
+          height: 40vh;
+        }
+
+        @include sp {
+          height: 30vh;
+        }
 
         a {
           position: relative;
@@ -226,9 +239,8 @@ $sp: 480px;
 
         .philosophy {
           &-title {
-            width: 40vw;
-            display: flex;
             position: relative;
+            margin: 0 auto;
 
             @include tab {
               width: 100%;
@@ -240,7 +252,24 @@ $sp: 480px;
               align-items: center;
               color: #313131;
               font-size: #{"min(1.5vw, 20px)"};
-              margin-right: 20px;
+              font-size: 35px;
+              margin-bottom: 30px;
+
+              >span {
+                width: 145px;
+                height: 2px;
+                margin-right: 30px;
+                margin-top: 7px;
+                background: #000;
+
+                &:nth-of-type(1) {
+                  margin-right: 30px;
+                }
+
+                &:nth-of-type(2) {
+                  margin-left: 30px;
+                }
+              }
 
               @include pc {
                 font-size: 2vw;
@@ -352,9 +381,19 @@ $sp: 480px;
         position: relative;
         display: block;
         width: 100%;
-        height: 300px;
+        height: 20vw;
         transition: all .7s ease;
         overflow: hidden;
+
+        @include pc {
+          height: 32vw;
+        }
+        @include tab {
+          height: 32vw;
+        }
+        @include sp {
+          height: 80vw;
+        }
 
         &:hover {
           scale: 1.05;
@@ -367,6 +406,7 @@ $sp: 480px;
           opacity: 0;
           background: rgba($color: #000000, $alpha: .4);
           transition: all .7s;
+
           .more-text {
             position: absolute;
             top: 50%;
@@ -377,17 +417,21 @@ $sp: 480px;
             text-align: center;
             color: #fff;
           }
+
           &:hover {
             opacity: 1;
           }
         }
+
         .w-img_box {
           width: 100%;
           height: 100%;
-  
+
           img {
             width: 100%;
             height: 100%;
+            object-fit: cover;
+            object-position: 0 -10vw;
           }
         }
       }
@@ -507,14 +551,14 @@ $sp: 480px;
   .strength-wrapper {
     width: 100vw;
     height: 115vh;
-    max-height: 830px;
+    max-height: 850px;
 
     @include pc {
-      height: 95vh;
+      height: 80vw;
     }
 
     @include tab {
-      height: 92vh;
+      height: 57vh;
     }
 
     @include sp {
@@ -656,7 +700,7 @@ $sp: 480px;
 
     .rs-main {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
 
       @include sp {
@@ -666,7 +710,7 @@ $sp: 480px;
       }
 
       .rs-card {
-        width: 24%;
+        width: 30%;
         background-color: #fff;
         margin-top: 20px;
         padding: 40px 15px;
@@ -682,9 +726,11 @@ $sp: 480px;
 
 
         img {
-          width: 100%;
-          height: 100px;
-          background: #000;
+          display: block;
+          width: 60%;
+          height: 200px;
+          object-fit: contain;
+          margin: 0 auto;
         }
 
         h3 {
@@ -706,5 +752,75 @@ $sp: 480px;
         }
       }
     }
+  }
+}
+
+.u-title {
+  position: relative;
+  margin: 0 auto;
+
+  @include tab {
+    width: 100%;
+  }
+
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313131;
+    // font-size: #{"min(1.5vw, 20px)"};
+    font-size: 35px;
+    margin-bottom: 30px;
+
+
+    >span {
+      width: 145px;
+      height: 2px;
+      margin-top: 7px;
+      background: #000;
+
+      &:nth-of-type(1) {
+        margin-right: 30px;
+      }
+
+      &:nth-of-type(2) {
+        margin-left: 30px;
+      }
+      
+      @include pc {
+        width: 100px;
+      }
+
+      @include tab {
+        width: 80px;
+      }
+
+      @include sp {
+        width: 50px;
+      }
+    }
+
+    @include pc {
+      font-size: 4vw;
+    }
+
+    @include tab {
+      font-size: 3vw;
+      margin-left: 10px;
+    }
+
+    @include sp {
+      font-size: 5vw;
+      margin-left: 5px;
+    }
+  }
+
+}
+
+.sp-vis {
+  display: none;
+  @include sp {
+    display: block;
   }
 }
