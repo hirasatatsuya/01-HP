@@ -36,6 +36,7 @@ $complement-color: #157eff;
     position: sticky;
     top: 0;
     padding-bottom: 20vh;
+    overflow: hidden;
   }
 
   // .home_mv_bg_white {
@@ -520,6 +521,7 @@ $complement-color: #157eff;
     background-color: #fff;
     position: relative;
     height: auto;
+    padding-bottom: 0;
     .home_wrapper {
       position: relative;
       width: 100%;
@@ -555,6 +557,14 @@ $complement-color: #157eff;
           padding: 50px;
           background-color: $base-color;
           border-radius: 30px;
+          .home_busi_br_sp{
+            display: none;
+          }
+          @media screen and (max-width:550px) {
+            .home_busi_br_sp{
+              display: inherit;
+            }
+          }
           .home_busi_content_item_title{
             width: 100%;
             text-align: center;
@@ -936,7 +946,6 @@ $complement-color: #157eff;
   #home {
     .sticky {
       top: 80px;
-      height: 100vh;
     }
 
     .home_wrapper {
@@ -945,7 +954,6 @@ $complement-color: #157eff;
 
     #mv {
       top: 80px;
-      height: 100vh;
       .home_header {
         display: none;
       }
@@ -982,6 +990,7 @@ $complement-color: #157eff;
     }
 
     #home_business{
+      top: 0;
       .home_wrapper{
         .home_busi_main{
           .grid{
@@ -1022,7 +1031,7 @@ $complement-color: #157eff;
 @media screen and (max-width:768px) {
   #home{
     overflow: hidden;
-    .section{
+    section{
       background-color: transparent;
     }
     .sticky{
@@ -1163,7 +1172,7 @@ $complement-color: #157eff;
             width: 100%;
             height: 45%;
             margin: 0 auto 30px auto;
-            max-width: 400px;
+            max-width: 600px;
             justify-content: space-evenly;
             .left_title{
               text-align: left;
@@ -1174,7 +1183,7 @@ $complement-color: #157eff;
             width: 100%;
             height: 45%;
             margin: 0 auto;
-            max-width: 400px;
+            max-width: 600px;
             justify-content: space-evenly;
             .right_title{
               text-align: left;
@@ -1186,6 +1195,7 @@ $complement-color: #157eff;
             }
           }
           .slider{
+            aspect-ratio: 3/2;
             margin-bottom: 30px;
           }
         }

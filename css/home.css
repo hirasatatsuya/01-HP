@@ -30,6 +30,7 @@
   position: sticky;
   top: 0;
   padding-bottom: 20vh;
+  overflow: hidden;
 }
 #home #mv {
   z-index: 0;
@@ -305,7 +306,6 @@
   flex-direction: column;
   width: 100%;
   padding: 4% 2% 2% 2%;
-
   justify-content: space-evenly;
 }
 #home #home_philosophy .home_wrapper .home_philo_bg {
@@ -428,10 +428,7 @@
   height: 55%;
   background-color: rgba(21, 126, 255, 0.5);
   border-radius: 20px;
-  padding: 10px 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  padding: 10px 0;
 }
 #home #home_philosophy .home_wrapper .home_philo_flex .right .right_content .right_content_img_wrap {
   width: 100%;
@@ -439,6 +436,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 #home #home_philosophy .home_wrapper .home_philo_flex .right .right_content .right_content_img_wrap .right_content_img {
   width: auto;
@@ -470,6 +468,7 @@
   background-color: #fff;
   position: relative;
   height: auto;
+  padding-bottom: 0;
 }
 #home #home_business .home_wrapper {
   position: relative;
@@ -504,6 +503,14 @@
   padding: 50px;
   background-color: rgb(255, 150, 21);
   border-radius: 30px;
+}
+#home #home_business .home_wrapper .home_busi_content .home_busi_content_item .home_busi_br_sp {
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  #home #home_business .home_wrapper .home_busi_content .home_busi_content_item .home_busi_br_sp {
+    display: inherit;
+  }
 }
 #home #home_business .home_wrapper .home_busi_content .home_busi_content_item .home_busi_content_item_title {
   width: 100%;
@@ -824,14 +831,12 @@
 @media screen and (max-width: 1024px) {
   #home .sticky {
     top: 80px;
-    height: 100vh;
   }
   #home .home_wrapper {
     height: calc(100vh - 80px);
   }
   #home #mv {
     top: 80px;
-    height: 100vh;
   }
   #home #mv .home_header {
     display: none;
@@ -854,6 +859,9 @@
   #home #home_philosophy .home_wrapper .home_philo_flex .left p {
     line-height: 1.2;
   }
+  #home #home_business {
+    top: 0;
+  }
   #home #home_about .home_wrapper .img {
     height: 60%;
   }
@@ -871,7 +879,7 @@
   #home {
     overflow: hidden;
   }
-  #home .section {
+  #home section {
     background-color: transparent;
   }
   #home .sticky {
@@ -1005,7 +1013,7 @@
     width: 100%;
     height: 45%;
     margin: 0 auto 30px auto;
-    max-width: 400px;
+    max-width: 600px;
     justify-content: space-evenly;
   }
   #home #home_works .home_wrapper .home_works_flex .left .left_title {
@@ -1016,7 +1024,7 @@
     width: 100%;
     height: 45%;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 600px;
     justify-content: space-evenly;
   }
   #home #home_works .home_wrapper .home_works_flex .right .right_title {
@@ -1026,6 +1034,7 @@
     background-color: rgb(255, 150, 21);
   }
   #home #home_works .home_wrapper .home_works_flex .slider {
+    aspect-ratio: 3/2;
     margin-bottom: 30px;
   }
 }
