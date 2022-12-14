@@ -390,7 +390,7 @@ get_header();
           <dl class="u_paragraph">
             <div class="home_contact_table_items">
               <dt>会社名</dt>
-              <dd>株式会社01</dd>
+              <dd>株式会社ゼロイチ</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
