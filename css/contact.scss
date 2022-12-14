@@ -6,16 +6,16 @@ $middle-color: rgb(255, 169, 65);
 $black: #313131;
 
 body:has(#contact){
-  padding-bottom: 482px;
+  padding-bottom: 427px;
 }
 @media screen and (max-width:768px) {
   body:has(#contact){
-    padding-bottom: 475px;
+    padding-bottom: 383px;
   }
 }
 @media screen and (max-width:560px) {
   body:has(#contact){
-    padding-bottom: 415px;
+    padding-bottom: 339px;
   }
 }
 
