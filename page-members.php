@@ -19,7 +19,7 @@
         <div class="CEO-info">
           <div class="CEO-introduce">
             <div class="CEO-img">
-              <img src="<?php echo esc_url(get_theme_file_uri('/img/haruto1.jpg')) ?>" alt="">
+              <img src="<?php echo esc_url(get_theme_file_uri('/img/haruto2.jpg')) ?>" alt="">
             </div>
               <div class="CEO-title-right">
                 <h3 class="CEO-title u_title">

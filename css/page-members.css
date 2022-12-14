@@ -60,7 +60,7 @@
   display: flex;
 }
 #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-img {
-  width: 30%;
+  width: 40%;
 }
 #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-img img {
   width: 100%;
@@ -109,7 +109,7 @@
   flex-direction: row-reverse;
 }
 #page-members #executives .executives-introduce .executives-list .executives-item .executives-img {
-  width: 40%;
+  width: 50%;
 }
 #page-members #executives .executives-introduce .executives-list .executives-item .executives-img img {
   height: 100%;
@@ -134,7 +134,7 @@
   margin-bottom: 50px;
 }
 #page-members #executives .executives-introduce .executives-list .executives-item-2 .executives-img {
-  width: 40%;
+  width: 50%;
 }
 #page-members #executives .executives-introduce .executives-list .executives-item-2 .executives-img img {
   height: 100%;
@@ -162,6 +162,9 @@
     width: 100%;
     text-align: center;
   }
+  #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-img {
+    width: 50%;
+  }
   #page-members #CEO .wrapper .CEO-info .CEO-introduce .CEO-title-right {
     padding: 5% 2%;
   }
@@ -178,6 +181,15 @@
   }
   #page-members #executives .wrapper .executives-introduce .executives-list .executives-item {
     padding: 0;
+  }
+  #page-members #executives .wrapper .executives-introduce .executives-list .executives-item .executives-img {
+    width: 80%;
+  }
+  #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 {
+    padding: 0;
+  }
+  #page-members #executives .wrapper .executives-introduce .executives-list .executives-item-2 .executives-img {
+    width: 80%;
   }
 }
 @media screen and (max-width: 768px) {
