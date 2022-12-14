@@ -21,8 +21,6 @@ body:has(#contact) {
 #contact #contact_main .wrapper {
   width: 80%;
   padding: 50px 4%;
-  width: 80%;
-  padding: 50px 4%;
   margin: 0 auto;
 }
 
@@ -53,6 +51,7 @@ body:has(#contact) {
 /* フォーム入力項目 */
 .wpcf7 input[type=text],
 .wpcf7 input[type=email],
+.wpcf7 input[type=number],
 .wpcf7 textarea {
   width: 100%;
   padding: 8px 15px;
@@ -71,6 +70,10 @@ span.wpcf7-not-valid-tip,
 }
 
 input.wpcf7-form-control.wpcf7-text.wpcf7-not-valid {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-not-valid {
   background: rgba(255, 255, 255, 0.5);
 }
 
