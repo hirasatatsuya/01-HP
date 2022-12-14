@@ -21,6 +21,8 @@ body:has(#contact) {
 #contact #contact_main .wrapper {
   width: 80%;
   padding: 50px 4%;
+  width: 80%;
+  padding: 50px 4%;
   margin: 0 auto;
 }
 

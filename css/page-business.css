@@ -4,71 +4,73 @@
   position: relative;
   width: 100%;
   height: 70vh;
-  background-image: url("../img/naoki2.jpg");
+  max-height: 520px;
+  background-image: url("../img/group.jpg");
   background-size: cover;
   background-position: center;
 }
+
+#top_img .top_wrapper .black-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 #top_img .top_wrapper .top_inner {
-  width: 50%;
+  position: relative;
   margin-left: 12.5vw;
 }
-@media screen and (max-width: 1024px) {
-  #top_img .top_wrapper .top_inner {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 768px) {
-  #top_img .top_wrapper .top_inner {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 480px) {
-  #top_img .top_wrapper .top_inner {
-    width: 80%;
-  }
-}
+
 #top_img .top_wrapper .top_inner h3 {
   color: #fff;
   font-size: 3vw;
-  padding-top: 100px;
+  padding-top: 150px;
 }
+
 @media screen and (max-width: 1024px) {
   #top_img .top_wrapper .top_inner h3 {
     font-size: 4vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #top_img .top_wrapper .top_inner h3 {
-    padding-top: 60px;
+    padding-top: 140px;
     font-size: 5vw;
   }
 }
+
 @media screen and (max-width: 480px) {
   #top_img .top_wrapper .top_inner h3 {
     font-size: 6vw;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 }
+
 #top_img .top_wrapper .top_inner p {
   color: #fff;
   font-size: 1vw;
   line-height: 2;
   letter-spacing: 0.04em;
-  margin-top: 50px;
+  margin-top: 40px;
 }
+
 @media screen and (max-width: 1024px) {
   #top_img .top_wrapper .top_inner p {
     font-size: 1.2vw;
     margin-top: 30px;
   }
 }
+
 @media screen and (max-width: 768px) {
   #top_img .top_wrapper .top_inner p {
-    font-size: 1.8vw;
+    font-size: 2vw;
     line-height: 1.5;
     margin-top: 15px;
   }
 }
+
 @media screen and (max-width: 480px) {
   #top_img .top_wrapper .top_inner p {
     font-size: 3vw;
@@ -76,6 +78,7 @@
     margin-top: 30px;
   }
 }
+
 #top_img .top_wrapper .top_inner .page-link a {
   width: 20vw;
   display: block;
@@ -86,12 +89,14 @@
   text-align: center;
   margin-top: 50px;
 }
+
 @media screen and (max-width: 1024px) {
   #top_img .top_wrapper .top_inner .page-link a {
     width: 25vw;
     font-size: 1.2vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #top_img .top_wrapper .top_inner .page-link a {
     width: 35vw;
@@ -99,6 +104,7 @@
     margin-top: 40px;
   }
 }
+
 @media screen and (max-width: 480px) {
   #top_img .top_wrapper .top_inner .page-link a {
     width: 60vw;
@@ -106,10 +112,12 @@
     margin-top: 40px;
   }
 }
+
 #top_img .top_wrapper .top_inner .page-link a:hover {
   color: #000;
   background: #fff;
-  transition: all 0.4s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 
 #mainContent {
@@ -118,130 +126,204 @@
   margin-bottom: 100px;
   margin-top: 100px;
 }
+
 @media screen and (max-width: 480px) {
   #mainContent {
     margin-bottom: 50px;
   }
 }
+
 #mainContent .mainInner {
   position: relative;
   width: 75vw;
   margin: 0 auto;
   max-width: 1350px;
 }
+
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner {
     width: 96vw;
   }
 }
+
 #mainContent .mainInner .philosophy_area {
   position: relative;
 }
+
 #mainContent .mainInner .philosophy_area .imgArea {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 30vh;
+  }
+}
+
 #mainContent .mainInner .philosophy_area .imgArea a {
   position: relative;
   display: block;
   width: 100%;
   height: 100%;
-  transition: all 0.7s ease;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
 }
+
 #mainContent .mainInner .philosophy_area .imgArea a:hover {
   scale: 1.2;
 }
+
 #mainContent .mainInner .philosophy_area .imgArea a .black-effect {
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: 0;
   background: rgba(0, 0, 0, 0.4);
-  transition: all 0.7s;
+  -webkit-transition: all .7s;
+  transition: all .7s;
 }
+
 #mainContent .mainInner .philosophy_area .imgArea a .black-effect .more-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 130%;
   text-align: center;
   color: #fff;
 }
+
 #mainContent .mainInner .philosophy_area .imgArea a .black-effect:hover {
   opacity: 1;
 }
+
 #mainContent .mainInner .philosophy_area .imgArea a img {
   display: block;
   width: 100%;
   height: 100%;
 }
+
 #mainContent .mainInner .philosophy_area .textArea {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 20px;
 }
+
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .textArea {
     display: block;
-    justify-content: unset;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
   }
 }
+
 #mainContent .mainInner .philosophy_area .textArea .philosophy-title {
-  width: 40vw;
-  display: flex;
   position: relative;
+  margin: 0 auto;
 }
+
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title {
     width: 100%;
   }
 }
+
 #mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #313131;
   font-size: min(1.5vw, 20px);
-  margin-right: 20px;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
+
+#mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 > span {
+  width: 145px;
+  height: 2px;
+  margin-right: 30px;
+  margin-top: 7px;
+  background: #000;
+}
+
+#mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 > span:nth-of-type(1) {
+  margin-right: 30px;
+}
+
+#mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 > span:nth-of-type(2) {
+  margin-left: 30px;
+}
+
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 {
     font-size: 2vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 {
     font-size: 3vw;
     margin-left: 10px;
   }
 }
+
 @media screen and (max-width: 480px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 {
     font-size: 5vw;
     margin-left: 5px;
   }
 }
+
 #mainContent .mainInner .philosophy_area .textArea .philosophy-title .philosophy-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 2.5vw;
   background: #313131;
   margin-top: 9px;
 }
+
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title .philosophy-tag {
     height: 5vw;
     margin-top: 1px;
   }
 }
+
 @media screen and (max-width: 480px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title .philosophy-tag {
     height: 9vw;
     margin-top: 0;
   }
 }
+
 #mainContent .mainInner .philosophy_area .textArea .philosophy-title .philosophy-tag p {
   text-align: center;
   display: block;
@@ -249,11 +331,13 @@
   color: #fff;
   padding: 5px 10px;
 }
+
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title .philosophy-tag p {
-    font-size: 0.4vw;
+    font-size: .4vw;
   }
 }
+
 #mainContent .mainInner .philosophy_area .textArea .philosophy-text {
   width: 60vw;
   display: block;
@@ -262,11 +346,13 @@
   font-weight: bold;
   line-height: 2;
 }
+
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-text {
     font-size: 1vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-text {
     font-size: 2vw;
@@ -274,6 +360,7 @@
     margin: 10px auto 0;
   }
 }
+
 @media screen and (max-width: 480px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-text {
     font-size: 3vw;
@@ -283,133 +370,198 @@
 #worksContent .worksInner {
   width: 75vw;
   margin: 150px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 1350px;
 }
+
 @media screen and (max-width: 1024px) {
   #worksContent .worksInner {
     width: 90vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #worksContent .worksInner {
     margin: 100px auto 0;
   }
 }
+
 @media screen and (max-width: 480px) {
   #worksContent .worksInner {
     margin: 100px auto 0;
   }
 }
+
 #worksContent .worksInner .work-card {
   width: 48%;
   margin-bottom: 50px;
 }
+
 @media screen and (max-width: 480px) {
   #worksContent .worksInner .work-card {
     width: 100%;
     margin-bottom: 30px;
   }
 }
+
 #worksContent .worksInner .work-card a {
   position: relative;
   display: block;
   width: 100%;
-  height: 300px;
-  transition: all 0.7s ease;
+  height: 20vw;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+  #worksContent .worksInner .work-card a {
+    height: 32vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #worksContent .worksInner .work-card a {
+    height: 32vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #worksContent .worksInner .work-card a {
+    height: 80vw;
+  }
+}
+
 #worksContent .worksInner .work-card a:hover {
   scale: 1.05;
 }
+
 #worksContent .worksInner .work-card a .black-effect {
   width: 100%;
   height: 100%;
   position: absolute;
   opacity: 0;
   background: rgba(0, 0, 0, 0.4);
-  transition: all 0.7s;
+  -webkit-transition: all .7s;
+  transition: all .7s;
 }
+
 #worksContent .worksInner .work-card a .black-effect .more-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 130%;
   text-align: center;
   color: #fff;
 }
+
 #worksContent .worksInner .work-card a .black-effect:hover {
   opacity: 1;
 }
+
 #worksContent .worksInner .work-card a .w-img_box {
   width: 100%;
   height: 100%;
 }
+
 #worksContent .worksInner .work-card a .w-img_box img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -10vw;
+     object-position: 0 -10vw;
 }
+
 #worksContent .worksInner .work-card .w-img_box {
   width: 100%;
 }
+
 #worksContent .worksInner .work-card .w-img_box img {
   width: 100%;
   height: 300px;
 }
+
 #worksContent .worksInner .work-card .w-textArea {
   margin-top: 300px;
   margin: 0 auto;
   padding-top: 20px;
 }
+
 @media screen and (max-width: 480px) {
   #worksContent .worksInner .work-card .w-textArea {
     padding-top: 10px;
   }
 }
+
 #worksContent .worksInner .work-card .w-textArea .works-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 #worksContent .worksInner .work-card .w-textArea .works-title h4 {
   color: #313131;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: min(1.5vw, 20px);
   margin-right: 20px;
 }
+
 @media screen and (max-width: 1024px) {
   #worksContent .worksInner .work-card .w-textArea .works-title h4 {
     font-size: 2vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #worksContent .worksInner .work-card .w-textArea .works-title h4 {
     font-size: 3vw;
   }
 }
+
 @media screen and (max-width: 480px) {
   #worksContent .worksInner .work-card .w-textArea .works-title h4 {
     font-size: 5vw;
   }
 }
+
 #worksContent .worksInner .work-card .w-textArea .works-title .works-title-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #313131;
   height: 2.5vw;
 }
+
 @media screen and (max-width: 768px) {
   #worksContent .worksInner .work-card .w-textArea .works-title .works-title-tag {
     height: 5vw;
   }
 }
+
 @media screen and (max-width: 480px) {
   #worksContent .worksInner .work-card .w-textArea .works-title .works-title-tag {
     height: 7vw;
   }
 }
+
 #worksContent .worksInner .work-card .w-textArea .works-title .works-title-tag p {
   text-align: center;
   display: block;
@@ -417,41 +569,49 @@
   color: #fff;
   padding: 0px 10px;
 }
+
 @media screen and (max-width: 1024px) {
   #worksContent .worksInner .work-card .w-textArea .works-title .works-title-tag p {
-    font-size: 0.4vw;
+    font-size: .4vw;
   }
 }
+
 #worksContent .worksInner .work-card .w-textArea .works-text {
   margin-top: 10px;
 }
+
 #worksContent .worksInner .work-card .w-textArea .works-text p {
   color: #313131;
   font-size: min(1vw, 18px);
   font-weight: bold;
   line-height: 1.5;
 }
+
 @media screen and (max-width: 1024px) {
   #worksContent .worksInner .work-card .w-textArea .works-text p {
     font-size: 1vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #worksContent .worksInner .work-card .w-textArea .works-text p {
     font-size: 2vw;
     margin: 10px auto 0;
   }
 }
+
 @media screen and (max-width: 480px) {
   #worksContent .worksInner .work-card .w-textArea .works-text p {
     font-size: 3vw;
   }
 }
+
 #worksContent .worksInner .work-card .link {
   display: block;
   width: 85%;
   margin: 0 auto;
 }
+
 #worksContent .worksInner .work-card:nth-of-type(5) {
   margin: 0 auto;
 }
@@ -460,32 +620,38 @@
   margin-top: 100px;
   position: relative;
 }
+
 #strength .strength-wrapper {
   width: 100vw;
   height: 115vh;
-  max-height: 830px;
+  max-height: 850px;
 }
+
 @media screen and (max-width: 1024px) {
   #strength .strength-wrapper {
-    height: 95vh;
+    height: 80vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   #strength .strength-wrapper {
-    height: 92vh;
+    height: 57vh;
   }
 }
+
 @media screen and (max-width: 480px) {
   #strength .strength-wrapper {
     height: 110vh;
   }
 }
+
 #strength .strength-wrapper img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 #strength .strength-content {
   z-index: 99;
   position: absolute;
@@ -494,79 +660,98 @@
   margin-left: 12.5vw;
   max-width: 1350px;
 }
+
 @media screen and (max-width: 1024px) {
   #strength .strength-content {
     margin-left: 6vw;
     width: 90%;
   }
 }
+
 #strength .strength-content .st-title h4 {
   color: #000;
-  font-size: 0.8rem;
+  font-size: .8rem;
   letter-spacing: 0.08em;
 }
+
 #strength .strength-content .st-title h3 {
   color: #000;
   font-size: 1.2rem;
   margin-top: 3px;
   letter-spacing: 0.04em;
 }
+
 #strength .strength-content .st-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   margin-top: 40px;
 }
+
 @media screen and (max-width: 480px) {
   #strength .strength-content .st-row {
     display: block;
     margin-top: 30px;
   }
 }
+
 #strength .strength-content .st-row .st-num p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 80px;
   font-weight: bold;
   color: #000;
   margin-right: 60px;
 }
+
 @media screen and (max-width: 1024px) {
   #strength .strength-content .st-row .st-num p {
     font-size: 50px;
     margin-right: 30px;
   }
 }
+
 @media screen and (max-width: 480px) {
   #strength .strength-content .st-row .st-num p {
     font-size: 30px;
     margin-right: 0;
   }
 }
+
 #strength .strength-content .st-row .st-main h2 {
   margin-bottom: 13px;
   letter-spacing: 0.05em;
   line-height: 1.4;
   color: #000;
 }
+
 @media screen and (max-width: 1024px) {
   #strength .strength-content .st-row .st-main h2 {
     font-size: 17px;
   }
 }
+
 #strength .strength-content .st-row .st-main p {
   font-size: 1.1rem;
   line-height: 1.6;
   letter-spacing: 0.04em;
   color: #313131;
 }
+
 @media screen and (max-width: 1024px) {
   #strength .strength-content .st-row .st-main p {
     font-size: 1.3vw;
   }
 }
+
 @media screen and (max-width: 480px) {
   #strength .strength-content .st-row .st-main p {
-    font-size: 0.8vw;
+    font-size: .8vw;
   }
 }
 
@@ -575,84 +760,199 @@
   margin-bottom: 100px;
   position: relative;
 }
+
 #result .result-content {
   width: 75vw;
   margin: 0 auto;
   max-width: 1350px;
 }
+
 @media screen and (max-width: 1024px) {
   #result .result-content {
     width: 90vw;
   }
 }
+
 #result .result-content .rs-title {
   margin-bottom: 50px;
 }
+
 #result .result-content .rs-title h4 {
   color: #000;
-  font-size: 0.8rem;
+  font-size: .8rem;
   letter-spacing: 0.08em;
 }
+
 #result .result-content .rs-title h3 {
   color: #000;
   font-size: 1.2rem;
   margin-top: 3px;
   letter-spacing: 0.04em;
 }
+
 @media screen and (max-width: 480px) {
   #result .result-content .rs-title h3 {
     font-size: 5vw;
   }
 }
+
 #result .result-content .rs-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 @media screen and (max-width: 480px) {
   #result .result-content .rs-main {
     display: block;
-    justify-content: unset;
-    flex-wrap: unset;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
   }
 }
+
 #result .result-content .rs-main .rs-card {
-  width: 24%;
+  width: 30%;
   background-color: #fff;
   margin-top: 20px;
   padding: 40px 15px;
 }
+
 @media screen and (max-width: 1024px) {
   #result .result-content .rs-main .rs-card {
     width: 48%;
   }
 }
+
 @media screen and (max-width: 480px) {
   #result .result-content .rs-main .rs-card {
     width: 90%;
     margin: 0 auto 20px;
   }
 }
+
 #result .result-content .rs-main .rs-card img {
-  width: 100%;
-  height: 100px;
-  background: #000;
+  display: block;
+  width: 60%;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto;
 }
+
 #result .result-content .rs-main .rs-card h3 {
   text-align: center;
   margin-top: 10px;
 }
+
 @media screen and (max-width: 1024px) {
   #result .result-content .rs-main .rs-card h3 {
     font-size: 16px;
   }
 }
+
 #result .result-content .rs-main .rs-card p {
   text-align: left;
   margin-top: 15px;
 }
+
 @media screen and (max-width: 1024px) {
   #result .result-content .rs-main .rs-card p {
     font-size: 12px;
+  }
+}
+
+.u-title {
+  position: relative;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .u-title {
+    width: 100%;
+  }
+}
+
+.u-title h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #313131;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.u-title h3 > span {
+  width: 145px;
+  height: 2px;
+  margin-top: 7px;
+  background: #000;
+}
+
+.u-title h3 > span:nth-of-type(1) {
+  margin-right: 30px;
+}
+
+.u-title h3 > span:nth-of-type(2) {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .u-title h3 > span {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .u-title h3 > span {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .u-title h3 > span {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .u-title h3 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .u-title h3 {
+    font-size: 3vw;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .u-title h3 {
+    font-size: 5vw;
+    margin-left: 5px;
+  }
+}
+
+.sp-vis {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .sp-vis {
+    display: block;
   }
 }
