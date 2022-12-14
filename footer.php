@@ -20,15 +20,12 @@
           <!-- <li><a href="https://twitter.com/" class="flowbtn17 fl_tw2"><i class="fab fa-twitter fa-3x"></i></a></li> -->
           <li><a href="<?php echo esc_url("https://www.instagram.com/kenshiro7110/")?>" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-3x"></i></a></li>
           <!-- <li><a href="https://www.youtube.com/user/" class="flowbtn17 fl_yu2"><i class="fab fa-youtube fa-3x"></i></a></li> -->
-          <li><a href="<?php echo esc_url("https://lin.ee/")?>" class="flowbtn17 fl_li2"><i class="fab fa-line fa-3x"></i></a></li>
+          <li><a href="<?php echo esc_url("https://lin.ee/LOE1lWU")?>" class="flowbtn17 fl_li2"><i class="fab fa-line fa-3x"></i></a></li>
         </ul>
       </div>
       <nav class="footer_nav">
         <div class="col">
           <h4><a href="<?php echo esc_url(home_url('/philosophy/')) ?>">経営理念</a></h4>
-          <ul>
-          <li><a href="<?php echo esc_url(home_url('/philosophy/#vmv')) ?>">Vision・Mission・Value</a></li>
-          </ul>
           <h4><a href="<?php echo esc_url(home_url('/business/')) ?>">事業紹介</a></h4>
           <h4><a href="<?php echo esc_url(home_url('/works/')) ?>">実績紹介</a></h4>
           <ul>
@@ -49,7 +46,7 @@
           <ul>
             <li><a href="<?php echo esc_url(home_url('/team01/zeroichi_events/')) ?>">イベント実績</a></li>
             <li><a href="<?php echo esc_url(home_url('/team01/zeroichi_members/')) ?>">メンバー実績</a></li>
-            <li><a href="<?php echo esc_url(home_url('/team01/zeroichi_contact/')) ?>">01会のお問合せ</a></li>
+            <li><a href="<?php echo esc_url('https://lin.ee/131wVpf') ?>">01会のお問合せ</a></li>
           </ul>
         </div>
       </nav>
