@@ -40,7 +40,7 @@
                           if (has_post_thumbnail()) :
                             echo get_the_post_thumbnail_url();
                           else :
-                            echo esc_url(get_theme_file_uri("/img/coming-soon.jpg"));
+                            echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg"));
                           endif;
                           ?>" alt="">
               </div>

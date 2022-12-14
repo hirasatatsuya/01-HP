@@ -1,14 +1,27 @@
 @charset "UTF-8";
+body:has(#contact) {
+  padding-bottom: 482px;
+}
+
+@media screen and (max-width: 768px) {
+  body:has(#contact) {
+    padding-bottom: 475px;
+  }
+}
+@media screen and (max-width: 560px) {
+  body:has(#contact) {
+    padding-bottom: 415px;
+  }
+}
 #contact {
   background-color: rgb(255, 169, 65);
   position: relative;
   z-index: 0;
 }
 #contact #contact_main .wrapper {
-  margin: 0 auto;
   width: 80%;
-  padding: 0 4%;
-  margin: 50px auto;
+  padding: 50px 4%;
+  margin: 0 auto;
 }
 
 /*******************************
