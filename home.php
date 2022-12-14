@@ -390,17 +390,17 @@ get_header();
           <dl class="u_paragraph">
             <div class="home_contact_table_items">
               <dt>会社名</dt>
-              <dd>株式会社01</dd>
+              <dd>株式会社ゼロイチ</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
               <dt>電話番号</dt>
-              <dd><a href="tel:000-1234-5678">000-1234-5678</a></dd>
+              <dd><a href="tel:080-4700-7653">080-4700-7653</a></dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
               <dt>メールアドレス</dt>
-              <dd>XXXX@XXXX.XXX</dd>
+              <dd>info@01-zeroichi.net</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">

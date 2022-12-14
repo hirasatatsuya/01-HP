@@ -35,7 +35,7 @@ get_header();
               2021年10月より立ち上がった「01会」。2001年生まれ世代限定のコミュニティです。これがなければ株式会社ゼロイチはありませんでした。最高の仲間と出会える場所、それが「01会」です。これからは株式会社ゼロイチの一つの事業として「01会」を全国に展開し、より発展させていきます。ここに集まってくれた仲間のために最高に『可笑しい』コミュニティを運営します。
             </p>
             <div class="btn-01">
-              <a href="<?php echo esc_url(home_url('/team01/zeroichi_contact/')) ?>" class="btn_04 u_paragraph_min">01会へのお問い合わせ</a>
+              <a href="<?php echo esc_url('https://lin.ee/131wVpf') ?>" class="btn_04 u_paragraph_min">01会へのお問い合わせ</a>
             </div>
           </div>
         </div>
