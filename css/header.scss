@@ -369,6 +369,13 @@ header {
                 }
               }
             }
+            @media screen and (max-width:768px) {
+              &:hover{
+                ~ .younger{
+                  display: none;
+                }
+              }
+            }
           }
           .younger{
             z-index: 0;

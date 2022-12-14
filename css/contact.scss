@@ -6,16 +6,16 @@ $middle-color: rgb(255, 169, 65);
 $black: #313131;
 
 body:has(#contact){
-  padding-bottom: 482px;
+  padding-bottom: 427px;
 }
 @media screen and (max-width:768px) {
   body:has(#contact){
-    padding-bottom: 475px;
+    padding-bottom: 383px;
   }
 }
 @media screen and (max-width:560px) {
   body:has(#contact){
-    padding-bottom: 415px;
+    padding-bottom: 339px;
   }
 }
 
@@ -60,6 +60,7 @@ body:has(#contact){
 /* フォーム入力項目 */
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
+.wpcf7 input[type="number"],
 .wpcf7 textarea {
   width: 100%;
   padding: 8px 15px;
@@ -78,6 +79,10 @@ span.wpcf7-not-valid-tip,
 }
 
 input.wpcf7-form-control.wpcf7-text.wpcf7-not-valid {
+  background: rgba($color:#fff, $alpha: .5);
+}
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-not-valid {
   background: rgba($color:#fff, $alpha: .5);
 }
 

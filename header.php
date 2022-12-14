@@ -71,9 +71,9 @@
       </li>
       <ul class="header_sns">
         <!-- <li><a href="https://twitter.com/" class="flowbtn17 fl_tw2"><i class="fab fa-twitter fa-2x"></i></a></li> -->
-        <li><a href="<?php echo esc_url("https://www.instagram.com/kenshiro7110/")?>" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li><a href="<?php echo esc_url("https://instagram.com/zeroichi.inc")?>" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-2x"></i></a></li>
         <!-- <li><a href="https://www.youtube.com/user/" class="flowbtn17 fl_yu2"><i class="fab fa-youtube fa-2x"></i></a></li> -->
-        <li><a href="<?php echo esc_url("https://lin.ee/")?>" class="flowbtn17 fl_li2"><i class="fab fa-line fa-2x"></i></a></li>
+        <li><a href="<?php echo esc_url("https://lin.ee/LOE1lWU")?>" class="flowbtn17 fl_li2"><i class="fab fa-line fa-2x"></i></a></li>
       </ul>
     </ul>
   </div>
@@ -87,9 +87,6 @@
           <div class="item">
             <a class="older" href="<?php echo esc_url(home_url('/philosophy')); ?>">
               <p>Identity</p>
-            </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/philosophy/#vmv')); ?>">
-              <p>Vision<br>Mission<br>Value</p>
             </a>
           </div>
           <div class="item">
@@ -131,7 +128,7 @@
             <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_members')); ?>">
               <p>メンバー実績</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_contact')); ?>">
+            <a class="younger" href="<?php echo esc_url('https://lin.ee/131wVpf'); ?>">
               <p>01会のお問い合わせ</p>
             </a>
           </div>
