@@ -110,6 +110,7 @@
   background: linear-gradient(135deg, #3a9278 0%, #00c300 100%);
   color: #fff;
 }
+
 #zeroichi_members div.member:nth-of-type(5n) {
   margin-right: 0%;
 }

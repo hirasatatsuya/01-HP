@@ -618,20 +618,20 @@ a.btn_04:hover:before {
     transform: translateY(0); 
   }
   &.picture-1 {
-      background-image: url("../img/event8.jpg ");
+      background-image: url("../img/event4.jpg ");
   }
   &.picture-2{
       background-image: url("../img/event1.jpg ");
     }
     &.picture-3 {
-      background-image: url("../img/event4.jpg ");
+      background-image: url("../img/event13.jpg ");
       
     }
     &.picture-4 {
-      background-image: url("../img/event5.jpg ");
+      background-image: url("../img/zeroichi_events/14.jpg");
     }
+    background-image: url("../img/event8.jpg ");
     &.picture-5 {
-    background-image: url("../img/event6.jpg");
   }
 
 }
@@ -1007,10 +1007,15 @@ a.btn_04:hover:before {
         padding: 3% 0;
         .comming-soon-img{
           margin: auto;
-          width: 80%;
+          // width: 80%;
+          height: 70vh;
+          background-color: #fff;
+          border-radius: 10px;
           img{
-            width: 100%;
-            object-fit: contain;
+            width: 60%;
+            height: 100%;
+            // object-fit: cover;
+            padding: 5% 0;
           }
         }
       }
@@ -1302,7 +1307,7 @@ color - yellow
       .wrapper{
         .member-achivement-text{
           .comming-soon-img{
-
+            height: 40vh;
           }
         }
       }
@@ -1529,6 +1534,9 @@ color - yellow
       #member-achivement{
         margin-top: 50px;
         // margin-bottom: 50px;
+        .comming-soon-img{
+          height: 40vh;
+        }
         .heading10 {
           position: relative;
           padding-top: 30px;
