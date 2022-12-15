@@ -98,10 +98,10 @@
             <a class="older" href="<?php echo esc_url(home_url('/works')); ?>">
               <p>Works</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/business/movie')); ?>">
+            <a class="younger" href="<?php echo esc_url(home_url('/works/')); ?>">
               <p>映像</p>
             </a>
-            <a class="younger" href="<?php echo esc_url(home_url('/business/system')); ?>">
+            <a class="younger" href="<?php echo esc_url(home_url('/works/system')); ?>">
               <p>システム開発</p>
             </a>
           </div>
@@ -109,7 +109,7 @@
         <div class="row">
           <div class="item">
             <a class="older" href="<?php echo esc_url(home_url('/about')); ?>">
-              <p>company</p>
+              <p>Company</p>
             </a>
             <a class="younger" href="<?php echo esc_url(home_url('/about/members')); ?>">
               <p>代表挨拶<br>役員紹介</p>

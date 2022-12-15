@@ -29,7 +29,7 @@
           <h4><a href="<?php echo esc_url(home_url('/business/')) ?>">事業紹介</a></h4>
           <h4><a href="<?php echo esc_url(home_url('/works/')) ?>">実績紹介</a></h4>
           <ul>
-            <li><a href="<?php echo esc_url(home_url('/works/movie/')) ?>">映像</a></li>
+            <li><a href="<?php echo esc_url(home_url('/works/')) ?>">映像</a></li>
             <li><a href="<?php echo esc_url(home_url('/works/system/')) ?>">システム開発</a></li>
           </ul>
         </div>
