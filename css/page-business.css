@@ -4,33 +4,25 @@
   position: relative;
   width: 100%;
   height: 70vh;
-  background-image: url("../img/naoki2.jpg");
+  max-height: 520px;
+  background-image: url("../img/group.jpg");
   background-size: cover;
   background-position: center;
 }
+#top_img .top_wrapper .black-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
 #top_img .top_wrapper .top_inner {
-  width: 50%;
+  position: relative;
   margin-left: 12.5vw;
-}
-@media screen and (max-width: 1024px) {
-  #top_img .top_wrapper .top_inner {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 768px) {
-  #top_img .top_wrapper .top_inner {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 480px) {
-  #top_img .top_wrapper .top_inner {
-    width: 80%;
-  }
 }
 #top_img .top_wrapper .top_inner h3 {
   color: #fff;
   font-size: 3vw;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 @media screen and (max-width: 1024px) {
   #top_img .top_wrapper .top_inner h3 {
@@ -39,14 +31,14 @@
 }
 @media screen and (max-width: 768px) {
   #top_img .top_wrapper .top_inner h3 {
-    padding-top: 60px;
+    padding-top: 140px;
     font-size: 5vw;
   }
 }
 @media screen and (max-width: 480px) {
   #top_img .top_wrapper .top_inner h3 {
     font-size: 6vw;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 }
 #top_img .top_wrapper .top_inner p {
@@ -54,7 +46,7 @@
   font-size: 1vw;
   line-height: 2;
   letter-spacing: 0.04em;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 @media screen and (max-width: 1024px) {
   #top_img .top_wrapper .top_inner p {
@@ -64,7 +56,7 @@
 }
 @media screen and (max-width: 768px) {
   #top_img .top_wrapper .top_inner p {
-    font-size: 1.8vw;
+    font-size: 2vw;
     line-height: 1.5;
     margin-top: 15px;
   }
@@ -139,8 +131,23 @@
 }
 #mainContent .mainInner .philosophy_area .imgArea {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 30vh;
+  }
 }
 #mainContent .mainInner .philosophy_area .imgArea a {
   position: relative;
@@ -190,9 +197,8 @@
   }
 }
 #mainContent .mainInner .philosophy_area .textArea .philosophy-title {
-  width: 40vw;
-  display: flex;
   position: relative;
+  margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title {
@@ -204,7 +210,21 @@
   align-items: center;
   color: #313131;
   font-size: min(1.5vw, 20px);
-  margin-right: 20px;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+#mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 > span {
+  width: 145px;
+  height: 2px;
+  margin-right: 30px;
+  margin-top: 7px;
+  background: #000;
+}
+#mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 > span:nth-of-type(1) {
+  margin-right: 30px;
+}
+#mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 > span:nth-of-type(2) {
+  margin-left: 30px;
 }
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .textArea .philosophy-title h3 {
@@ -317,9 +337,24 @@
   position: relative;
   display: block;
   width: 100%;
-  height: 300px;
+  height: 20vw;
   transition: all 0.7s ease;
   overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+  #worksContent .worksInner .work-card a {
+    height: 32vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  #worksContent .worksInner .work-card a {
+    height: 32vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  #worksContent .worksInner .work-card a {
+    height: 80vw;
+  }
 }
 #worksContent .worksInner .work-card a:hover {
   scale: 1.05;
@@ -351,6 +386,10 @@
 #worksContent .worksInner .work-card a .w-img_box img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -10vw;
+     object-position: 0 -10vw;
 }
 #worksContent .worksInner .work-card .w-img_box {
   width: 100%;
@@ -463,16 +502,16 @@
 #strength .strength-wrapper {
   width: 100vw;
   height: 115vh;
-  max-height: 830px;
+  max-height: 850px;
 }
 @media screen and (max-width: 1024px) {
   #strength .strength-wrapper {
-    height: 95vh;
+    height: 80vw;
   }
 }
 @media screen and (max-width: 768px) {
   #strength .strength-wrapper {
-    height: 92vh;
+    height: 57vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -606,7 +645,7 @@
 }
 #result .result-content .rs-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 480px) {
@@ -617,7 +656,7 @@
   }
 }
 #result .result-content .rs-main .rs-card {
-  width: 24%;
+  width: 30%;
   background-color: #fff;
   margin-top: 20px;
   padding: 40px 15px;
@@ -634,9 +673,12 @@
   }
 }
 #result .result-content .rs-main .rs-card img {
-  width: 100%;
-  height: 100px;
-  background: #000;
+  display: block;
+  width: 60%;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto;
 }
 #result .result-content .rs-main .rs-card h3 {
   text-align: center;
@@ -654,5 +696,76 @@
 @media screen and (max-width: 1024px) {
   #result .result-content .rs-main .rs-card p {
     font-size: 12px;
+  }
+}
+
+.u-title {
+  position: relative;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .u-title {
+    width: 100%;
+  }
+}
+.u-title h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.u-title h3 > span {
+  width: 145px;
+  height: 2px;
+  margin-top: 7px;
+  background: #000;
+}
+.u-title h3 > span:nth-of-type(1) {
+  margin-right: 30px;
+}
+.u-title h3 > span:nth-of-type(2) {
+  margin-left: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .u-title h3 > span {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .u-title h3 > span {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .u-title h3 > span {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .u-title h3 {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .u-title h3 {
+    font-size: 3vw;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .u-title h3 {
+    font-size: 5vw;
+    margin-left: 5px;
+  }
+}
+
+.sp-vis {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .sp-vis {
+    display: block;
   }
 }

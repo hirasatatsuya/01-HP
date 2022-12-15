@@ -38,8 +38,8 @@ get_header();
             </li>
             <li>
               <a href="<?php echo esc_url(home_url('/about/')) ?>">
-                <p class="header_en">about</p>
-                <p class="header_ja">会社概要</p>
+                <p class="header_en">company</p>
+                <p class="header_ja">会社情報</p>
               </a>
             </li>
             <li>
@@ -68,14 +68,14 @@ get_header();
     <div class="section_bg_philo"></div>
     <div class="home_wrapper">
       <div class="home_philo_bg">
-        <div class="home_philo_bg_box  home_1_fadeTrigger"></div>
+        <!-- <div class="home_philo_bg_box  home_1_fadeTrigger"></div> -->
         <div class="home_philo_bg_bar home_philo_bg_bar1 home_appear_Trigger"></div>
         <div class="home_philo_bg_bar home_philo_bg_bar2 home_appear_Trigger"></div>
       </div>
       <h3 class="u_title_large FadeSlideLeftTrigger">「伝える」を "より" 自由に。</h3>
       <div class="home_philo_flex">
         <div class="left">
-          <p class="u_paragragh FadeSlideLeftTrigger">
+          <p class="u_paragraph FadeSlideLeftTrigger">
             2001年私たち創業メンバーは生まれました。<br><br>
             そこから十数年、目まぐるしく環境は変化してきました。<br>
             私たちが子供の頃はガラケー。高校生になる頃にはスマホが普及し、日常の会話にも大きな変化がありました。<br><br>
@@ -115,24 +115,24 @@ get_header();
           <div class="home_busi_content_item_img_wrap">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/ITsolution.png")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle u_subtitle">皆様が抱える課題をITを用いてコスト削減</h6>
-          <p class="home_busi_content_item_text u_paragraph">説明動画や工程動画などの作成、Lステップ運用を用いてコスト削減</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">皆様が抱える課題を<br class="home_busi_br_sp">ITを用いてコスト削減</h6>
+          <p class="home_busi_content_item_text u_paragraph">説明動画や工程動画などの作成、<br class="home_busi_br_sp">Lステップ運用を用いてコスト削減</p>
         </div>
         <div class="Branding home_busi_content_item">
           <h5 class="home_busi_content_item_title u_title">ブランディング事業</h5>
           <div class="home_busi_content_item_img_wrap">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/branding.png")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle u_subtitle">個性と若さだからできる「ブランディング」</h6>
-          <p class="home_busi_content_item_text u_paragraph">ホームページやLPなどのWEB制作で御社への導線を促進<br>プロモーション映像で御社の魅力を世の中へ発信</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">個性と若さだからできる<br class="home_busi_br_sp">「ブランディング」</h6>
+          <p class="home_busi_content_item_text u_paragraph">ホームページやLPなどの<br class="home_busi_br_sp">WEB制作で御社への導線を促進<br>プロモーション映像で御社の魅力を<br class="home_busi_br_sp">世の中へ発信</p>
         </div>
         <div class="LocalMedia home_busi_content_item">
           <h5 class="home_busi_content_item_title u_title">地域メディア事業</h5>
           <div class="home_busi_content_item_img_wrap">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("/img/local-media.png")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle u_subtitle">若さならではの視点から地方の魅力を発信</h6>
-          <p class="home_busi_content_item_text u_paragraph">世の中に広まっていない〇〇を紹介するメディアを運営<br>秘境、人の温かさなど、ディープな情報を発信</p>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">若さならではの視点から<br class="home_busi_br_sp">地方の魅力を発信</h6>
+          <p class="home_busi_content_item_text u_paragraph">世の中に広まっていない<br class="home_busi_br_sp">〇〇を紹介するメディアを運営<br>秘境、人の温かさなど、<br class="home_busi_br_sp">ディープな情報を発信</p>
         </div>
         <div class="Community home_busi_content_item">
           <h5 class="home_busi_content_item_title u_title">コミュニティ運営 イベント事業</h5>
@@ -141,9 +141,13 @@ get_header();
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("img/event_logo.jpg")) ?>" alt="">
             <img class="home_busi_content_item_img" src="<?php echo esc_url(get_theme_file_uri("img/event10.jpg")) ?>" alt="">
           </div>
-          <h6 class="home_busi_content_item_subtitle u_subtitle">日本最大の同世代コミュニティ「01会」</h6>
+          <h6 class="home_busi_content_item_subtitle u_subtitle">日本最大の同世代コミュニティ<br class="home_busi_br_sp">「01会」</h6>
           <p class="home_busi_content_item_text u_paragraph">企業や行政、団体とコラボしており若者のマーケティング戦略に特化しています。</p>
         </div>
+        <a href="<?php echo esc_url(home_url("/business/")) ?>" class="readmore">
+          <i class="fa-regular fa-square fa-5x"></i>
+          <p class="readmore_p">Read More</p>
+        </a>
       </div>
     </div>
   </section>
@@ -227,7 +231,7 @@ get_header();
               </div>
             </div>
           </div>
-          <a href="" class="readmore">
+          <a href="<?php echo esc_url(home_url("/works/")) ?>" class="readmore">
             <i class="fa-regular fa-square fa-5x"></i>
             <p class="readmore_p">Read More</p>
           </a>
@@ -305,7 +309,7 @@ get_header();
               </div>
             </div>
           </div>
-          <a href="" class="readmore">
+          <a href="<?php echo esc_url(home_url("/works/system")) ?>" class="readmore">
             <i class="fa-regular fa-square fa-5x"></i>
             <p class="readmore_p">Read More</p>
           </a>
@@ -321,7 +325,7 @@ get_header();
     </div>
     <div class="home_wrapper">
       <div class="img  home_4_fadeTrigger"><img src="<?php echo esc_url(get_theme_file_uri("/img/group.jpg")) ?>" alt=""></div>
-      <h3 class="home_about_title"><span class="smoothText"><span class="smoothTextTrigger">About</span></span></h3>
+      <h3 class="home_about_title"><span class="smoothText"><span class="smoothTextTrigger">Company</span></span></h3>
       <div class="home_about_content">
         <p class="home_about_text FadeSlideLeftTrigger u_paragraph">若さを活かし革新的なアイディアでこの世界を底上げする会社です。<br>
 
@@ -332,7 +336,7 @@ get_header();
           若者らしく、好奇心旺盛でたくさんやりたいことを面白く全力でやります。<br>
 
           より自由に、よりクリエイティブに。</p>
-        <a href="" class="readmore  home_4_fadeTrigger">
+        <a href="<?php echo esc_url(home_url("/about/")) ?>" class="readmore  home_4_fadeTrigger">
           <i class="fa-regular fa-square fa-5x"></i>
           <p class="readmore_p">Read More</p>
         </a>
@@ -341,6 +345,9 @@ get_header();
   </section>
   <section id="home_01" class="sticky">
     <div class="section_bg_01"></div>
+    <div class="section_bg_01_logo">
+      <img class="section_bg_01_logo_img" src="<?php echo esc_url(get_theme_file_uri("/img/event_logo.jpg"))?>" alt="">
+    </div>
     <div class="home_wrapper">
       <h3 class="home_01_title u_title_large"><span class="smoothText"><span class="smoothTextTrigger">Team01</span></span></h3>
 
@@ -388,17 +395,17 @@ get_header();
             <hr>
             <div class="home_contact_table_items">
               <dt>電話番号</dt>
-              <dd><a href="tel:000-1234-5678">000-1234-5678</a></dd>
+              <dd><a href="tel:080-4700-7653">080-4700-7653</a></dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
               <dt>メールアドレス</dt>
-              <dd>XXXX@XXXX.XXX</dd>
+              <dd>info@01-zeroichi.net</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
               <dt>所在地</dt>
-              <dd>〒000-0000<br>福岡県XX市X丁目<br class="pc">XXX-XXX</dd>
+              <dd>〒810-0041<br>福岡県福岡市中央区大名<br class="pc">2-6-11</dd>
             </div>
           </dl>
         </div>
@@ -407,7 +414,7 @@ get_header();
             <p>〒000-0000<br>福岡県XX市X丁目XXX-XXX</p>
           </div> -->
           <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6685282088165!2d139.79266191556226!3d35.66053753871347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601889a07930e2f9%3A0x62e41ee20b961991!2z6Iqd5rWm5bel5qWt5aSn5a2mIOixiua0suOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1664193238541!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.6218598124574!2d130.39311841552393!3d33.5891660494374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191860efba4d3%3A0xd33287b5f6832abf!2z44CSODEwLTAwNDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yS5LiB55uu77yW4oiS77yR77yR!5e0!3m2!1sja!2sjp!4v1670746087095!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>

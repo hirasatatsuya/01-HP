@@ -1,18 +1,33 @@
 // 下層１お問合せ
 // 内藤
+$base-color:rgb(255,150,21);
 $complement-color: #157eff;
 $middle-color: rgb(255, 169, 65);
 $black: #313131;
+
+body:has(#contact){
+  padding-bottom: 427px;
+}
+@media screen and (max-width:768px) {
+  body:has(#contact){
+    padding-bottom: 383px;
+  }
+}
+@media screen and (max-width:560px) {
+  body:has(#contact){
+    padding-bottom: 339px;
+  }
+}
+
 #contact{
   background-color: $middle-color;
   position: relative;
   z-index: 0;
   #contact_main{
     .wrapper{
-      margin: 0 auto;
       width: 80%;
-      padding: 0 4%;
-      margin: 50px auto;
+      padding: 50px 4%;
+      margin: 0 auto;
     }
   }
 }
@@ -45,6 +60,7 @@ $black: #313131;
 /* フォーム入力項目 */
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
+.wpcf7 input[type="number"],
 .wpcf7 textarea {
   width: 100%;
   padding: 8px 15px;
@@ -63,6 +79,10 @@ span.wpcf7-not-valid-tip,
 }
 
 input.wpcf7-form-control.wpcf7-text.wpcf7-not-valid {
+  background: rgba($color:#fff, $alpha: .5);
+}
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-not-valid {
   background: rgba($color:#fff, $alpha: .5);
 }
 

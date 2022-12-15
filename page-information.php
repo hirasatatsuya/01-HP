@@ -14,7 +14,7 @@ get_header();
 
     <section id="office-img">
       <div class="wrapper">
-        <!-- <img src="img/fgn-4.jpg" alt=""> -->
+        <!-- <img src="img/01-FGN-1.jpg" alt=""> -->
       </div>
     </section>
 
@@ -25,26 +25,25 @@ get_header();
     <section id="company">
       <div class="wrapper">
       <h2 class="heading10 slideLeftTrigger" data-en="COMPANY"><span>会社概要</span></h2>
-        <dl class="company-list slideUpTrigger">
+        <dl class="company-list slideUpTrigger u_paragraph">
           <dt class="company-title u_paragraph">社名</dt>
-          <dd class="company-info u_paragraph">株式会社01</dd>
-          <dt class="company-title">設立</dt>
-          <dd class="company-info">2022年10月15日</dd>
-          <dt class="company-title">代表者</dt>
-          <dd class="company-info">代表取締役　奥田悠友</dd>
-          <dt class="company-title">従業員数</dt>
-          <dd class="company-info">10人</dd>
-          <dt class="company-title">事務所</dt>
-          <dd class="company-info">福岡県中央区大名2-6-11</dd>
-          <dt class="company-title">事業内容</dt>
+          <dd class="company-info u_paragraph">株式会社ゼロイチ</dd>
+          <dt class="company-title u_paragraph">設立</dt>
+          <dd class="company-info u_paragraph">2022年11月1日</dd>
+          <dt class="company-title u_paragraph">代表者</dt>
+          <dd class="company-info u_paragraph">代表取締役　奥田悠友</dd>
+          <dt class="company-title u_paragraph">従業員数</dt>
+          <dd class="company-info u_paragraph">10人</dd>
+          <dt class="company-title u_paragraph">事務所</dt>
+          <dd class="company-info u_paragraph">福岡県福岡市中央区大名2-6-11</dd>
+          <dt class="company-title u_paragraph">事業内容</dt>
           <dd class="company-info">
-            <ul class="company-business-list">
-              <li class="company-business-item">ITソリューション事業</li>
-              <li class="company-business-item">ブランディング事業</li>
-              <li class="company-business-item">コミュニティ運営、イベント企画</li>
-              <li class="company-business-item">コンサル事業</li>
-              <li class="company-business-item">メディア事業</li>
-              <li class="company-business-item">飲食事業</li>
+            <ul class="company-business-list u_paragraph">
+              <li class="company-business-item u_paragraph">ブランディング事業</li>
+              <li class="company-business-item u_paragraph">ITソリューション事業</li>
+              <li class="company-business-item u_paragraph">コミュニティ運営、イベント企画</li>
+              <li class="company-business-item u_paragraph">コンサル事業</li>
+              <li class="company-business-item u_paragraph">メディア事業</li>
             </ul>
           </dd>
         </dl>
@@ -54,27 +53,27 @@ get_header();
 
     <section id="office" class="slideUpTrigger">
       <figure class="snip1543">
-        <img src="<?php echo esc_url(get_theme_file_uri('/img/fgn2.jpg')) ?>" />
+        <img src="<?php echo esc_url(get_theme_file_uri('/img/01-FGN-2.jpg')) ?>" />
       <figcaption>
         <h3 class="u_title">LOCATION</h3>
-        <p class="u_paragraph_min">福岡県中央区大名2-6-11</p>
+        <p class="u_paragraph_min">福岡県福岡市中央区大名2-6-11</p>
 
       </figcaption>
-      <a href="#"></a>
+      <!-- <a href="#"></a> -->
     </figure>
-    <figure class="snip1543 hover"><img src="<?php echo esc_url(get_theme_file_uri('/img/fgn-3.jpg')) ?>" />
+    <figure class="snip1543 hover"><img src="<?php echo esc_url(get_theme_file_uri('/img/01-FGN-4.jpg')) ?>" />
       <figcaption>
         <h3 class="u_title">OFFICE</h3>
-        <p class="u_paragraph_min">株式会社01のオフィス</p>
+        <p class="u_paragraph_min">株式会社ゼロイチのオフィス</p>
       </figcaption>
-      <a href="#"></a>
+      <!-- <a href="#"></a> -->
     </figure>
-    <figure class="snip1543"><img src="<?php echo esc_url(get_theme_file_uri('/img/fgn.jpg')) ?>" />
+    <figure class="snip1543"><img src="<?php echo esc_url(get_theme_file_uri('/img/01-FGN-3.jpg')) ?>" />
       <figcaption>
         <h3 class="u_title">FGN</h3>
         <p class="u_paragraph_min">FUKUOKA GROWTH NEXT</p>
       </figcaption>
-      <a href="#"></a>
+      <!-- <a href="#"></a> -->
     </figure>
     </section>
 

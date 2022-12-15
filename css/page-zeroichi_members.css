@@ -19,6 +19,7 @@
   width: 100%;
 }
 
+
 #zeroichi_members #members .member-flex-parent .effect-fade {
   opacity: 0;
   -webkit-transform: translate(0, 45px);
@@ -167,8 +168,7 @@
 
 @media screen and (max-width: 1024px) {
   #zeroichi_members #members .wrapper .member-flex-parent .member {
-    -ms-flex-preferred-size: 19%;
-        flex-basis: 19%;
+    flex-basis: 19%;
     width: 20%;
   }
 }

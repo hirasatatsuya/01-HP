@@ -40,7 +40,7 @@ body{
   position: relative;
   background-color:$base-color;
   color:$black;
-  padding-bottom: 770px;
+  padding-bottom: 702px;
   box-sizing: border-box;
   min-height: 100vh;
   padding-left: 80px;
@@ -58,16 +58,16 @@ li{
   body{
     padding-top: 80px;
     padding-left: 0;
-    padding-bottom: 772px;
+    padding-bottom: 702px;
   }
 }
 @media screen and (max-width:768px) {
   body{
-    padding-bottom: 672px;
+    padding-bottom: 595px;
   }
 }
 @media screen and (max-width:560px) {
   body{
-    padding-bottom: 586px;
+    padding-bottom: 535px;
   }
 }

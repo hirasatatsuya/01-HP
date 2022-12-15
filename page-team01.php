@@ -35,7 +35,7 @@ get_header();
               2021年10月より立ち上がった「01会」。2001年生まれ世代限定のコミュニティです。これがなければ株式会社ゼロイチはありませんでした。最高の仲間と出会える場所、それが「01会」です。これからは株式会社ゼロイチの一つの事業として「01会」を全国に展開し、より発展させていきます。ここに集まってくれた仲間のために最高に『可笑しい』コミュニティを運営します。
             </p>
             <div class="btn-01">
-              <a href="#" class="btn_04 u_paragraph_min">01会へのお問い合わせ</a>
+              <a href="<?php echo esc_url('https://lin.ee/131wVpf') ?>" class="btn_04 u_paragraph_min">01会へのお問い合わせ</a>
             </div>
           </div>
         </div>
@@ -46,10 +46,10 @@ get_header();
         <h2 class="heading10 slideLeftTrigger" data-en="Event"><span>01会のイベント実績</span></h2>
       </div>
         
-      <span class="event_btn prev fa fa-arrow-circle-left"></span>
-      <span class="event_btn next fa fa-arrow-circle-right"></span>
       
-    <section id="abc"  class="slideUpTrigger">
+      <section id="abc"  class="slideUpTrigger">
+      <span class="event_btn prev fa fa-arrow-circle-left unactive"></span>
+      <span class="event_btn next fa fa-arrow-circle-right"></span>
       <div class="half pictures">
         <div class="picture-container picture-1 displayed"></div>
         <div class="picture-container picture-2"></div>
@@ -60,7 +60,8 @@ get_header();
         <div class="half descriptions">
           <div class="description-container description-1 displayed">
             <h2 class="heading06" data-en="Kyoto">in京都</h2>
-            <p class="u_paragraph">初めての「01会」は京都で開催しました。ここで出会えた仲間から「01会」のストーリーは始まりました。</p>
+            <p class="u_paragraph">
+              初めての「01会」は京都で開催しました。ここで出会えた仲間から「01会」のストーリーは始まりました。</p>
           </div>
           <div class="description-container description-2">
             <h2 class="heading06" data-en="Yokohama">in神奈川（横浜）</h2>
@@ -81,7 +82,7 @@ get_header();
       </div>
     </section>
     <div class="btn-01">
-      <a href="#" class="btn_04 u_paragraph_min">01会のイベント実績</a>
+      <a href="<?php echo esc_url(home_url('/team01/zeroichi_events/')) ?>" class="btn_04 u_paragraph_min">01会のイベント実績</a>
     </div>
   </section>
 
@@ -122,7 +123,7 @@ get_header();
           </li>
           <li class="content content-hover">
             <img src="<?php echo esc_url(get_theme_file_uri('/img/zeroichi-members/members-3.jpg')) ?>" alt="">
-            <p>あああああ</p>
+            <p></p>
           </li>
           <li class="content content-hover">
             <img src="<?php echo esc_url(get_theme_file_uri('/img/zeroichi-members/members-4.jpg')) ?>" alt="">
@@ -175,7 +176,7 @@ get_header();
       </div>
 
       <div class="btn-01">
-        <a href="#" class="btn_04 u_paragraph_min">01会のメンバー紹介</a>
+        <a href="<?php echo esc_url(home_url('/team01/zeroichi_members/')) ?>" class="btn_04 u_paragraph_min">01会のメンバー紹介</a>
       </div>
     </div>
         </div>
@@ -189,7 +190,7 @@ get_header();
       <div class="member-achivement-text">
         <!-- <h2>COMING SOON</h2> -->
         <div class="comming-soon-img">
-          <img src="<?php echo esc_url(get_theme_file_uri('/img/comming-soon-2.jpg')) ?>" alt="">
+          <img src="<?php echo esc_url(get_theme_file_uri('/img/coming-soon-3.jpg')) ?>" alt="">
         </div>
       </div>
       <div class="container">
@@ -209,7 +210,7 @@ $('span').click(function(){
   if($(this).hasClass('next') && index < $('.picture-container').length){
         index++;
   };
-  
+
   if($(this).hasClass('prev') && index > 1){
         index--;
   };
@@ -219,6 +220,18 @@ $('span').click(function(){
   $('.description-'+index+'').addClass('displayed');
   $('.descriptions').css('background-color', colors[index-1]);
   
+  if(index == 1){
+    $('.prev').addClass('unactive');
+  }else{
+    $('.prev').removeClass('unactive')
+  };
+
+  if(index == 5){
+    $('.next').addClass('unactive');
+  }else{
+    $('.next').removeClass('unactive');
+  };
+
 }); 
   </script>
   <?php

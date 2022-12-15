@@ -32,6 +32,11 @@
   transform: translateX(-50%);
   width: 300px;
 }
+@media screen and (max-width: 768px) {
+  #splash_text img {
+    width: 40%;
+  }
+}
 @-webkit-keyframes fadein {
   0% {
     opacity: 0;

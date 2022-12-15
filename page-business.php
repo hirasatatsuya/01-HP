@@ -14,12 +14,10 @@ get_header();
 
   <section id="top_img">
     <div class="top_wrapper">
+      <div class="black-shadow"></div>
       <div class="top_inner">
-        <h3 class="u_subtitle">熱狂的なブランドは<br>ビジョンから生まれる</h3>
-        <p class="u_paragraph_min">デザインからのアプローチではなく経営理念を言語化し、ビジョンに立ち向かう会社組織を設計。<br>お客様、求職者、社員、3つのブランドターゲットが熱狂するオモシロイ企業づくりを実現します。</p>
-        <div class="page-link">
-          <a href="<?php echo esc_url(home_url('/contact/')) ?>">資料請求はこちらから</a>
-        </div>
+        <h3 class="u_subtitle">これから「可笑しい」を<br class="sp-vis">創るのは<br>クリエイティブな思考だ。</h3>
+        <p class="u_paragraph_min">辞書の意味で「可笑しい」は人とは違った<br class="sp-vis">格別の趣のある様を指す。<br>差別化とは可笑しいを創ること。<br class="sp-vis">格別の趣のある様を実現します。</p>
       </div>
     </div>
   </section>
@@ -28,6 +26,12 @@ get_header();
     <div class="mainInner">
 
       <div class="philosophy_area">
+        <div class="textArea slideUpTrigger">
+          <div class="u-title">
+            <h3><span></span> 経営理念 <span></span></h3>
+          </div>
+        </div>
+
         <div class="imgArea slideUpTrigger">
           <a href="<?php echo esc_url(home_url('/philosophy/')) ?>">
             <div class="black-effect">
@@ -37,18 +41,6 @@ get_header();
             </div>
             <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
           </a>
-        </div>
-        <div class="textArea slideUpTrigger">
-          <div class="philosophy-title">
-            <h3 class="u_paragraph">経営理念策定</h3>
-            <div class="philosophy-tag u_paragraph">
-              <p>ミッション、ビジョン、バリュー</p>
-            </div>
-          </div>
-          <p class="philosophy-text u_paragraph_min">
-            経営理念を言語化し、ビジョンに期限とゴールを設定。<br>
-            会社として在りたい像とやるべき行動（ビジョンマップ）をつくり、全社員への浸透を図ります。
-          </p>
         </div>
       </div>
 
@@ -61,18 +53,18 @@ get_header();
         <a href="">
           <div class="black-effect">
             <p class="more-text">
-              MORE
+              <!-- MORE -->
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
           <div class="works-title">
             <h4 class="u_paragraph">ITソリューション事業</h4>
             <div class="works-title-tag">
-              <p>映像、システム</p>
+              <!-- <p>映像、システム</p> -->
             </div>
           </div>
           <div class="works-text u_paragraph_min">
@@ -87,18 +79,18 @@ get_header();
         <a href="">
           <div class="black-effect">
             <p class="more-text">
-              MORE
+              <!-- MORE -->
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
           <div class="works-title">
             <h4 class="u_paragraph">ブランディング事業</h4>
             <div class="works-title-tag">
-              <p>映像、システム</p>
+              <!-- <p>映像、システム</p> -->
             </div>
           </div>
           <div class="works-text u_paragraph_min">
@@ -115,18 +107,18 @@ get_header();
         <a href="">
           <div class="black-effect">
             <p class="more-text">
-              MORE
+              <!-- MORE -->
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
           <div class="works-title">
             <h4 class="u_paragraph">地方メディア事業</h4>
             <div class="works-title-tag">
-              <p>映像、システム</p>
+              <!-- <p>映像、システム</p> -->
             </div>
           </div>
           <div class="works-text u_paragraph_min">
@@ -141,11 +133,11 @@ get_header();
         <a href="">
           <div class="black-effect">
             <p class="more-text">
-              MORE
+              <!-- MORE -->
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
@@ -167,18 +159,18 @@ get_header();
         <a href="">
           <div class="black-effect">
             <p class="more-text">
-              MORE
+              <!-- MORE -->
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
           <div class="works-title">
             <h4 class="u_paragraph">コンサル事業</h4>
             <div class="works-title-tag">
-              <p>映像、システム</p>
+              <!-- <p>映像、システム</p> -->
             </div>
           </div>
           <div class="works-text u_paragraph_min">
@@ -197,9 +189,8 @@ get_header();
       <img src="<?php echo esc_url(get_theme_file_uri('./img/orange_background2.jpg')) ?>" alt="">
     </div>
     <div class="strength-content">
-      <div class="st-title">
-        <h4>STRENGTH</h4>
-        <h3>ゼロイチの強み</h3>
+      <div class="u-title">
+        <h3><span></span> 弊社の強み <span></span></h3>
       </div>
 
       <div class="st-row slideUpTrigger">
@@ -238,60 +229,48 @@ get_header();
 
   <section id="result">
     <div class="result-content">
-      <div class="rs-title">
-        <h4>RESULT</h4>
-        <h3>ブランディングで実現できること</h3>
+      <div class="u-title">
+        <h3><span></span> もたらす成果 <span></span></h3>
       </div>
 
       <div class="rs-main">
         <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
+          <img src="<?php echo esc_url(get_theme_file_uri('./img/animation_ad.png')) ?>" alt="">
+          <h3>動画広告</h3>
           <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
+          <img src="<?php echo esc_url(get_theme_file_uri('./img/movieOfPR.png')) ?>" alt="">
+          <h3>PR動画</h3>
           <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
+          <img src="<?php echo esc_url(get_theme_file_uri('./img/hp-1.jpg')) ?>" alt="">
+          <h3>HP制作</h3>
           <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
         </div>
 
 
         <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
+          <img src="<?php echo esc_url(get_theme_file_uri('./img/LP.png')) ?>" alt="">
+          <h3>LP制作</h3>
           <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
+          <img src="<?php echo esc_url(get_theme_file_uri('./img/saiyou.jpg')) ?>" alt="">
+          <h3>教育・採用コスト削減</h3>
           <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
+          <img src="<?php echo esc_url(get_theme_file_uri('./img/SNS_operation.png')) ?>" alt="">
+          <h3>SNS 運用代行</h3>
           <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
         </div>
 
-        <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
-        </div>
-
-        <div class="rs-card slideUpTrigger">
-          <img src="" alt="">
-          <h3>価格競争からの脱却</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
-        </div>
 
       </div>
     </div>
