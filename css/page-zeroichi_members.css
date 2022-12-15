@@ -5,76 +5,113 @@
   /*  */
   margin-top: 5%;
 }
+
 #zeroichi_members #members .wrapper {
   padding: 0 5% 0 5%;
 }
+
 #zeroichi_members #members .member-flex-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
+
+
 #zeroichi_members #members .member-flex-parent .effect-fade {
   opacity: 0;
-  transform: translate(0, 45px);
+  -webkit-transform: translate(0, 45px);
+          transform: translate(0, 45px);
+  -webkit-transition: all 300ms;
   transition: all 300ms;
 }
+
 #zeroichi_members #members .member-flex-parent .effect-fade.effect-scroll {
   opacity: 1;
-  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
+
 #zeroichi_members #members .member-flex-parent .member {
   margin-bottom: 5%;
-  flex-basis: 19%;
+  -ms-flex-preferred-size: 19%;
+      flex-basis: 19%;
   width: 20%;
   margin-right: 1%;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-img img {
   height: 23vw;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content {
   width: 100%;
   /* snsicon */
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content h2 {
   font-size: 18px;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content ul {
   padding-top: 5%;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content ul li {
   font-size: 14px;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .icon-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .icon-flex .icon-img:last-child {
   margin-right: 0%;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .icon-flex .icon-img {
   margin-right: 5%;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .icon-flex .icon-img img {
   width: 30px;
   height: 30px;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper {
   width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /* ボタン全体 */
   /* アイコンをど真ん中に */
   /* Twitterマウスホバー時 */
   /* Instagramマウスホバー時 */
   /* LINEマウスホバー時 */
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .flowbtn17 {
   border-radius: 50%;
   position: relative;
@@ -82,30 +119,38 @@
   height: 35px;
   display: inline-block;
   text-decoration: none;
-  transition: 0.2s all linear;
+  -webkit-transition: .2s all linear;
+  transition: .2s all linear;
   color: #313131;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .fa-3x {
   font-size: 25px;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .flowbtn17 i {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .flowbtn17.fl_tw2:hover {
   background: linear-gradient(135deg, #13f1fc 0%, #0470dc 100%);
   color: #fff;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .flowbtn17.insta_btn2:hover {
   background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
   color: #fff;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .flowbtn17.fl_yu2:hover {
   background: linear-gradient(135deg, #f5515f 0%, #c9293c 100%);
   color: #fff;
 }
+
 #zeroichi_members #members .member-flex-parent .member .member-content .member_sns_wrapper .member_sns .flowbtn17.fl_li2:hover {
   background: linear-gradient(135deg, #3a9278 0%, #00c300 100%);
   color: #fff;
@@ -120,15 +165,18 @@
     font-size: 8.8rem;
   }
 }
+
 @media screen and (max-width: 1024px) {
   #zeroichi_members #members .wrapper .member-flex-parent .member {
     flex-basis: 19%;
     width: 20%;
   }
 }
+
 @media screen and (max-width: 768px) {
   #zeroichi_members #members .wrapper .member-flex-parent .member {
-    flex-basis: 32%;
+    -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
   }
   #zeroichi_members #members .wrapper .member-flex-parent .member .member-img img {
     height: 40vw;
@@ -137,12 +185,16 @@
     font-size: 16px;
   }
 }
+
 @media screen and (max-width: 500px) {
   #zeroichi_members #members .wrapper .member-flex-parent {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #zeroichi_members #members .wrapper .member-flex-parent .member {
-    flex-basis: 48%;
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
   }
   #zeroichi_members #members .wrapper .member-flex-parent .member .member-img img {
     height: 60vw;

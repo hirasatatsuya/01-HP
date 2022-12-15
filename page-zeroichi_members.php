@@ -11,141 +11,144 @@
     </section>
     <section id="members">
         <div class="wrapper">
-                <div class="member-flex-parent">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/haruto1.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>奥田悠友</h2>
-                            <ul class="u_paragraph_min">
-                                <li>営業</li>
-                            </ul>
-                            <div class="member_sns_wrapper">
-                                <!-- <ul class="member_sns">
+            <div class="member-flex-parent">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/haruto1.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>奥田悠友</h2>
+                        <ul class="u_paragraph_min">
+                            <li>株式会社ゼロイチ代表取締役</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <!-- <ul class="member_sns">
                                     <li><a href="https://twitter.com/" class="flowbtn17 fl_tw2"><i class="fab fa-twitter fa-3x"></i></a></li>
                                     <li><a href="https://www.instagram.com/kenshiro7110/" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-3x"></i></a></li>
                                     <li><a href="https://www.youtube.com/user/" class="flowbtn17 fl_yu2"><i class="fab fa-youtube fa-3x"></i></a></li>
                                     <li><a href="https://lin.ee/" class="flowbtn17 fl_li2"><i class="fab fa-line fa-3x"></i></a></li>
                                 </ul> -->
-                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/hirasa1.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>平佐竜也</h2>
-                            <ul class="u_paragraph_min">
-                                <li>システムエンジニア</li>
-                                <li>プロジェクトマネージャー</li>
-                            </ul>
-                            <div class="member_sns_wrapper">
-                                <!-- <ul class="member_sns">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/hirasa1.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>平佐竜也</h2>
+                        <ul class="u_paragraph_min">
+                            <li>株式会社ゼロイチ取締役</li>
+                            <li>Webアプリケーション開発・ブロックチェーンエンジニア</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <!-- <ul class="member_sns">
                                     <li><a href="https://twitter.com/" class="flowbtn17 fl_tw2"><i class="fab fa-twitter fa-3x"></i></a></li>
                                     <li><a href="https://www.instagram.com/kenshiro7110/" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-3x"></i></a></li>
                                 </ul> -->
-                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/kanta1.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>稲場貫太</h2>
-                            <ul class="u_paragraph_min">
-                                <li>映像クリエイター</li>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/kanta1.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>稲場貫太</h2>
+                        <ul class="u_paragraph_min">
+                            <li>映像クリエイター</li>
+                            <li>YouTube(ビニットボーイズ)</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <ul class="member_sns">
                             </ul>
-                            <div class="member_sns_wrapper">
-                                <ul class="member_sns">
-                                </ul>
-                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/naoki1.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>松永直樹</h2>
-                            <ul class="u_paragraph_min">
-                                <li>映像クリエイター</li>
-                            </ul>
-                            <div class="member_sns_wrapper">
-                                <!-- <ul class="member_sns">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/naoki1.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>松永直樹</h2>
+                        <ul class="u_paragraph_min">
+                            <li>株式会社ゼロイチ取締役</li>
+                            <li>動画クリエイター</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <!-- <ul class="member_sns">
 
                                     <li><a href="https://www.instagram.com/kenshiro7110/" class="flowbtn17 insta_btn2"><i class="fab fa-instagram fa-3x"></i></a></li>
                                     <li><a href="https://www.youtube.com/user/" class="flowbtn17 fl_yu2"><i class="fab fa-youtube fa-3x"></i></a></li>
 
                                 </ul> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>内藤健士郎</h2>
-                            <ul class="u_paragraph_min">
-                                <li>システムエンジニア</li>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>内藤健士郎</h2>
+                        <ul class="u_paragraph_min">
+                            <li>システムエンジニア</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <ul class="member_sns">
                             </ul>
-                            <div class="member_sns_wrapper">
-                                <ul class="member_sns">
-                                </ul>
-                            </div>
                         </div>
                     </div>
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>庄司歩夢</h2>
-                            <ul class="u_paragraph_min">
-                                <li>システムエンジニア</li>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>庄司歩夢</h2>
+                        <ul class="u_paragraph_min">
+                            <li>システムエンジニア</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <ul class="member_sns">
                             </ul>
-                            <div class="member_sns_wrapper">
-                                <ul class="member_sns">
-                                </ul>
-                            </div>
                         </div>
                     </div>
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>小筆赳 </h2>
-                            <ul class="u_paragraph_min">
-                                <li>システムエンジニア</li>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>小筆赳 </h2>
+                        <ul class="u_paragraph_min">
+                            <li>システムエンジニア</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <ul class="member_sns">
                             </ul>
-                            <div class="member_sns_wrapper">
-                                <ul class="member_sns">
-                                </ul>
-                            </div>
                         </div>
                     </div>
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
-                        </div>
-                        <div class="member-content">
-                            <h2>曽我隼人</h2>
-                            <ul class="u_paragraph_min">
-                                <li>映像クリエイター</li>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="<?php echo esc_url(get_theme_file_uri("/img/coming-soon-3.jpg")) ?>" alt="img">
+                    </div>
+                    <div class="member-content">
+                        <h2>曽我颯太</h2>
+                        <ul class="u_paragraph_min">
+                            <li>映像クリエイター</li>
+                            <li>YouTube(ビニットボーイズ)</li>
+                        </ul>
+                        <div class="member_sns_wrapper">
+                            <ul class="member_sns">
                             </ul>
-                            <div class="member_sns_wrapper">
-                                <ul class="member_sns">
-                                </ul>
-                            </div>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
     </section>
