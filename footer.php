@@ -45,7 +45,7 @@
           <h4><a href="<?php echo esc_url(home_url('/team01/')) ?>">01会</a></h4>
           <ul>
             <li><a href="<?php echo esc_url(home_url('/team01/zeroichi_events/')) ?>">イベント実績</a></li>
-            <li><a href="<?php echo esc_url(home_url('/team01/zeroichi_members/')) ?>">メンバー実績</a></li>
+            <li><a href="<?php echo esc_url(home_url('/team01/zeroichi_members/')) ?>">メンバー紹介</a></li>
             <li><a href="<?php echo esc_url('https://lin.ee/131wVpf') ?>">01会のお問合せ</a></li>
           </ul>
         </div>
