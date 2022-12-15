@@ -34,7 +34,7 @@ get_header();
         </div>
         <div class="right slideRightTrigger">
           <div class="img_wrapper">
-            <img src="<?php echo esc_url(get_theme_file_uri('/img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('/img/vision_pic.jpeg')) ?>" alt="">
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ get_header();
         </div>
         <div class="right slideLeftTrigger">
           <div class="img_wrapper">
-            <img src="<?php echo esc_url(get_theme_file_uri('/img/mission.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('/img/mission_pic.jpeg')) ?>" alt="">
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ get_header();
         </div>
         <div class="right slideRightTrigger">
           <div class="img_wrapper">
-            <img src="<?php echo esc_url(get_theme_file_uri('/img/value.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('/img/value_pic.jpeg')) ?>" alt="">
           </div>
         </div>
       </div>
