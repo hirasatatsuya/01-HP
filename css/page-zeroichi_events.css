@@ -443,6 +443,10 @@
   text-rendering: optimizeLegibility;
 }
 
+#page-zeroichi_events #grid-events .card {
+  cursor: pointer;
+}
+
 #page-zeroichi_events #grid-events a.btn {
   background: #157eff;
   border-radius: 4px;
@@ -1039,7 +1043,7 @@
 
 @media screen and (max-width: 768px) {
   #page-zeroichi_events #event-detail .slider-item {
-    height: 400px;
+    height: 300px;
   }
   #page-zeroichi_events #event-detail .slick-next {
     top: 42%;
@@ -1048,6 +1052,6 @@
     top: 42%;
   }
   #page-zeroichi_events #event-detail .slider {
-    height: 70vh;
+    height: 45vh;
   }
 }
