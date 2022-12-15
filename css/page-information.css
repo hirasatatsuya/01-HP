@@ -187,12 +187,12 @@
   border-bottom: 1px solid #ccc;
 }
 #page-company #office-img {
-  height: 65vh;
-  background-image: url("../img/01-FGN-2.jpg");
+  height: 70vh;
+  background-image: url("../img/01-FGN-5.jpeg");
   background-size: auto;
   width: 100%;
   background-size: cover;
-  background-position: 50% 60%;
+  background-position: 50% 50%;
 }
 #page-company #office-img img {
   width: 100%;
