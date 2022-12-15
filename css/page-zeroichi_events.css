@@ -201,9 +201,6 @@
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top {
   margin-top: 10px;
 }
-#page-zeroichi_events .timeline-item:nth-child(even) .timeline-content .text-top .p_padding {
-  padding: 10px;
-}
 #page-zeroichi_events .timeline-item:nth-child(even) .timeline-content::after {
   content: "";
   position: absolute;

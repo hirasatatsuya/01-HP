@@ -590,27 +590,24 @@ span {
   background-size: cover;
   background-position: center center;
   transform: translateY(100vh);
+  background-image: url("../img/event8.jpg ");
 }
 .picture-container.displayed {
   opacity: 1;
   transform: translateY(0);
 }
 .picture-container.picture-1 {
-  background-image: url("../img/event8.jpg ");
+  background-image: url("../img/event4.jpg ");
 }
 .picture-container.picture-2 {
   background-image: url("../img/event1.jpg ");
 }
 .picture-container.picture-3 {
-  background-image: url("../img/event4.jpg ");
+  background-image: url("../img/event13.jpg ");
 }
 .picture-container.picture-4 {
-  background-image: url("../img/event5.jpg ");
+  background-image: url("../img/zeroichi_events/14.jpg");
 }
-.picture-container.picture-5 {
-  background-image: url("../img/event6.jpg");
-}
-
 .picture-container,
 .description-container {
   opacity: 0;
@@ -951,12 +948,14 @@ span {
 }
 #member-achivement .wrapper .member-achivement-text .comming-soon-img {
   margin: auto;
-  width: 80%;
+  height: 70vh;
+  background-color: #fff;
+  border-radius: 10px;
 }
 #member-achivement .wrapper .member-achivement-text .comming-soon-img img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 60%;
+  height: 100%;
+  padding: 5% 0;
 }
 #member-achivement .wrapper .container {
   /* text-color */
@@ -1191,6 +1190,9 @@ span {
     top: 7px;
     font-size: 26px;
   }
+  #member-achivement .wrapper .member-achivement-text .comming-soon-img {
+    height: 40vh;
+  }
 }
 @media screen and (max-width: 415px) {
   #page-01 #thought .background-img .wrapper .thought-text h2 {
@@ -1380,6 +1382,9 @@ span {
   }
   #page-01 #member-achivement {
     margin-top: 50px;
+  }
+  #page-01 #member-achivement .comming-soon-img {
+    height: 40vh;
   }
   #page-01 #member-achivement .heading10 {
     position: relative;

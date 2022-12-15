@@ -69,7 +69,7 @@ $complement-color: #157eff;
           // width: 70%;
           display: flex;
           .CEO-img{
-            width: 30%;
+            width: 40%;
             img{
               width: 100%;
               height: 100%;
@@ -125,7 +125,7 @@ $complement-color: #157eff;
           flex-direction: row-reverse;
 
           .executives-img{
-            width: 40%;
+            width: 50%;
             img{
               // height: 350px;
               height: 100%;
@@ -158,7 +158,7 @@ $complement-color: #157eff;
           // padding: 2%;
           margin-bottom: 50px;
           .executives-img{
-            width: 40%;
+            width: 50%;
             img{
               // height: 350px;
               height: 100%;
@@ -197,6 +197,9 @@ $complement-color: #157eff;
           .CEO-introduce{
             width: 100%;
             text-align: center;
+            .CEO-img{
+              width: 50%;
+            }
             .CEO-title-right{
               padding: 5% 2%;
             }
@@ -220,6 +223,18 @@ $complement-color: #157eff;
             flex-wrap: wrap;
             .executives-item{
               padding: 0;
+              .executives-img{
+                width: 80%;
+              }
+              .executives-info{
+                // padding: 2%;
+              }
+            }
+            .executives-item-2{
+              padding: 0;
+              .executives-img{
+                width: 80%;
+              }
               .executives-info{
                 // padding: 2%;
               }
