@@ -131,6 +131,7 @@ $complement-color: #157eff;
               height: 100%;
               width: 100%;
               vertical-align: bottom;
+              object-fit: cover;
             }
           }
           .executives-info{
@@ -164,6 +165,7 @@ $complement-color: #157eff;
               height: 100%;
               width: 100%;
               vertical-align: bottom;
+              object-fit: cover;
             }
           }
           .executives-info{
@@ -337,6 +339,7 @@ $complement-color: #157eff;
                 background-image: none;
                 .executives-comment{
                   padding: 10% 0;
+                  line-height: 1.2;
                 }
               }
             }
@@ -359,10 +362,11 @@ $complement-color: #157eff;
               }
               .executives-info{
                 padding: 5%;
-                background-image: none;
                 background-color: #000;
-                .exectives-comment{
-
+                background-image: none;
+                .executives-comment{
+                  padding: 10% 0;
+                  line-height: 1.2;
                 }
               }
             }

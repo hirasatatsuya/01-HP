@@ -948,15 +948,19 @@ span {
 }
 #member-achivement .wrapper .member-achivement-text .comming-soon-img {
   margin: auto;
-  background-color: #fff;
-  border-radius: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 80%;
 }
 #member-achivement .wrapper .member-achivement-text .comming-soon-img img {
   width: 60%;
-  height: 70vh;
-  padding: 5% 0;
+  border-radius: 70px;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-width: 780px;
+  -o-object-position: 50% 60%;
+     object-position: 50% 60%;
+  padding: 2% 0;
 }
 #member-achivement .wrapper .container {
   /* text-color */
@@ -1385,6 +1389,7 @@ span {
   }
   #page-01 #member-achivement .comming-soon-img {
     height: 40vh;
+    width: 100%;
   }
   #page-01 #member-achivement .comming-soon-img img {
     height: 100%;
