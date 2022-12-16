@@ -170,6 +170,8 @@ $sp: 480px;
         height: 70vh;
         overflow: hidden;
 
+        max-height: 500px;
+
         @include pc {
           height: 50vh;
         }

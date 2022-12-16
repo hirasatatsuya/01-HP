@@ -133,6 +133,22 @@
   width: 100%;
   height: 70vh;
   overflow: hidden;
+  max-height: 500px;
+}
+@media screen and (max-width: 1024px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 30vh;
+  }
 }
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .imgArea {
