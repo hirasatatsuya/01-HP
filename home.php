@@ -144,7 +144,7 @@ get_header();
           <h6 class="home_busi_content_item_subtitle u_subtitle">日本最大の同世代コミュニティ<br class="home_busi_br_sp">「01会」</h6>
           <p class="home_busi_content_item_text u_paragraph">企業や行政、団体とコラボしており若者のマーケティング戦略に特化しています。</p>
         </div>
-        <a href="" class="readmore">
+        <a href="<?php echo esc_url(home_url("/business/")) ?>" class="readmore">
           <i class="fa-regular fa-square fa-5x"></i>
           <p class="readmore_p">Read More</p>
         </a>
@@ -325,7 +325,7 @@ get_header();
     </div>
     <div class="home_wrapper">
       <div class="img  home_4_fadeTrigger"><img src="<?php echo esc_url(get_theme_file_uri("/img/group.jpg")) ?>" alt=""></div>
-      <h3 class="home_about_title"><span class="smoothText"><span class="smoothTextTrigger">About</span></span></h3>
+      <h3 class="home_about_title"><span class="smoothText"><span class="smoothTextTrigger">Company</span></span></h3>
       <div class="home_about_content">
         <p class="home_about_text FadeSlideLeftTrigger u_paragraph">若さを活かし革新的なアイディアでこの世界を底上げする会社です。<br>
 
@@ -336,7 +336,7 @@ get_header();
           若者らしく、好奇心旺盛でたくさんやりたいことを面白く全力でやります。<br>
 
           より自由に、よりクリエイティブに。</p>
-        <a href="" class="readmore  home_4_fadeTrigger">
+        <a href="<?php echo esc_url(home_url("/about/")) ?>" class="readmore  home_4_fadeTrigger">
           <i class="fa-regular fa-square fa-5x"></i>
           <p class="readmore_p">Read More</p>
         </a>
@@ -390,17 +390,17 @@ get_header();
           <dl class="u_paragraph">
             <div class="home_contact_table_items">
               <dt>会社名</dt>
-              <dd>株式会社01</dd>
+              <dd>株式会社ゼロイチ</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
               <dt>電話番号</dt>
-              <dd><a href="tel:000-1234-5678">000-1234-5678</a></dd>
+              <dd><a href="tel:080-4700-7653">080-4700-7653</a></dd>
             </div>
             <hr>
             <div class="home_contact_table_items">
               <dt>メールアドレス</dt>
-              <dd>XXXX@XXXX.XXX</dd>
+              <dd>info@01-zeroichi.net</dd>
             </div>
             <hr>
             <div class="home_contact_table_items">

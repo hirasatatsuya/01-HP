@@ -244,14 +244,14 @@ $complement-color: #157eff;
 
  
 #office-img{
-  height: 65vh;
-  background-image: url("../img/fgn-4.jpg");
+  height: 70vh;
+  background-image: url("../img/01-FGN-5.jpeg");
   background-size: auto;
-  background-position: center;
+  // background-position: center;
   width: 100%;
   // background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50%;
 
 
   img{
@@ -325,7 +325,10 @@ $complement-color: #157eff;
       // height: 35vh;
       margin-bottom: 50px;
       .snip1543{
-        height: 250px;
+        height: 300px;
+        img{
+          width: 100%;
+        }
       }
     }
     

@@ -187,13 +187,12 @@
   border-bottom: 1px solid #ccc;
 }
 #page-company #office-img {
-  height: 65vh;
-  background-image: url("../img/fgn-4.jpg");
+  height: 70vh;
+  background-image: url("../img/01-FGN-5.jpeg");
   background-size: auto;
-  background-position: center;
   width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50%;
 }
 #page-company #office-img img {
   width: 100%;
@@ -254,7 +253,10 @@
     margin-bottom: 50px;
   }
   #page-company #office .snip1543 {
-    height: 250px;
+    height: 300px;
+  }
+  #page-company #office .snip1543 img {
+    width: 100%;
   }
   #page-company #company-location .wrapper {
     padding: 0 10%;

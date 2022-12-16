@@ -19,7 +19,7 @@
         <div class="CEO-info">
           <div class="CEO-introduce">
             <div class="CEO-img">
-              <img src="<?php echo esc_url(get_theme_file_uri('/img/haruto1.jpg')) ?>" alt="">
+              <img src="<?php echo esc_url(get_theme_file_uri('/img/haruto2.jpg')) ?>" alt="">
             </div>
               <div class="CEO-title-right">
                 <h3 class="CEO-title u_title">
@@ -59,7 +59,7 @@
                 <p class="executives-name u_subtitle">平佐竜也</p>
                 <p class="executives-comment u_paragpraph">
                 株式会社ゼロイチ取締役の平佐です。
-                Z世代である私たちは、SNSの活用が当たり前になっており、就活や会社という存在をより身近にするために活動しております。
+                Z世代である私たちは、SNSの活用が当たり前になっており、会社という存在をより身近にするために活動しております。
                 例えば、「就活」。企業はお堅いイメージで、実際の内情がわからない。
                 そんな会社という存在のお堅いイメージを、私たち映像・Web制作のスペシャリストがぶっ壊していきます。
                 そんな私たちZ世代の想いを、大人の方々とともに叶えていけると幸いです。

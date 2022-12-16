@@ -322,6 +322,11 @@ header .header_wrapper .header_nav ul li a .header_ja {
 #global_nav .g_nav_wrapper .g_nav_inner .row .item .older:hover ~ .younger:nth-child(5) {
   transform: translateX(calc(-50% + 85px)) translateY(calc(-50% + 85px));
 }
+@media screen and (max-width: 768px) {
+  #global_nav .g_nav_wrapper .g_nav_inner .row .item .older:hover ~ .younger {
+    display: none;
+  }
+}
 #global_nav .g_nav_wrapper .g_nav_inner .row .item .younger {
   z-index: 0;
   top: 50%;
