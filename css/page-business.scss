@@ -166,9 +166,28 @@ $sp: 480px;
       position: relative;
 
       .imgArea {
-        width: 100%;
+        width: 60vw;
         height: 70vh;
+        max-width: 800px;
         overflow: hidden;
+        margin: 0 auto;
+
+        max-height: 500px;
+
+        @include pc {
+          height: 50vh;
+          max-height: 320px;
+        }
+        @include tab {
+          width: 70vw;
+          height: 40vh;
+          max-height: 320px;
+        }
+
+        @include sp {
+          width: 90vw;
+          height: 30vh;
+        }
 
         max-height: 500px;
 
@@ -188,6 +207,7 @@ $sp: 480px;
           display: block;
           width: 100%;
           height: 100%;
+          overflow: hidden;
           transition: all .7s ease;
 
           &:hover {
@@ -201,6 +221,7 @@ $sp: 480px;
             opacity: 0;
             background: rgba($color: #000000, $alpha: .4);
             transition: all .7s;
+            overflow: hidden;
 
             .more-text {
               position: absolute;
@@ -222,6 +243,7 @@ $sp: 480px;
             display: block;
             width: 100%;
             height: 100%;
+            object-fit: contain;
           }
         }
       }
@@ -388,13 +410,13 @@ $sp: 480px;
         overflow: hidden;
 
         @include pc {
-          height: 32vw;
+          height: 25vw;
         }
         @include tab {
-          height: 32vw;
+          height: 25vw;
         }
         @include sp {
-          height: 80vw;
+          height: 50vw;
         }
 
         &:hover {
@@ -433,7 +455,6 @@ $sp: 480px;
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: 0 -10vw;
           }
         }
       }
@@ -556,7 +577,7 @@ $sp: 480px;
     max-height: 850px;
 
     @include pc {
-      height: 80vw;
+      height: 78vw;
     }
 
     @include tab {
@@ -760,6 +781,7 @@ $sp: 480px;
 .u-title {
   position: relative;
   margin: 0 auto;
+  font-family: "Noto Serif JP", serif;
 
   @include tab {
     width: 100%;
@@ -773,7 +795,7 @@ $sp: 480px;
     color: #313131;
     // font-size: #{"min(1.5vw, 20px)"};
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 
 
     >span {
@@ -799,22 +821,25 @@ $sp: 480px;
       }
 
       @include sp {
-        width: 50px;
+        display: none;
       }
     }
 
     @include pc {
       font-size: 4vw;
+      margin-bottom: 70px;
     }
 
     @include tab {
       font-size: 3vw;
       margin-left: 10px;
+      margin-bottom: 70px;
     }
 
     @include sp {
-      font-size: 5vw;
+      font-size: 20px;
       margin-left: 5px;
+      margin-bottom: 20px;
     }
   }
 

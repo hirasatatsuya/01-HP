@@ -130,38 +130,29 @@
   position: relative;
 }
 #mainContent .mainInner .philosophy_area .imgArea {
-  width: 100%;
+  width: 60vw;
   height: 70vh;
+  max-width: 800px;
   overflow: hidden;
+  margin: 0 auto;
   max-height: 500px;
 }
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .imgArea {
     height: 50vh;
+    max-height: 320px;
   }
 }
 @media screen and (max-width: 768px) {
   #mainContent .mainInner .philosophy_area .imgArea {
+    width: 70vw;
     height: 40vh;
+    max-height: 320px;
   }
 }
 @media screen and (max-width: 480px) {
   #mainContent .mainInner .philosophy_area .imgArea {
-    height: 30vh;
-  }
-}
-@media screen and (max-width: 1024px) {
-  #mainContent .mainInner .philosophy_area .imgArea {
-    height: 50vh;
-  }
-}
-@media screen and (max-width: 768px) {
-  #mainContent .mainInner .philosophy_area .imgArea {
-    height: 40vh;
-  }
-}
-@media screen and (max-width: 480px) {
-  #mainContent .mainInner .philosophy_area .imgArea {
+    width: 90vw;
     height: 30vh;
   }
 }
@@ -170,6 +161,7 @@
   display: block;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   transition: all 0.7s ease;
 }
 #mainContent .mainInner .philosophy_area .imgArea a:hover {
@@ -182,6 +174,7 @@
   opacity: 0;
   background: rgba(0, 0, 0, 0.4);
   transition: all 0.7s;
+  overflow: hidden;
 }
 #mainContent .mainInner .philosophy_area .imgArea a .black-effect .more-text {
   position: absolute;
@@ -199,6 +192,8 @@
   display: block;
   width: 100%;
   height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #mainContent .mainInner .philosophy_area .textArea {
   position: relative;
@@ -359,17 +354,17 @@
 }
 @media screen and (max-width: 1024px) {
   #worksContent .worksInner .work-card a {
-    height: 32vw;
+    height: 25vw;
   }
 }
 @media screen and (max-width: 768px) {
   #worksContent .worksInner .work-card a {
-    height: 32vw;
+    height: 25vw;
   }
 }
 @media screen and (max-width: 480px) {
   #worksContent .worksInner .work-card a {
-    height: 80vw;
+    height: 50vw;
   }
 }
 #worksContent .worksInner .work-card a:hover {
@@ -404,8 +399,6 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 -10vw;
-     object-position: 0 -10vw;
 }
 #worksContent .worksInner .work-card .w-img_box {
   width: 100%;
@@ -522,7 +515,7 @@
 }
 @media screen and (max-width: 1024px) {
   #strength .strength-wrapper {
-    height: 80vw;
+    height: 78vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -718,6 +711,7 @@
 .u-title {
   position: relative;
   margin: 0 auto;
+  font-family: "Noto Serif JP", serif;
 }
 @media screen and (max-width: 768px) {
   .u-title {
@@ -730,7 +724,7 @@
   align-items: center;
   color: #313131;
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 .u-title h3 > span {
   width: 145px;
@@ -756,24 +750,27 @@
 }
 @media screen and (max-width: 480px) {
   .u-title h3 > span {
-    width: 50px;
+    display: none;
   }
 }
 @media screen and (max-width: 1024px) {
   .u-title h3 {
     font-size: 4vw;
+    margin-bottom: 70px;
   }
 }
 @media screen and (max-width: 768px) {
   .u-title h3 {
     font-size: 3vw;
     margin-left: 10px;
+    margin-bottom: 70px;
   }
 }
 @media screen and (max-width: 480px) {
   .u-title h3 {
-    font-size: 5vw;
+    font-size: 20px;
     margin-left: 5px;
+    margin-bottom: 20px;
   }
 }
 

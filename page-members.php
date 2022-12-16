@@ -7,7 +7,7 @@
     </div>
     <section id="page_mv">
       <h2 class="title">Executive</h2>
-      <h2 class="title_ja">役員紹介</h2>
+      <h2 class="title_ja">代表挨拶・役員紹介</h2>
     </section>
 
     <div class="section-title">  

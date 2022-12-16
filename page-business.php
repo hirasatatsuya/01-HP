@@ -39,7 +39,7 @@ get_header();
                 MORE
               </p>
             </div>
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/vision_pic.jpeg')) ?>" alt="">
           </a>
         </div>
       </div>
@@ -57,7 +57,7 @@ get_header();
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/work_ITsolution.png')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
@@ -83,7 +83,7 @@ get_header();
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/work_blanding.png')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
@@ -111,7 +111,7 @@ get_header();
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/work_media.png')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
@@ -137,7 +137,7 @@ get_header();
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/work_community.png')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
@@ -163,7 +163,7 @@ get_header();
             </p>
           </div>
           <div class="w-img_box">
-            <img src="<?php echo esc_url(get_theme_file_uri('./img/coming-soon-3.jpg')) ?>" alt="">
+            <img src="<?php echo esc_url(get_theme_file_uri('./img/work_consulting.png')) ?>" alt="">
           </div>
         </a>
         <div class="w-textArea">
@@ -190,7 +190,7 @@ get_header();
     </div>
     <div class="strength-content">
       <div class="u-title">
-        <h3><span></span> 弊社の強み <span></span></h3>
+        <h3><span></span> 可笑しい会社を創るために <span></span></h3>
       </div>
 
       <div class="st-row slideUpTrigger">
@@ -198,9 +198,9 @@ get_header();
           <p>01</p>
         </div>
         <div class="st-main">
-          <h2>会社の想いからブランドをつくる<br>（オモシロイ会社づくりの提案）</h2>
-          <p>私達が提供するのはデザイン提案ではなく企業づくりの提案です。<br>
-            経営理念設計という上流工程から入り込むことで、ビジョンに沿った独自の企業ブランド戦略を貴社のカラーで構築します。</p>
+          <h2>若さを活かした新しいクリエイティブな発想へ</h2>
+          <p>SNSや映像、Web制作を新しい観点から展開します。<br>
+          「可笑しく」これまでと違うアイディアや企画でさらに事業を展開していきます。</p>
         </div>
       </div>
       <div class="st-row slideUpTrigger">
@@ -208,9 +208,9 @@ get_header();
           <p>02</p>
         </div>
         <div class="st-main">
-          <h2>会社の想いからブランドをつくる<br>（オモシロイ会社づくりの提案）</h2>
-          <p>私達が提供するのはデザイン提案ではなく企業づくりの提案です。<br>
-            経営理念設計という上流工程から入り込むことで、ビジョンに沿った独自の企業ブランド戦略を貴社のカラーで構築します。</p>
+          <h2>想いを伝えるために具現化へ</h2>
+          <p>あなたのこれまでのストーリーを教えてください。<br>
+            私たちが潜在的に想っていること、伝えたいことを言語化、そして映像化します。</p>
         </div>
       </div>
       <div class="st-row slideUpTrigger">
@@ -218,9 +218,9 @@ get_header();
           <p>03</p>
         </div>
         <div class="st-main">
-          <h2>会社の想いからブランドをつくる<br>（オモシロイ会社づくりの提案）</h2>
-          <p>私達が提供するのはデザイン提案ではなく企業づくりの提案です。<br>
-            経営理念設計という上流工程から入り込むことで、ビジョンに沿った独自の企業ブランド戦略を貴社のカラーで構築します。</p>
+          <h2>可笑しいを追求し他者との差別化へ</h2>
+          <p>動画HP制作やメディア構築で他者とは違う伝え方を提案します。<br>
+            「可笑しい」の最後の意味である、他とは違い格別ある様を実現します。</p>
         </div>
       </div>
 
@@ -237,38 +237,38 @@ get_header();
         <div class="rs-card slideUpTrigger">
           <img src="<?php echo esc_url(get_theme_file_uri('./img/animation_ad.png')) ?>" alt="">
           <h3>動画広告</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
+          <p>動画では撮影、編集、ナレーション、音楽を駆使することでサービスや商品の良さを最大限に引き出します。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
           <img src="<?php echo esc_url(get_theme_file_uri('./img/movieOfPR.png')) ?>" alt="">
           <h3>PR動画</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
+          <p>動画広告と同様に動画のスペシャリストが高いクオリティで作成いたします。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
           <img src="<?php echo esc_url(get_theme_file_uri('./img/hp-1.jpg')) ?>" alt="">
           <h3>HP制作</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
+          <p>HPがあることで自社のサービスに関する情報を伝え、問い合わせや認知のきっかけになります。</p>
         </div>
 
 
         <div class="rs-card slideUpTrigger">
           <img src="<?php echo esc_url(get_theme_file_uri('./img/LP.png')) ?>" alt="">
           <h3>LP制作</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
+          <p>LPを用いることで自社製品やサービスの魅力が顧客に伝わりやすくなり、商品購入、新規顧客獲得に繋がります。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
           <img src="<?php echo esc_url(get_theme_file_uri('./img/saiyou.jpg')) ?>" alt="">
           <h3>教育・採用コスト削減</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
+          <p>説明動画や工程動画などの作成、Lステップなどを用いた運用でコストを削減します。</p>
         </div>
 
         <div class="rs-card slideUpTrigger">
           <img src="<?php echo esc_url(get_theme_file_uri('./img/SNS_operation.png')) ?>" alt="">
           <h3>SNS 運用代行</h3>
-          <p>お客様に対して価格以上のブランド価値を体感してもらうことで、従来の費用による比較対象から脱却できます。</p>
+          <p>今時のSNS運用で新規顧客からの認知、興味、関心を獲得することができます。特に動画の需要は年々増加しており、たくさんの方にアプローチすることができます。</p>
         </div>
 
 
