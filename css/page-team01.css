@@ -954,9 +954,8 @@ span {
      object-fit: cover;
 }
 #member-achivement .wrapper .member-achivement-text .comming-soon-img img {
+  width: 60%;
   height: 70vh;
-  -o-object-fit: cover;
-     object-fit: cover;
   padding: 5% 0;
 }
 #member-achivement .wrapper .container {
