@@ -57,7 +57,7 @@
               <div class="executives-info">
                 <h3 class="executives-position u_title">取締役</h3>
                 <p class="executives-name u_subtitle">平佐竜也</p>
-                <p class="executives-comment u_paragpraph">
+                <p class="executives-comment u_paragraph">
                 株式会社ゼロイチ取締役の平佐です。
                 Z世代である私たちは、SNSの活用が当たり前になっており、会社という存在をより身近にするために活動しております。
                 例えば、「就活」。企業はお堅いイメージで、実際の内情がわからない。

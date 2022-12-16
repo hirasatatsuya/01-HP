@@ -950,10 +950,13 @@ span {
   margin: auto;
   background-color: #fff;
   border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #member-achivement .wrapper .member-achivement-text .comming-soon-img img {
-  width: 60%;
   height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding: 5% 0;
 }
 #member-achivement .wrapper .container {
@@ -1190,9 +1193,6 @@ span {
   #member-achivement .heading10::before {
     top: 7px;
     font-size: 26px;
-  }
-  #member-achivement .wrapper .member-achivement-text .comming-soon-img img {
-    height: auto;
   }
 }
 @media screen and (max-width: 415px) {

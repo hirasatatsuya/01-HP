@@ -1011,10 +1011,11 @@ a.btn_04:hover:before {
           // height: 70vh;
           background-color: #fff;
           border-radius: 10px;
+          object-fit: cover;
           img{
-            width: 60%;
+            // width: 60%;
             height: 70vh;
-            // object-fit: cover;
+            object-fit: cover;
             padding: 5% 0;
           }
         }
@@ -1314,7 +1315,7 @@ color - yellow
           .comming-soon-img{
             // height: 40vh;
             img{
-              height: auto;
+              // height: auto;
             }
           }
         }
