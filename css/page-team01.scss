@@ -1007,15 +1007,20 @@ a.btn_04:hover:before {
         padding: 3% 0;
         .comming-soon-img{
           margin: auto;
-          // width: 80%;
+          width: 80%;
           // height: 70vh;
-          background-color: #fff;
-          border-radius: 10px;
+          // background-color: #fff;
+          // border-radius: 10%;
           img{
             width: 60%;
-            height: 70vh;
-            // object-fit: cover;
-            padding: 5% 0;
+            border-radius: 70px;
+            // height: 60vh;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            width: 100%;
+            max-width: 780px;
+            object-position: 50% 60%;
+            padding: 2% 0;
           }
         }
       }
@@ -1314,7 +1319,8 @@ color - yellow
           .comming-soon-img{
             // height: 40vh;
             img{
-              height: auto;
+              // height: auto;
+              // height: 40vh;
             }
           }
         }
@@ -1544,6 +1550,7 @@ color - yellow
         // margin-bottom: 50px;
         .comming-soon-img{
           height: 40vh;
+          width: 100%;
           img{
             height: 100%;
           }
