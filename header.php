@@ -126,10 +126,10 @@
               <p>イベント実績</p>
             </a>
             <a class="younger" href="<?php echo esc_url(home_url('/team01/zeroichi_members')); ?>">
-              <p>メンバー実績</p>
+              <p>メンバー紹介</p>
             </a>
             <a class="younger" href="<?php echo esc_url('https://lin.ee/131wVpf'); ?>">
-              <p>01会のお問い合わせ</p>
+              <p>01会の<br>お問い合わせ</p>
             </a>
           </div>
           <div class="item">
