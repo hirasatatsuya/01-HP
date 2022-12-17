@@ -34,10 +34,10 @@
           </ul>
         </div>
         <div class="col">
-          <h4><a href="<?php echo esc_url(home_url('/about/')) ?>">会社概要</a></h4>
+          <h4><a href="<?php echo esc_url(home_url('/about/')) ?>">会社情報</a></h4>
           <ul>
             <li><a href="<?php echo esc_url(home_url('/about/members/')) ?>">代表挨拶<br class="sp_560">・役員紹介</a></li>
-            <li><a href="<?php echo esc_url(home_url('/about/information/')) ?>">会社情報</a></li>
+            <li><a href="<?php echo esc_url(home_url('/about/information/')) ?>">会社概要</a></li>
           </ul>
           <h4><a href="<?php echo esc_url(home_url('/contact/')) ?>">お問合せ</a></h4>
         </div>

@@ -20,6 +20,8 @@
                         <h2>奥田悠友</h2>
                         <ul class="u_paragraph_min">
                             <li>株式会社ゼロイチ代表取締役</li>
+                            <li>01会代表</li>
+                            <li>一般社団法人Local<br>Innovantes学生代表</li>
                         </ul>
                         <div class="member_sns_wrapper">
                             <!-- <ul class="member_sns">
@@ -40,7 +42,8 @@
                         <h2>平佐竜也</h2>
                         <ul class="u_paragraph_min">
                             <li>株式会社ゼロイチ取締役</li>
-                            <li>Webアプリケーション開発・ブロックチェーンエンジニア</li>
+                            <li>Webアプリケーション開発</li>
+                            <li>ブロックチェーンエンジニア</li>
                         </ul>
                         <div class="member_sns_wrapper">
                             <!-- <ul class="member_sns">
@@ -58,6 +61,7 @@
                     <div class="member-content">
                         <h2>稲場貫太</h2>
                         <ul class="u_paragraph_min">
+                            <li>株式会社ゼロイチ取締役</li>
                             <li>映像クリエイター</li>
                             <li>YouTube(ビニットボーイズ)</li>
                         </ul>
