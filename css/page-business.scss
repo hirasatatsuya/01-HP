@@ -570,7 +570,8 @@ $sp: 480px;
 #strength {
   margin-top: 100px;
   position: relative;
-
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
   .strength-wrapper {
     width: 100vw;
     height: 115vh;
@@ -664,6 +665,9 @@ $sp: 480px;
           @include pc {
             font-size: 17px;
           }
+          @include sp {
+            font-size: 17px;
+          }
         }
 
         p {
@@ -677,7 +681,7 @@ $sp: 480px;
           }
 
           @include sp {
-            font-size: .8vw;
+            font-size: 3vw;
           }
         }
 
