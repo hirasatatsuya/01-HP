@@ -122,10 +122,8 @@
   height: 24px;
   font-size: 24px;
   color: #000;
-  -webkit-animation: count_reset 0.01s linear;
-          animation: count_reset 0.01s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: count_reset 0.01s linear;
+  animation-fill-mode: forwards;
 }
 #page-01 .button__counter::before {
   right: 4px;
@@ -148,54 +146,16 @@
 }
 #page-01 .button:hover .button__counter::before,
 #page-01 .button:hover .button__counter::after {
-  -webkit-animation-name: count;
-          animation-name: count;
-  -webkit-animation-timing-function: steps(10);
-          animation-timing-function: steps(10);
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-name: count;
+  animation-timing-function: steps(10);
+  animation-fill-mode: forwards;
 }
 #page-01 .button:hover .button__counter::before {
-  -webkit-animation-iteration-count: 10;
-          animation-iteration-count: 10;
-  -webkit-animation-duration: 0.12s;
-          animation-duration: 0.12s;
+  animation-iteration-count: 10;
+  animation-duration: 0.12s;
 }
 #page-01 .button:hover .button__counter::after {
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-}
-@-webkit-keyframes count {
-  10% {
-    content: "0";
-  }
-  20% {
-    content: "1";
-  }
-  30% {
-    content: "2";
-  }
-  40% {
-    content: "3";
-  }
-  50% {
-    content: "4";
-  }
-  60% {
-    content: "5";
-  }
-  70% {
-    content: "6";
-  }
-  80% {
-    content: "7";
-  }
-  90% {
-    content: "8";
-  }
-  100% {
-    content: "9";
-  }
+  animation-duration: 1.2s;
 }
 @keyframes count {
   10% {
@@ -372,7 +332,6 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  background-attachment: fixed;
 }
 #page-01 #thought .background-img .wrapper {
   padding: 0 10%;
@@ -863,16 +822,7 @@ span {
 }
 #member .slideshow {
   display: flex;
-  -webkit-animation: loop-slide 20s infinite linear 1s both;
   animation: loop-slide 35s infinite linear 0.5s both;
-}
-@-webkit-keyframes loop-slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
 }
 @keyframes loop-slide {
   from {
@@ -883,7 +833,6 @@ span {
   }
 }
 #member .slide-paused:hover .slideshow {
-  -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
 #member .content-hover {
