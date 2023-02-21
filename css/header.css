@@ -8,16 +8,7 @@ header {
   width: calc(100% - 80px);
   z-index: 999;
   opacity: 0;
-  -webkit-animation: header_fade 0.7s forwards 1s;
-          animation: header_fade 0.7s forwards 1s;
-}
-@-webkit-keyframes header_fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation: header_fade 0.7s forwards 1s;
 }
 @keyframes header_fade {
   0% {
@@ -427,6 +418,9 @@ header .header_wrapper .header_nav ul li a .header_ja {
   }
 }
 @media screen and (max-width: 1024px) {
+  #global_nav {
+    height: calc(100% - 80px);
+  }
   #global_nav .g_nav_wrapper .g_nav_inner .row .item {
     width: 100px;
   }

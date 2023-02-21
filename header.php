@@ -59,7 +59,7 @@
       </nav>
     </div>
   </header>
-  <div class="left_header <?php if (is_home()) echo "home_left_header" ?>">
+  <div class="left_header <?php if (is_home()) echo "home_left_header home_left_header_init" ?>">
     <ul class="left_header_wrapper">
       <li class="logo">
         <a href="<?php echo esc_url(home_url()) ?>"><img src="<?php echo esc_url(get_theme_file_uri('/img/zeroichi_logo2_white.svg'))?>" alt=""></a>
