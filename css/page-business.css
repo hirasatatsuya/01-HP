@@ -136,6 +136,7 @@
   overflow: hidden;
   margin: 0 auto;
   max-height: 500px;
+  max-height: 500px;
 }
 @media screen and (max-width: 1024px) {
   #mainContent .mainInner .philosophy_area .imgArea {
@@ -153,6 +154,21 @@
 @media screen and (max-width: 480px) {
   #mainContent .mainInner .philosophy_area .imgArea {
     width: 90vw;
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  #mainContent .mainInner .philosophy_area .imgArea {
     height: 30vh;
   }
 }
@@ -507,6 +523,9 @@
 #strength {
   margin-top: 100px;
   position: relative;
+  -moz-text-size-adjust: none;
+       text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 #strength .strength-wrapper {
   width: 100vw;
@@ -601,6 +620,11 @@
     font-size: 17px;
   }
 }
+@media screen and (max-width: 480px) {
+  #strength .strength-content .st-row .st-main h2 {
+    font-size: 17px;
+  }
+}
 #strength .strength-content .st-row .st-main p {
   font-size: 1.1rem;
   line-height: 1.6;
@@ -614,7 +638,7 @@
 }
 @media screen and (max-width: 480px) {
   #strength .strength-content .st-row .st-main p {
-    font-size: 0.8vw;
+    font-size: 3vw;
   }
 }
 
