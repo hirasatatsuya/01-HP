@@ -6,15 +6,43 @@
   display: none;
 }
 
-.home_left_header {
+.home_left_header_init {
+  visibility: hidden !important;
+}
+
+.home_left_header_hidden {
+  visibility: hidden;
+  animation: hidden 0.45s;
   opacity: 0;
-  transition: opacity 0.3s;
 }
 
 .home_left_header_appear {
+  visibility: visible;
+  animation: appear 0.3s;
   opacity: 1;
 }
 
+@keyframes appear {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes hidden {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
 .home_wrapper {
   height: 100vh;
 }
@@ -26,7 +54,6 @@
 #home .sticky {
   z-index: 1;
   height: 150vh;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding-bottom: 20vh;
@@ -118,18 +145,7 @@
 }
 #home #mv .home_header_fade {
   opacity: 0;
-  -webkit-animation: home_header_fade 0.5s forwards 1s;
-          animation: home_header_fade 0.5s forwards 1s;
-}
-@-webkit-keyframes home_header_fade {
-  0% {
-    opacity: 0;
-    transform: translateX(100vw);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  animation: home_header_fade 0.5s forwards 1s;
 }
 @keyframes home_header_fade {
   0% {
@@ -149,8 +165,7 @@
   z-index: 700;
   color: rgb(49, 49, 49);
   opacity: 0;
-  -webkit-animation: mv_title 0.5s forwards 0.5s;
-          animation: mv_title 0.5s forwards 0.5s;
+  animation: mv_title 0.5s forwards 0.5s;
 }
 #home #mv .mv_title h1 {
   font-size: 10rem;
@@ -166,8 +181,7 @@
   left: calc(50% - 80px);
   z-index: 700;
   opacity: 0;
-  -webkit-animation: mv_title 0.5s forwards 2s;
-          animation: mv_title 0.5s forwards 2s;
+  animation: mv_title 0.5s forwards 2s;
 }
 #home #mv .scrolldown::before {
   content: "";
@@ -178,8 +192,7 @@
   height: 10px;
   border-radius: 50%;
   background: rgb(49, 49, 49);
-  -webkit-animation: circlemove 1.6s ease-in-out infinite, cirlemovehide 1.6s ease-out infinite;
-          animation: circlemove 1.6s ease-in-out infinite, cirlemovehide 1.6s ease-out infinite;
+  animation: circlemove 1.6s ease-in-out infinite, cirlemovehide 1.6s ease-out infinite;
 }
 #home #mv .scrolldown::after {
   content: "";
@@ -197,16 +210,7 @@
   color: rgb(49, 49, 49);
   font-size: 0.7rem;
   letter-spacing: 0.05em;
-  -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
-}
-@-webkit-keyframes mv_title {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 @keyframes mv_title {
   0% {
@@ -214,20 +218,6 @@
   }
   100% {
     opacity: 1;
-  }
-}
-@-webkit-keyframes cirlemovehide {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0;
   }
 }
 @keyframes cirlemovehide {
@@ -242,14 +232,6 @@
   }
   100% {
     opacity: 0;
-  }
-}
-@-webkit-keyframes circlemove {
-  0% {
-    bottom: 45px;
-  }
-  100% {
-    bottom: -5px;
   }
 }
 @keyframes circlemove {
@@ -349,18 +331,7 @@
   opacity: 0;
 }
 #home #home_philosophy .home_wrapper .home_philo_bg .home_appear {
-  -webkit-animation: home_appear 2s forwards;
-          animation: home_appear 2s forwards;
-}
-@-webkit-keyframes home_appear {
-  0% {
-    transform: translateX(100%) translateY(141.4vw) skewY(45deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(0) translateY(0) skewY(45deg);
-    opacity: 1;
-  }
+  animation: home_appear 2s forwards;
 }
 @keyframes home_appear {
   0% {

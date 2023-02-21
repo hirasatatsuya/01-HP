@@ -94,12 +94,16 @@ function fadeAnime() {
     }
   });
   $('.home_left_header').each(function () {
+    $(this).removeClass("home_left_header_init")
     var scroll = $(window).scrollTop();
     var windowHeight = $(window).height() / 2;
     if (scroll >= windowHeight) {
+      // 現れる
       $(this).addClass('home_left_header_appear');
-      // 画面内に入ったらfadeDownというクラス名を追記
+      $(this).removeClass('home_left_header_hidden');
     } else {
+      //消える
+      $(this).addClass("home_left_header_hidden")
       $(this).removeClass('home_left_header_appear');
     }
   });
